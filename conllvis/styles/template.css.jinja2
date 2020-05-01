@@ -2,17 +2,21 @@
     text-align: center;
 }
 .sentence {
+    border: 2px solid #f76707;
+    border-radius: 5px;
     display: inline-grid;
     column-gap: 4px;
 }
 .lex-unit {
     display: flex;
     justify-content: left;
-    font: 2em "Open Sans", sans-serif;
+    font: 1.5em "Open Sans", sans-serif;
 }
 .pos {
     display: flex;
     justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .label {
     grid-column: 1;
@@ -24,20 +28,19 @@
 .target {
     background-color: orange;
 }
-
+.line {
+    grid-column: 1 / -1;
+    height: 2px;
+    border-bottom: 1px solid black;
+}
 {% for sentence in sentences %}
 .sent{{sentence.sentence_id}} {
     grid-template-columns: repeat({{sentence.words|length+1}}, auto);
-}
-{% endfor %}
-
-{% for sentence in sentences %}{% for frame_name, frame_description in sentence.frame_descriptions.items() %}{% for fe_name, fe in frame_description.frame_elements.items() %}
-{% if fe.indices|length == 1 %}
+}{% endfor %}
+{% for sentence in sentences %}{% for frame_name, frame_description in sentence.frame_descriptions.items() %}{% for fe_name, fe in frame_description.frame_elements.items() %}{% if fe.indices|length == 1 %}
 #sent{{sentence.sentence_id}}_{{frame_name}}_{{fe.indices[0] + 1}} {
     grid-column: {{fe.indices[0] + 1}};
-}
-{% else %}
+}{% else %}
 #sent{{sentence.sentence_id}}_{{frame_name}}_{{fe.indices[0] + 1}}-{{fe.indices[-1] + 2}} {
     grid-column: {{fe.indices[0] + 1}} / {{fe.indices[-1] + 2}};
-}
-{% endif %}{% endfor %}{% endfor %}{% endfor %}
+}{% endif %}{% endfor %}{% endfor %}{% endfor %}

@@ -100,7 +100,7 @@ if len(sys.argv) == 2:
             current_frame.add_FE(row.FE_Name_BIO, row.word_index)
     current_sentence.add_frame(current_frame)
     sent_str = [str(sent) for sent in sentences]
-    print('\n'.join(sent_str))
+    #print('\n'.join(sent_str))
 
 
     from jinja2 import Template
