@@ -1,0 +1,1401 @@
+#frame_display {
+    text-align: center;
+}
+.sentence {
+    display: inline-grid;
+    column-gap: 4px;
+}
+.lex-unit {
+    display: flex;
+    justify-content: left;
+    font: 2em "Open Sans", sans-serif;
+}
+.pos {
+    display: flex;
+    justify-content: center;
+}
+.label {
+    grid-column: 1;
+    border-right: 4px solid red;
+}
+.frame_element {
+    background-color: yellow;
+}
+.target {
+    background-color: orange;
+}
+
+
+.sent0 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent1 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent3 {
+    grid-template-columns: repeat(7, auto);
+}
+
+.sent4 {
+    grid-template-columns: repeat(9, auto);
+}
+
+.sent5 {
+    grid-template-columns: repeat(8, auto);
+}
+
+.sent7 {
+    grid-template-columns: repeat(13, auto);
+}
+
+.sent8 {
+    grid-template-columns: repeat(13, auto);
+}
+
+.sent9 {
+    grid-template-columns: repeat(13, auto);
+}
+
+.sent10 {
+    grid-template-columns: repeat(15, auto);
+}
+
+.sent11 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent12 {
+    grid-template-columns: repeat(7, auto);
+}
+
+.sent13 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent14 {
+    grid-template-columns: repeat(6, auto);
+}
+
+.sent15 {
+    grid-template-columns: repeat(10, auto);
+}
+
+.sent17 {
+    grid-template-columns: repeat(18, auto);
+}
+
+.sent18 {
+    grid-template-columns: repeat(9, auto);
+}
+
+.sent19 {
+    grid-template-columns: repeat(5, auto);
+}
+
+.sent20 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent21 {
+    grid-template-columns: repeat(14, auto);
+}
+
+.sent22 {
+    grid-template-columns: repeat(14, auto);
+}
+
+.sent23 {
+    grid-template-columns: repeat(8, auto);
+}
+
+.sent25 {
+    grid-template-columns: repeat(13, auto);
+}
+
+.sent26 {
+    grid-template-columns: repeat(9, auto);
+}
+
+.sent27 {
+    grid-template-columns: repeat(7, auto);
+}
+
+.sent28 {
+    grid-template-columns: repeat(13, auto);
+}
+
+.sent29 {
+    grid-template-columns: repeat(10, auto);
+}
+
+.sent30 {
+    grid-template-columns: repeat(7, auto);
+}
+
+.sent31 {
+    grid-template-columns: repeat(6, auto);
+}
+
+.sent32 {
+    grid-template-columns: repeat(9, auto);
+}
+
+.sent33 {
+    grid-template-columns: repeat(16, auto);
+}
+
+.sent34 {
+    grid-template-columns: repeat(10, auto);
+}
+
+.sent35 {
+    grid-template-columns: repeat(7, auto);
+}
+
+.sent36 {
+    grid-template-columns: repeat(8, auto);
+}
+
+.sent37 {
+    grid-template-columns: repeat(10, auto);
+}
+
+.sent38 {
+    grid-template-columns: repeat(6, auto);
+}
+
+.sent39 {
+    grid-template-columns: repeat(15, auto);
+}
+
+.sent41 {
+    grid-template-columns: repeat(15, auto);
+}
+
+.sent42 {
+    grid-template-columns: repeat(16, auto);
+}
+
+.sent44 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent45 {
+    grid-template-columns: repeat(9, auto);
+}
+
+.sent46 {
+    grid-template-columns: repeat(11, auto);
+}
+
+.sent47 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent49 {
+    grid-template-columns: repeat(17, auto);
+}
+
+.sent54 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent56 {
+    grid-template-columns: repeat(14, auto);
+}
+
+.sent57 {
+    grid-template-columns: repeat(11, auto);
+}
+
+.sent58 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent59 {
+    grid-template-columns: repeat(3, auto);
+}
+
+
+
+
+#sent0_Response_4 {
+    grid-column: 4;
+}
+
+
+#sent0_Response_6 {
+    grid-column: 6;
+}
+
+
+#sent0_Response_7 {
+    grid-column: 7;
+}
+
+
+#sent0_Response_8-12 {
+    grid-column: 8 / 12;
+}
+
+
+#sent0_Coincidence_9 {
+    grid-column: 9;
+}
+
+
+#sent0_Coincidence_10-12 {
+    grid-column: 10 / 12;
+}
+
+
+#sent1_Expectation_3 {
+    grid-column: 3;
+}
+
+
+#sent1_Expectation_4 {
+    grid-column: 4;
+}
+
+
+#sent1_Change_event_time_4 {
+    grid-column: 4;
+}
+
+
+#sent1_Change_event_time_4 {
+    grid-column: 4;
+}
+
+
+#sent1_Contingency_6 {
+    grid-column: 6;
+}
+
+
+#sent1_Contingency_7-12 {
+    grid-column: 7 / 12;
+}
+
+
+#sent1_Political_locales_11 {
+    grid-column: 11;
+}
+
+
+#sent1_Political_locales_11 {
+    grid-column: 11;
+}
+
+
+#sent3_Reveal_secret_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent3_Reveal_secret_5 {
+    grid-column: 5;
+}
+
+
+#sent3_Importance_6 {
+    grid-column: 6;
+}
+
+
+#sent3_Importance_7 {
+    grid-column: 7;
+}
+
+
+#sent4_Assessing_3 {
+    grid-column: 3;
+}
+
+
+#sent4_Assessing_4 {
+    grid-column: 4;
+}
+
+
+#sent4_Statement_4 {
+    grid-column: 4;
+}
+
+
+#sent4_Improvement_or_decline_6 {
+    grid-column: 6;
+}
+
+
+#sent4_Improvement_or_decline_7-10 {
+    grid-column: 7 / 10;
+}
+
+
+#sent4_Infrastructure_8 {
+    grid-column: 8;
+}
+
+
+#sent4_Infrastructure_9 {
+    grid-column: 9;
+}
+
+
+#sent4_Infrastructure_9 {
+    grid-column: 9;
+}
+
+
+#sent5_Activity_ongoing_3 {
+    grid-column: 3;
+}
+
+
+#sent5_Activity_ongoing_4-8 {
+    grid-column: 4 / 8;
+}
+
+
+#sent7_Part_whole_12 {
+    grid-column: 12;
+}
+
+
+#sent7_Part_whole_12 {
+    grid-column: 12;
+}
+
+
+#sent7_Give_impression_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent7_Give_impression_5 {
+    grid-column: 5;
+}
+
+
+#sent7_Give_impression_6-13 {
+    grid-column: 6 / 13;
+}
+
+
+#sent7_Locative_relation_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent7_Locative_relation_6 {
+    grid-column: 6;
+}
+
+
+#sent7_Locative_relation_6 {
+    grid-column: 6;
+}
+
+
+#sent7_Assistance_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent7_Assistance_8 {
+    grid-column: 8;
+}
+
+
+#sent7_Assistance_9-13 {
+    grid-column: 9 / 13;
+}
+
+
+#sent7_Relative_time_11 {
+    grid-column: 11;
+}
+
+
+#sent7_Relative_time_12 {
+    grid-column: 12;
+}
+
+
+#sent8_Cause_to_make_progress_3 {
+    grid-column: 3;
+}
+
+
+#sent8_Cause_to_make_progress_4-9 {
+    grid-column: 4 / 9;
+}
+
+
+#sent8_Communicate_categorization_10 {
+    grid-column: 10;
+}
+
+
+#sent8_Communicate_categorization_11 {
+    grid-column: 11;
+}
+
+
+#sent9_Locale_2 {
+    grid-column: 2;
+}
+
+
+#sent9_Locale_2 {
+    grid-column: 2;
+}
+
+
+#sent9_Boundary_3 {
+    grid-column: 3;
+}
+
+
+#sent9_Boundary_3-9 {
+    grid-column: 3 / 9;
+}
+
+
+#sent9_Building_5 {
+    grid-column: 5;
+}
+
+
+#sent9_Building_6-9 {
+    grid-column: 6 / 9;
+}
+
+
+#sent9_Roadways_7 {
+    grid-column: 7;
+}
+
+
+#sent9_Roadways_7 {
+    grid-column: 7;
+}
+
+
+#sent9_Network_7 {
+    grid-column: 7;
+}
+
+
+#sent9_Network_8 {
+    grid-column: 8;
+}
+
+
+#sent9_Network_8 {
+    grid-column: 8;
+}
+
+
+#sent9_Aggregate_13 {
+    grid-column: 13;
+}
+
+
+#sent9_Aggregate_13 {
+    grid-column: 13;
+}
+
+
+#sent10_Political_locales_4 {
+    grid-column: 4;
+}
+
+
+#sent10_Political_locales_4 {
+    grid-column: 4;
+}
+
+
+#sent10_Using_5 {
+    grid-column: 5;
+}
+
+
+#sent10_Using_6-11 {
+    grid-column: 6 / 11;
+}
+
+
+#sent10_Information_9 {
+    grid-column: 9;
+}
+
+
+#sent10_Information_9 {
+    grid-column: 9;
+}
+
+
+#sent11_Information_7 {
+    grid-column: 7;
+}
+
+
+#sent11_Information_7 {
+    grid-column: 7;
+}
+
+
+#sent12_Reliance_2 {
+    grid-column: 2;
+}
+
+
+#sent12_Reliance_3 {
+    grid-column: 3;
+}
+
+
+#sent12_Reliance_4-7 {
+    grid-column: 4 / 7;
+}
+
+
+#sent12_Information_6 {
+    grid-column: 6;
+}
+
+
+#sent12_Information_6 {
+    grid-column: 6;
+}
+
+
+#sent13_Using_7 {
+    grid-column: 7;
+}
+
+
+#sent13_Using_8 {
+    grid-column: 8;
+}
+
+
+#sent13_Using_9-12 {
+    grid-column: 9 / 12;
+}
+
+
+#sent13_Dimension_10 {
+    grid-column: 10;
+}
+
+
+#sent13_Dimension_10 {
+    grid-column: 10;
+}
+
+
+#sent13_Dimension_11 {
+    grid-column: 11;
+}
+
+
+#sent14_Roadways_4 {
+    grid-column: 4;
+}
+
+
+#sent14_Roadways_4 {
+    grid-column: 4;
+}
+
+
+#sent14_Network_4 {
+    grid-column: 4;
+}
+
+
+#sent14_Network_5 {
+    grid-column: 5;
+}
+
+
+#sent14_Network_5 {
+    grid-column: 5;
+}
+
+
+#sent15_Means_3 {
+    grid-column: 3;
+}
+
+
+#sent15_Means_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent15_Offering_5 {
+    grid-column: 5;
+}
+
+
+#sent15_Offering_8 {
+    grid-column: 8;
+}
+
+
+#sent15_Inclusion_5 {
+    grid-column: 5;
+}
+
+
+#sent15_Inclusion_10 {
+    grid-column: 10;
+}
+
+
+#sent17_Scrutiny_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent17_Scrutiny_5 {
+    grid-column: 5;
+}
+
+
+#sent18_Using_2 {
+    grid-column: 2;
+}
+
+
+#sent18_Using_3-6 {
+    grid-column: 3 / 6;
+}
+
+
+#sent18_Using_6-9 {
+    grid-column: 6 / 9;
+}
+
+
+#sent18_Information_5 {
+    grid-column: 5;
+}
+
+
+#sent18_Information_5 {
+    grid-column: 5;
+}
+
+
+#sent18_Predicting_7 {
+    grid-column: 7;
+}
+
+
+#sent18_Predicting_8 {
+    grid-column: 8;
+}
+
+
+#sent19_Means_5 {
+    grid-column: 5;
+}
+
+
+#sent19_Means_5 {
+    grid-column: 5;
+}
+
+
+#sent20_Importance_10 {
+    grid-column: 10;
+}
+
+
+#sent20_Importance_11 {
+    grid-column: 11;
+}
+
+
+#sent21_Reliance_6 {
+    grid-column: 6;
+}
+
+
+#sent21_Reliance_7 {
+    grid-column: 7;
+}
+
+
+#sent21_Reliance_8 {
+    grid-column: 8;
+}
+
+
+#sent21_Reliance_9-14 {
+    grid-column: 9 / 14;
+}
+
+
+#sent21_Information_13 {
+    grid-column: 13;
+}
+
+
+#sent21_Information_13 {
+    grid-column: 13;
+}
+
+
+#sent22_Idiosyncrasy_5 {
+    grid-column: 5;
+}
+
+
+#sent22_Information_6 {
+    grid-column: 6;
+}
+
+
+#sent22_Information_6 {
+    grid-column: 6;
+}
+
+
+#sent23_Getting_3 {
+    grid-column: 3;
+}
+
+
+#sent23_Getting_4-8 {
+    grid-column: 4 / 8;
+}
+
+
+#sent23_Idiosyncrasy_6 {
+    grid-column: 6;
+}
+
+
+#sent23_Idiosyncrasy_7 {
+    grid-column: 7;
+}
+
+
+#sent23_Locale_7 {
+    grid-column: 7;
+}
+
+
+#sent23_Locale_7 {
+    grid-column: 7;
+}
+
+
+#sent25_Categorization_3 {
+    grid-column: 3;
+}
+
+
+#sent25_Categorization_5 {
+    grid-column: 5;
+}
+
+
+#sent25_Categorization_6-13 {
+    grid-column: 6 / 13;
+}
+
+
+#sent25_Political_locales_9 {
+    grid-column: 9;
+}
+
+
+#sent25_Political_locales_9 {
+    grid-column: 9;
+}
+
+
+#sent25_Position_on_a_scale_11 {
+    grid-column: 11;
+}
+
+
+#sent25_Position_on_a_scale_11 {
+    grid-column: 11;
+}
+
+
+#sent25_Position_on_a_scale_12 {
+    grid-column: 12;
+}
+
+
+#sent25_Inclusion_12 {
+    grid-column: 12;
+}
+
+
+#sent25_Inclusion_13 {
+    grid-column: 13;
+}
+
+
+#sent26_Cardinal_numbers_4 {
+    grid-column: 4;
+}
+
+
+#sent26_Cardinal_numbers_4 {
+    grid-column: 4;
+}
+
+
+#sent26_Cardinal_numbers_5-9 {
+    grid-column: 5 / 9;
+}
+
+
+#sent26_Social_connection_8 {
+    grid-column: 8;
+}
+
+
+#sent26_Social_connection_8 {
+    grid-column: 8;
+}
+
+
+#sent27_Intentionally_create_2 {
+    grid-column: 2;
+}
+
+
+#sent27_Intentionally_create_5 {
+    grid-column: 5;
+}
+
+
+#sent28_Correctness_2 {
+    grid-column: 2;
+}
+
+
+#sent28_Correctness_3-5 {
+    grid-column: 3 / 5;
+}
+
+
+#sent28_Correctness_5-9 {
+    grid-column: 5 / 9;
+}
+
+
+#sent28_Existence_7 {
+    grid-column: 7;
+}
+
+
+#sent28_Existence_8 {
+    grid-column: 8;
+}
+
+
+#sent28_Capability_11 {
+    grid-column: 11;
+}
+
+
+#sent28_Capability_13 {
+    grid-column: 13;
+}
+
+
+#sent29_Getting_3 {
+    grid-column: 3;
+}
+
+
+#sent29_Getting_4-9 {
+    grid-column: 4 / 9;
+}
+
+
+#sent29_Gizmo_7 {
+    grid-column: 7;
+}
+
+
+#sent29_Gizmo_8 {
+    grid-column: 8;
+}
+
+
+#sent30_Change_event_time_2 {
+    grid-column: 2;
+}
+
+
+#sent30_Change_event_time_2 {
+    grid-column: 2;
+}
+
+
+#sent30_Change_event_time_4-7 {
+    grid-column: 4 / 7;
+}
+
+
+#sent30_Using_4 {
+    grid-column: 4;
+}
+
+
+#sent30_Using_5-7 {
+    grid-column: 5 / 7;
+}
+
+
+#sent31_Boundary_3 {
+    grid-column: 3;
+}
+
+
+#sent31_Aggregate_5 {
+    grid-column: 5;
+}
+
+
+#sent31_Aggregate_5 {
+    grid-column: 5;
+}
+
+
+#sent32_Communicate_categorization_3 {
+    grid-column: 3;
+}
+
+
+#sent32_Boundary_5 {
+    grid-column: 5;
+}
+
+
+#sent32_Infrastructure_8 {
+    grid-column: 8;
+}
+
+
+#sent32_Infrastructure_9 {
+    grid-column: 9;
+}
+
+
+#sent32_Infrastructure_9 {
+    grid-column: 9;
+}
+
+
+#sent33_Network_2 {
+    grid-column: 2;
+}
+
+
+#sent33_Network_2 {
+    grid-column: 2;
+}
+
+
+#sent33_Using_4 {
+    grid-column: 4;
+}
+
+
+#sent33_Using_5 {
+    grid-column: 5;
+}
+
+
+#sent33_Using_6-16 {
+    grid-column: 6 / 16;
+}
+
+
+#sent33_Information_11 {
+    grid-column: 11;
+}
+
+
+#sent33_Information_11 {
+    grid-column: 11;
+}
+
+
+#sent34_Stage_of_progress_4 {
+    grid-column: 4;
+}
+
+
+#sent34_Stage_of_progress_5 {
+    grid-column: 5;
+}
+
+
+#sent34_Increment_10 {
+    grid-column: 10;
+}
+
+
+#sent35_Locale_2 {
+    grid-column: 2;
+}
+
+
+#sent35_Locale_3 {
+    grid-column: 3;
+}
+
+
+#sent35_Locale_3 {
+    grid-column: 3;
+}
+
+
+#sent36_Correctness_5 {
+    grid-column: 5;
+}
+
+
+#sent36_Correctness_6-9 {
+    grid-column: 6 / 9;
+}
+
+
+#sent36_Locale_7 {
+    grid-column: 7;
+}
+
+
+#sent36_Locale_7 {
+    grid-column: 7;
+}
+
+
+#sent37_Cause_motion_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent37_Cause_motion_5 {
+    grid-column: 5;
+}
+
+
+#sent37_Cause_motion_6 {
+    grid-column: 6;
+}
+
+
+#sent37_Cause_motion_7-10 {
+    grid-column: 7 / 10;
+}
+
+
+#sent38_Inclusion_5 {
+    grid-column: 5;
+}
+
+
+#sent39_Interior_profile_relation_2 {
+    grid-column: 2;
+}
+
+
+#sent39_Interior_profile_relation_3 {
+    grid-column: 3;
+}
+
+
+#sent39_Interior_profile_relation_4-15 {
+    grid-column: 4 / 15;
+}
+
+
+#sent39_Measure_linear_extent_7 {
+    grid-column: 7;
+}
+
+
+#sent39_Measure_linear_extent_8 {
+    grid-column: 8;
+}
+
+
+#sent39_Measure_linear_extent_8 {
+    grid-column: 8;
+}
+
+
+#sent39_Network_14 {
+    grid-column: 14;
+}
+
+
+#sent39_Network_14 {
+    grid-column: 14;
+}
+
+
+#sent41_Social_connection_2 {
+    grid-column: 2;
+}
+
+
+#sent41_Communicate_categorization_12-14 {
+    grid-column: 12 / 14;
+}
+
+
+#sent41_Communicate_categorization_14 {
+    grid-column: 14;
+}
+
+
+#sent42_Social_connection_2 {
+    grid-column: 2;
+}
+
+
+#sent42_Social_connection_2 {
+    grid-column: 2;
+}
+
+
+#sent42_Quantified_mass_6 {
+    grid-column: 6;
+}
+
+
+#sent42_Quantified_mass_6 {
+    grid-column: 6;
+}
+
+
+#sent42_Quantified_mass_7-10 {
+    grid-column: 7 / 10;
+}
+
+
+#sent42_Roadways_8 {
+    grid-column: 8;
+}
+
+
+#sent42_Roadways_8 {
+    grid-column: 8;
+}
+
+
+#sent42_Perception_experience_14 {
+    grid-column: 14;
+}
+
+
+#sent42_Perception_experience_15-17 {
+    grid-column: 15 / 17;
+}
+
+
+#sent44_Estimating_2 {
+    grid-column: 2;
+}
+
+
+#sent44_Estimating_4 {
+    grid-column: 4;
+}
+
+
+#sent44_Estimating_5 {
+    grid-column: 5;
+}
+
+
+#sent44_Aggregate_5 {
+    grid-column: 5;
+}
+
+
+#sent44_Aggregate_5 {
+    grid-column: 5;
+}
+
+
+#sent44_Using_11 {
+    grid-column: 11;
+}
+
+
+#sent44_Using_12 {
+    grid-column: 12;
+}
+
+
+#sent45_Information_4 {
+    grid-column: 4;
+}
+
+
+#sent45_Information_5 {
+    grid-column: 5;
+}
+
+
+#sent45_Information_5 {
+    grid-column: 5;
+}
+
+
+#sent46_Temporal_subregion_4 {
+    grid-column: 4;
+}
+
+
+#sent46_Temporal_subregion_4 {
+    grid-column: 4;
+}
+
+
+#sent46_Separating_6 {
+    grid-column: 6;
+}
+
+
+#sent46_Separating_7 {
+    grid-column: 7;
+}
+
+
+#sent46_Separating_8-12 {
+    grid-column: 8 / 12;
+}
+
+
+#sent47_Locale_by_use_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent47_Locale_by_use_3 {
+    grid-column: 3;
+}
+
+
+#sent47_Locale_by_use_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent47_Aggregate_10 {
+    grid-column: 10;
+}
+
+
+#sent47_Aggregate_10 {
+    grid-column: 10;
+}
+
+
+#sent49_Aggregate_7 {
+    grid-column: 7;
+}
+
+
+#sent49_Aggregate_7 {
+    grid-column: 7;
+}
+
+
+#sent54_Building_2 {
+    grid-column: 2;
+}
+
+
+#sent54_Building_3 {
+    grid-column: 3;
+}
+
+
+#sent54_Building_4-8 {
+    grid-column: 4 / 8;
+}
+
+
+#sent54_Building_8-12 {
+    grid-column: 8 / 12;
+}
+
+
+#sent56_Travel_8-11 {
+    grid-column: 8 / 11;
+}
+
+
+#sent56_Travel_12 {
+    grid-column: 12;
+}
+
+
+#sent56_Travel_13-15 {
+    grid-column: 13 / 15;
+}
+
+
+#sent56_Dispersal_13 {
+    grid-column: 13;
+}
+
+
+#sent57_Adopt_selection_4 {
+    grid-column: 4;
+}
+
+
+#sent57_Adopt_selection_5 {
+    grid-column: 5;
+}
+
+
+#sent58_Travel_2 {
+    grid-column: 2;
+}
+
+
+#sent58_Request_3 {
+    grid-column: 3;
+}
+
+
+#sent59_Increment_2 {
+    grid-column: 2;
+}
+
+
+#sent59_Travel_2 {
+    grid-column: 2;
+}
+
+
+#sent59_Travel_3 {
+    grid-column: 3;
+}

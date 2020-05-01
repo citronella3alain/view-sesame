@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{stylesheet_name}}">
+        <meta charset="utf-8">
+        <title>{% block title %}{% endblock%}</title>
+    </head>
+    <body>
+        {% for sentence in sentences %}
+            <p>{{sentence.words|join(' ')}}</p>
+            <div id="frame_display">
+                <div class = "sentence sent{{sentence.sentence_id}}">
+                    <div class="label">Word Form</div>
+                    {% for word in sentence.words %}<div class="lex-unit">{{word}}</div>
+                    {% endfor %}
+                    
+                    <div class="label">POS</div>
+                    {% for pos in sentence.pos_list%} <div class="pos">{{pos}}</div>
+                    {% endfor %}
+
+                    {% for frame_name, frame_description in sentence.frame_descriptions.items()%}
+                    <div class="label">{{frame_name}}</div>
+                    {% for fe_name, fe in frame_description.frame_elements.items() %}{% if fe.indices|length == 1 %}{% if fe.is_target %}
+                    <div id="sent{{sentence.sentence_id}}_{{frame_name}}_{{fe.indices[0] + 1}}" class="target">{{fe_name}}</div>
+                    {% else %}<div id="sent{{sentence.sentence_id}}_{{frame_name}}_{{fe.indices[0] + 1}}" class="frame_element">{{fe_name}}</div>
+                    {% endif %}
+                    {% else %}<div id="sent{{sentence.sentence_id}}_{{frame_name}}_{{fe.indices[0] + 1}}-{{fe.indices[-1] + 2}}" class="frame_element">{{fe_name}}</div>{% endif %}{% endfor %}{% endfor %}
+                </div>
+            </div>{% endfor %}
+    </body>
+</html>

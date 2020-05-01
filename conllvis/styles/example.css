@@ -1,0 +1,53 @@
+#frame_display {
+    text-align: center;
+}
+.sentences {
+    /*display: inline-block;*/
+    /*justify-content: center;*/
+}
+.sentence {
+    display: inline-grid;
+    column-gap: 4px;
+}
+.sent1 {
+    grid-template-columns: repeat(12, auto); /*11 words with label to left*/
+    /*background-color: #2196F3;*/
+}
+.lex-unit {
+    display: flex;
+    justify-content: left;
+    font: 2em "Open Sans", sans-serif;
+}
+.pos {
+    display: flex;
+    justify-content: center;
+}
+.label {
+    grid-column: 1;
+    border-right: 4px solid red;
+}
+.frame_element {
+    background-color: yellow;
+}
+.target {
+    background-color: orange;
+}
+#response_4 {
+    grid-column: 4;
+}
+#response_5 {
+    grid-column: 5;
+}
+#response_7 {
+    grid-column: 7;
+}
+#response_8-12 {
+    grid-column: 8 / 12;
+}
+
+#coincidence_9 {
+    grid-column: 9;
+}
+#coincidence_10-12 {
+    grid-column: 10 / 12;
+}

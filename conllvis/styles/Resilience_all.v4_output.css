@@ -1,0 +1,12184 @@
+#frame_display {
+    text-align: center;
+}
+.sentence {
+    display: inline-grid;
+    column-gap: 4px;
+}
+.lex-unit {
+    display: flex;
+    justify-content: left;
+    font: 2em "Open Sans", sans-serif;
+}
+.pos {
+    display: flex;
+    justify-content: center;
+}
+.label {
+    grid-column: 1;
+    border-right: 4px solid red;
+}
+.frame_element {
+    background-color: yellow;
+}
+.target {
+    background-color: orange;
+}
+
+
+.sent2 {
+    grid-template-columns: repeat(18, auto);
+}
+
+.sent3 {
+    grid-template-columns: repeat(9, auto);
+}
+
+.sent6 {
+    grid-template-columns: repeat(7, auto);
+}
+
+.sent8 {
+    grid-template-columns: repeat(21, auto);
+}
+
+.sent9 {
+    grid-template-columns: repeat(41, auto);
+}
+
+.sent10 {
+    grid-template-columns: repeat(27, auto);
+}
+
+.sent11 {
+    grid-template-columns: repeat(18, auto);
+}
+
+.sent12 {
+    grid-template-columns: repeat(15, auto);
+}
+
+.sent13 {
+    grid-template-columns: repeat(21, auto);
+}
+
+.sent14 {
+    grid-template-columns: repeat(35, auto);
+}
+
+.sent15 {
+    grid-template-columns: repeat(48, auto);
+}
+
+.sent16 {
+    grid-template-columns: repeat(30, auto);
+}
+
+.sent17 {
+    grid-template-columns: repeat(30, auto);
+}
+
+.sent19 {
+    grid-template-columns: repeat(16, auto);
+}
+
+.sent20 {
+    grid-template-columns: repeat(22, auto);
+}
+
+.sent21 {
+    grid-template-columns: repeat(18, auto);
+}
+
+.sent22 {
+    grid-template-columns: repeat(24, auto);
+}
+
+.sent23 {
+    grid-template-columns: repeat(32, auto);
+}
+
+.sent24 {
+    grid-template-columns: repeat(67, auto);
+}
+
+.sent25 {
+    grid-template-columns: repeat(29, auto);
+}
+
+.sent26 {
+    grid-template-columns: repeat(15, auto);
+}
+
+.sent27 {
+    grid-template-columns: repeat(31, auto);
+}
+
+.sent28 {
+    grid-template-columns: repeat(27, auto);
+}
+
+.sent29 {
+    grid-template-columns: repeat(44, auto);
+}
+
+.sent30 {
+    grid-template-columns: repeat(38, auto);
+}
+
+.sent31 {
+    grid-template-columns: repeat(31, auto);
+}
+
+.sent32 {
+    grid-template-columns: repeat(16, auto);
+}
+
+.sent33 {
+    grid-template-columns: repeat(28, auto);
+}
+
+.sent34 {
+    grid-template-columns: repeat(25, auto);
+}
+
+.sent35 {
+    grid-template-columns: repeat(39, auto);
+}
+
+.sent36 {
+    grid-template-columns: repeat(33, auto);
+}
+
+.sent37 {
+    grid-template-columns: repeat(18, auto);
+}
+
+.sent38 {
+    grid-template-columns: repeat(37, auto);
+}
+
+.sent39 {
+    grid-template-columns: repeat(22, auto);
+}
+
+.sent40 {
+    grid-template-columns: repeat(21, auto);
+}
+
+.sent41 {
+    grid-template-columns: repeat(37, auto);
+}
+
+.sent42 {
+    grid-template-columns: repeat(28, auto);
+}
+
+.sent43 {
+    grid-template-columns: repeat(22, auto);
+}
+
+.sent45 {
+    grid-template-columns: repeat(13, auto);
+}
+
+.sent46 {
+    grid-template-columns: repeat(42, auto);
+}
+
+.sent47 {
+    grid-template-columns: repeat(23, auto);
+}
+
+.sent48 {
+    grid-template-columns: repeat(36, auto);
+}
+
+.sent49 {
+    grid-template-columns: repeat(49, auto);
+}
+
+.sent50 {
+    grid-template-columns: repeat(26, auto);
+}
+
+.sent51 {
+    grid-template-columns: repeat(34, auto);
+}
+
+.sent52 {
+    grid-template-columns: repeat(6, auto);
+}
+
+.sent53 {
+    grid-template-columns: repeat(33, auto);
+}
+
+.sent54 {
+    grid-template-columns: repeat(17, auto);
+}
+
+.sent55 {
+    grid-template-columns: repeat(20, auto);
+}
+
+.sent56 {
+    grid-template-columns: repeat(37, auto);
+}
+
+.sent57 {
+    grid-template-columns: repeat(17, auto);
+}
+
+.sent58 {
+    grid-template-columns: repeat(25, auto);
+}
+
+.sent59 {
+    grid-template-columns: repeat(30, auto);
+}
+
+.sent62 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent63 {
+    grid-template-columns: repeat(30, auto);
+}
+
+.sent64 {
+    grid-template-columns: repeat(14, auto);
+}
+
+.sent65 {
+    grid-template-columns: repeat(26, auto);
+}
+
+.sent68 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent69 {
+    grid-template-columns: repeat(22, auto);
+}
+
+.sent70 {
+    grid-template-columns: repeat(38, auto);
+}
+
+.sent71 {
+    grid-template-columns: repeat(18, auto);
+}
+
+.sent72 {
+    grid-template-columns: repeat(32, auto);
+}
+
+.sent73 {
+    grid-template-columns: repeat(60, auto);
+}
+
+.sent74 {
+    grid-template-columns: repeat(23, auto);
+}
+
+.sent75 {
+    grid-template-columns: repeat(15, auto);
+}
+
+.sent76 {
+    grid-template-columns: repeat(27, auto);
+}
+
+.sent77 {
+    grid-template-columns: repeat(17, auto);
+}
+
+.sent78 {
+    grid-template-columns: repeat(68, auto);
+}
+
+.sent80 {
+    grid-template-columns: repeat(13, auto);
+}
+
+.sent81 {
+    grid-template-columns: repeat(33, auto);
+}
+
+.sent83 {
+    grid-template-columns: repeat(21, auto);
+}
+
+.sent84 {
+    grid-template-columns: repeat(30, auto);
+}
+
+.sent86 {
+    grid-template-columns: repeat(29, auto);
+}
+
+.sent87 {
+    grid-template-columns: repeat(11, auto);
+}
+
+.sent88 {
+    grid-template-columns: repeat(49, auto);
+}
+
+.sent90 {
+    grid-template-columns: repeat(16, auto);
+}
+
+.sent91 {
+    grid-template-columns: repeat(30, auto);
+}
+
+.sent92 {
+    grid-template-columns: repeat(27, auto);
+}
+
+.sent93 {
+    grid-template-columns: repeat(33, auto);
+}
+
+.sent94 {
+    grid-template-columns: repeat(32, auto);
+}
+
+.sent97 {
+    grid-template-columns: repeat(14, auto);
+}
+
+.sent98 {
+    grid-template-columns: repeat(10, auto);
+}
+
+.sent99 {
+    grid-template-columns: repeat(29, auto);
+}
+
+.sent100 {
+    grid-template-columns: repeat(25, auto);
+}
+
+.sent105 {
+    grid-template-columns: repeat(22, auto);
+}
+
+.sent108 {
+    grid-template-columns: repeat(25, auto);
+}
+
+.sent109 {
+    grid-template-columns: repeat(25, auto);
+}
+
+.sent111 {
+    grid-template-columns: repeat(33, auto);
+}
+
+.sent112 {
+    grid-template-columns: repeat(21, auto);
+}
+
+.sent113 {
+    grid-template-columns: repeat(54, auto);
+}
+
+.sent114 {
+    grid-template-columns: repeat(53, auto);
+}
+
+.sent115 {
+    grid-template-columns: repeat(30, auto);
+}
+
+.sent116 {
+    grid-template-columns: repeat(35, auto);
+}
+
+.sent117 {
+    grid-template-columns: repeat(18, auto);
+}
+
+.sent118 {
+    grid-template-columns: repeat(19, auto);
+}
+
+.sent119 {
+    grid-template-columns: repeat(37, auto);
+}
+
+.sent120 {
+    grid-template-columns: repeat(27, auto);
+}
+
+.sent123 {
+    grid-template-columns: repeat(31, auto);
+}
+
+.sent125 {
+    grid-template-columns: repeat(33, auto);
+}
+
+.sent126 {
+    grid-template-columns: repeat(43, auto);
+}
+
+.sent127 {
+    grid-template-columns: repeat(20, auto);
+}
+
+.sent128 {
+    grid-template-columns: repeat(30, auto);
+}
+
+.sent130 {
+    grid-template-columns: repeat(28, auto);
+}
+
+.sent134 {
+    grid-template-columns: repeat(10, auto);
+}
+
+.sent135 {
+    grid-template-columns: repeat(45, auto);
+}
+
+.sent136 {
+    grid-template-columns: repeat(17, auto);
+}
+
+.sent137 {
+    grid-template-columns: repeat(16, auto);
+}
+
+.sent138 {
+    grid-template-columns: repeat(6, auto);
+}
+
+.sent139 {
+    grid-template-columns: repeat(30, auto);
+}
+
+.sent140 {
+    grid-template-columns: repeat(20, auto);
+}
+
+.sent141 {
+    grid-template-columns: repeat(20, auto);
+}
+
+.sent143 {
+    grid-template-columns: repeat(10, auto);
+}
+
+.sent145 {
+    grid-template-columns: repeat(5, auto);
+}
+
+.sent146 {
+    grid-template-columns: repeat(32, auto);
+}
+
+.sent148 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent149 {
+    grid-template-columns: repeat(31, auto);
+}
+
+.sent150 {
+    grid-template-columns: repeat(11, auto);
+}
+
+.sent151 {
+    grid-template-columns: repeat(35, auto);
+}
+
+.sent152 {
+    grid-template-columns: repeat(16, auto);
+}
+
+.sent153 {
+    grid-template-columns: repeat(22, auto);
+}
+
+.sent154 {
+    grid-template-columns: repeat(24, auto);
+}
+
+.sent155 {
+    grid-template-columns: repeat(30, auto);
+}
+
+.sent157 {
+    grid-template-columns: repeat(10, auto);
+}
+
+.sent158 {
+    grid-template-columns: repeat(14, auto);
+}
+
+.sent160 {
+    grid-template-columns: repeat(27, auto);
+}
+
+.sent161 {
+    grid-template-columns: repeat(55, auto);
+}
+
+.sent162 {
+    grid-template-columns: repeat(34, auto);
+}
+
+.sent163 {
+    grid-template-columns: repeat(35, auto);
+}
+
+.sent164 {
+    grid-template-columns: repeat(38, auto);
+}
+
+.sent165 {
+    grid-template-columns: repeat(26, auto);
+}
+
+.sent166 {
+    grid-template-columns: repeat(30, auto);
+}
+
+.sent167 {
+    grid-template-columns: repeat(21, auto);
+}
+
+.sent170 {
+    grid-template-columns: repeat(26, auto);
+}
+
+.sent171 {
+    grid-template-columns: repeat(28, auto);
+}
+
+.sent172 {
+    grid-template-columns: repeat(19, auto);
+}
+
+.sent173 {
+    grid-template-columns: repeat(27, auto);
+}
+
+.sent174 {
+    grid-template-columns: repeat(35, auto);
+}
+
+.sent178 {
+    grid-template-columns: repeat(53, auto);
+}
+
+.sent179 {
+    grid-template-columns: repeat(32, auto);
+}
+
+.sent183 {
+    grid-template-columns: repeat(27, auto);
+}
+
+.sent187 {
+    grid-template-columns: repeat(19, auto);
+}
+
+.sent188 {
+    grid-template-columns: repeat(8, auto);
+}
+
+.sent189 {
+    grid-template-columns: repeat(19, auto);
+}
+
+.sent190 {
+    grid-template-columns: repeat(34, auto);
+}
+
+.sent191 {
+    grid-template-columns: repeat(33, auto);
+}
+
+.sent193 {
+    grid-template-columns: repeat(20, auto);
+}
+
+.sent194 {
+    grid-template-columns: repeat(34, auto);
+}
+
+.sent195 {
+    grid-template-columns: repeat(33, auto);
+}
+
+.sent196 {
+    grid-template-columns: repeat(42, auto);
+}
+
+.sent197 {
+    grid-template-columns: repeat(31, auto);
+}
+
+.sent198 {
+    grid-template-columns: repeat(60, auto);
+}
+
+.sent199 {
+    grid-template-columns: repeat(25, auto);
+}
+
+.sent200 {
+    grid-template-columns: repeat(34, auto);
+}
+
+.sent201 {
+    grid-template-columns: repeat(8, auto);
+}
+
+.sent202 {
+    grid-template-columns: repeat(32, auto);
+}
+
+.sent203 {
+    grid-template-columns: repeat(60, auto);
+}
+
+.sent204 {
+    grid-template-columns: repeat(13, auto);
+}
+
+.sent205 {
+    grid-template-columns: repeat(29, auto);
+}
+
+.sent206 {
+    grid-template-columns: repeat(45, auto);
+}
+
+.sent207 {
+    grid-template-columns: repeat(41, auto);
+}
+
+.sent208 {
+    grid-template-columns: repeat(26, auto);
+}
+
+.sent209 {
+    grid-template-columns: repeat(52, auto);
+}
+
+.sent210 {
+    grid-template-columns: repeat(20, auto);
+}
+
+.sent211 {
+    grid-template-columns: repeat(22, auto);
+}
+
+.sent212 {
+    grid-template-columns: repeat(31, auto);
+}
+
+.sent214 {
+    grid-template-columns: repeat(11, auto);
+}
+
+.sent215 {
+    grid-template-columns: repeat(17, auto);
+}
+
+.sent216 {
+    grid-template-columns: repeat(11, auto);
+}
+
+.sent217 {
+    grid-template-columns: repeat(9, auto);
+}
+
+.sent218 {
+    grid-template-columns: repeat(14, auto);
+}
+
+.sent219 {
+    grid-template-columns: repeat(14, auto);
+}
+
+.sent221 {
+    grid-template-columns: repeat(4, auto);
+}
+
+.sent224 {
+    grid-template-columns: repeat(10, auto);
+}
+
+.sent228 {
+    grid-template-columns: repeat(9, auto);
+}
+
+.sent230 {
+    grid-template-columns: repeat(5, auto);
+}
+
+.sent231 {
+    grid-template-columns: repeat(6, auto);
+}
+
+.sent234 {
+    grid-template-columns: repeat(4, auto);
+}
+
+.sent236 {
+    grid-template-columns: repeat(5, auto);
+}
+
+.sent238 {
+    grid-template-columns: repeat(13, auto);
+}
+
+.sent239 {
+    grid-template-columns: repeat(14, auto);
+}
+
+.sent241 {
+    grid-template-columns: repeat(18, auto);
+}
+
+.sent243 {
+    grid-template-columns: repeat(10, auto);
+}
+
+.sent245 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent252 {
+    grid-template-columns: repeat(15, auto);
+}
+
+.sent254 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent255 {
+    grid-template-columns: repeat(6, auto);
+}
+
+.sent257 {
+    grid-template-columns: repeat(9, auto);
+}
+
+.sent259 {
+    grid-template-columns: repeat(10, auto);
+}
+
+.sent260 {
+    grid-template-columns: repeat(12, auto);
+}
+
+.sent261 {
+    grid-template-columns: repeat(21, auto);
+}
+
+
+
+
+#sent2_People_by_origin_11 {
+    grid-column: 11;
+}
+
+
+#sent2_People_by_origin_11 {
+    grid-column: 11;
+}
+
+
+#sent3_Statement_3 {
+    grid-column: 3;
+}
+
+
+#sent3_Statement_4-9 {
+    grid-column: 4 / 9;
+}
+
+
+#sent3_Leadership_6 {
+    grid-column: 6;
+}
+
+
+#sent3_Leadership_7 {
+    grid-column: 7;
+}
+
+
+#sent3_Leadership_7 {
+    grid-column: 7;
+}
+
+
+#sent6_Network_6 {
+    grid-column: 6;
+}
+
+
+#sent6_Network_7 {
+    grid-column: 7;
+}
+
+
+#sent6_Network_7 {
+    grid-column: 7;
+}
+
+
+#sent8_Gizmo_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent8_Gizmo_4 {
+    grid-column: 4;
+}
+
+
+#sent8_Being_at_risk_2-21 {
+    grid-column: 2 / 21;
+}
+
+
+#sent8_Being_at_risk_6 {
+    grid-column: 6;
+}
+
+
+#sent8_Being_at_risk_7-9 {
+    grid-column: 7 / 9;
+}
+
+
+#sent8_Catastrophe_10 {
+    grid-column: 10;
+}
+
+
+#sent8_Catastrophe_10 {
+    grid-column: 10;
+}
+
+
+#sent8_Weather_12 {
+    grid-column: 12;
+}
+
+
+#sent8_Event_14-16 {
+    grid-column: 14 / 16;
+}
+
+
+#sent8_Event_15 {
+    grid-column: 15;
+}
+
+
+#sent8_Increment_18 {
+    grid-column: 18;
+}
+
+
+#sent8_Increment_19-21 {
+    grid-column: 19 / 21;
+}
+
+
+#sent8_Change_event_time_20 {
+    grid-column: 20;
+}
+
+
+#sent8_Change_event_time_20 {
+    grid-column: 20;
+}
+
+
+#sent9_Response_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent9_Response_5 {
+    grid-column: 5;
+}
+
+
+#sent9_Emphasizing_5 {
+    grid-column: 5;
+}
+
+
+#sent9_Emphasizing_6 {
+    grid-column: 6;
+}
+
+
+#sent9_Emphasizing_8-10 {
+    grid-column: 8 / 10;
+}
+
+
+#sent9_Cause_change_of_position_on_a_scale_7 {
+    grid-column: 7;
+}
+
+
+#sent9_Cause_change_of_position_on_a_scale_8-10 {
+    grid-column: 8 / 10;
+}
+
+
+#sent9_Change_event_time_9 {
+    grid-column: 9;
+}
+
+
+#sent9_Change_event_time_9 {
+    grid-column: 9;
+}
+
+
+#sent9_Cause_to_make_progress_25-38 {
+    grid-column: 25 / 38;
+}
+
+
+#sent9_Cause_to_make_progress_26 {
+    grid-column: 26;
+}
+
+
+#sent9_Cause_to_make_progress_27 {
+    grid-column: 27;
+}
+
+
+#sent9_Roadways_19 {
+    grid-column: 19;
+}
+
+
+#sent9_Roadways_19 {
+    grid-column: 19;
+}
+
+
+#sent9_Gizmo_32 {
+    grid-column: 32;
+}
+
+
+#sent9_Gizmo_32 {
+    grid-column: 32;
+}
+
+
+#sent9_Communicate_categorization_22-29 {
+    grid-column: 22 / 29;
+}
+
+
+#sent9_Communicate_categorization_30 {
+    grid-column: 30;
+}
+
+
+#sent9_Communicate_categorization_31-37 {
+    grid-column: 31 / 37;
+}
+
+
+#sent9_Recovery_32 {
+    grid-column: 32;
+}
+
+
+#sent9_Recovery_33 {
+    grid-column: 33;
+}
+
+
+#sent9_Increment_35 {
+    grid-column: 35;
+}
+
+
+#sent9_Increment_36 {
+    grid-column: 36;
+}
+
+
+#sent9_Continued_state_of_affairs_39 {
+    grid-column: 39;
+}
+
+
+#sent9_Continued_state_of_affairs_39 {
+    grid-column: 39;
+}
+
+
+#sent9_Continued_state_of_affairs_40 {
+    grid-column: 40;
+}
+
+
+#sent9_Scarcity_22-38 {
+    grid-column: 22 / 38;
+}
+
+
+#sent9_Scarcity_39 {
+    grid-column: 39;
+}
+
+
+#sent9_Scarcity_40 {
+    grid-column: 40;
+}
+
+
+#sent10_Attempt_4 {
+    grid-column: 4;
+}
+
+
+#sent10_Communicate_categorization_6 {
+    grid-column: 6;
+}
+
+
+#sent10_Communicate_categorization_7 {
+    grid-column: 7;
+}
+
+
+#sent10_Communicate_categorization_8-27 {
+    grid-column: 8 / 27;
+}
+
+
+#sent10_Roadways_20 {
+    grid-column: 20;
+}
+
+
+#sent10_Roadways_20 {
+    grid-column: 20;
+}
+
+
+#sent10_Network_12 {
+    grid-column: 12;
+}
+
+
+#sent10_Network_13 {
+    grid-column: 13;
+}
+
+
+#sent10_Network_13 {
+    grid-column: 13;
+}
+
+
+#sent10_Social_connection_26 {
+    grid-column: 26;
+}
+
+
+#sent10_Social_connection_26 {
+    grid-column: 26;
+}
+
+
+#sent11_Building_2 {
+    grid-column: 2;
+}
+
+
+#sent11_Building_3 {
+    grid-column: 3;
+}
+
+
+#sent11_Building_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent11_Building_6-18 {
+    grid-column: 6 / 18;
+}
+
+
+#sent11_Roadways_4 {
+    grid-column: 4;
+}
+
+
+#sent11_Roadways_4 {
+    grid-column: 4;
+}
+
+
+#sent11_Network_4 {
+    grid-column: 4;
+}
+
+
+#sent11_Network_5 {
+    grid-column: 5;
+}
+
+
+#sent11_Network_5 {
+    grid-column: 5;
+}
+
+
+#sent11_Locale_11 {
+    grid-column: 11;
+}
+
+
+#sent11_Locale_11 {
+    grid-column: 11;
+}
+
+
+#sent11_Communicate_categorization_9-12 {
+    grid-column: 9 / 12;
+}
+
+
+#sent11_Communicate_categorization_12 {
+    grid-column: 12;
+}
+
+
+#sent11_Communicate_categorization_13-18 {
+    grid-column: 13 / 18;
+}
+
+
+#sent12_Cause_to_make_progress_2 {
+    grid-column: 2;
+}
+
+
+#sent12_Cause_to_make_progress_3 {
+    grid-column: 3;
+}
+
+
+#sent12_Cause_to_make_progress_6-15 {
+    grid-column: 6 / 15;
+}
+
+
+#sent12_Change_event_time_10-15 {
+    grid-column: 10 / 15;
+}
+
+
+#sent12_Change_event_time_11 {
+    grid-column: 11;
+}
+
+
+#sent12_Using_12 {
+    grid-column: 12;
+}
+
+
+#sent12_Using_13-15 {
+    grid-column: 13 / 15;
+}
+
+
+#sent12_Social_connection_13 {
+    grid-column: 13;
+}
+
+
+#sent12_Social_connection_13 {
+    grid-column: 13;
+}
+
+
+#sent12_Social_connection_14 {
+    grid-column: 14;
+}
+
+
+#sent12_Quantified_mass_14 {
+    grid-column: 14;
+}
+
+
+#sent12_Quantified_mass_14 {
+    grid-column: 14;
+}
+
+
+#sent13_Quantified_mass_14 {
+    grid-column: 14;
+}
+
+
+#sent13_Quantified_mass_14 {
+    grid-column: 14;
+}
+
+
+#sent13_Quantified_mass_15-17 {
+    grid-column: 15 / 17;
+}
+
+
+#sent13_Categorization_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent13_Categorization_6 {
+    grid-column: 6;
+}
+
+
+#sent13_Categorization_7-21 {
+    grid-column: 7 / 21;
+}
+
+
+#sent13_Estimating_12 {
+    grid-column: 12;
+}
+
+
+#sent13_Estimating_13-21 {
+    grid-column: 13 / 21;
+}
+
+
+#sent13_People_16 {
+    grid-column: 16;
+}
+
+
+#sent13_People_16 {
+    grid-column: 16;
+}
+
+
+#sent13_Using_17 {
+    grid-column: 17;
+}
+
+
+#sent13_Using_18-21 {
+    grid-column: 18 / 21;
+}
+
+
+#sent13_Roadways_19 {
+    grid-column: 19;
+}
+
+
+#sent13_Roadways_19 {
+    grid-column: 19;
+}
+
+
+#sent14_Estimating_2-35 {
+    grid-column: 2 / 35;
+}
+
+
+#sent14_Estimating_4 {
+    grid-column: 4;
+}
+
+
+#sent14_Frequency_7 {
+    grid-column: 7;
+}
+
+
+#sent14_Frequency_8 {
+    grid-column: 8;
+}
+
+
+#sent14_Frequency_8 {
+    grid-column: 8;
+}
+
+
+#sent14_Frequency_9-18 {
+    grid-column: 9 / 18;
+}
+
+
+#sent14_Change_event_time_6-9 {
+    grid-column: 6 / 9;
+}
+
+
+#sent14_Change_event_time_9 {
+    grid-column: 9;
+}
+
+
+#sent14_Causation_17 {
+    grid-column: 17;
+}
+
+
+#sent14_Causation_20-35 {
+    grid-column: 20 / 35;
+}
+
+
+#sent14_Locating_17-35 {
+    grid-column: 17 / 35;
+}
+
+
+#sent14_Locating_19 {
+    grid-column: 19;
+}
+
+
+#sent14_Social_connection_17 {
+    grid-column: 17;
+}
+
+
+#sent14_Social_connection_22 {
+    grid-column: 22;
+}
+
+
+#sent14_Social_connection_23-35 {
+    grid-column: 23 / 35;
+}
+
+
+#sent14_Becoming_aware_24 {
+    grid-column: 24;
+}
+
+
+#sent14_Becoming_aware_25 {
+    grid-column: 25;
+}
+
+
+#sent14_Becoming_aware_27-35 {
+    grid-column: 27 / 35;
+}
+
+
+#sent14_Information_25 {
+    grid-column: 25;
+}
+
+
+#sent14_Information_25 {
+    grid-column: 25;
+}
+
+
+#sent14_Age_32 {
+    grid-column: 32;
+}
+
+
+#sent14_Age_32 {
+    grid-column: 32;
+}
+
+
+#sent14_Age_33-35 {
+    grid-column: 33 / 35;
+}
+
+
+#sent14_Political_locales_34 {
+    grid-column: 34;
+}
+
+
+#sent14_Political_locales_34 {
+    grid-column: 34;
+}
+
+
+#sent15_Estimating_2-48 {
+    grid-column: 2 / 48;
+}
+
+
+#sent15_Estimating_4 {
+    grid-column: 4;
+}
+
+
+#sent15_Undergo_change_7 {
+    grid-column: 7;
+}
+
+
+#sent15_Undergo_change_8-14 {
+    grid-column: 8 / 14;
+}
+
+
+#sent15_Locating_16 {
+    grid-column: 16;
+}
+
+
+#sent15_Locating_17-21 {
+    grid-column: 17 / 21;
+}
+
+
+#sent15_Cause_change_18 {
+    grid-column: 18;
+}
+
+
+#sent15_Cause_change_19-21 {
+    grid-column: 19 / 21;
+}
+
+
+#sent15_Political_locales_20 {
+    grid-column: 20;
+}
+
+
+#sent15_Political_locales_20 {
+    grid-column: 20;
+}
+
+
+#sent15_Change_event_time_23 {
+    grid-column: 23;
+}
+
+
+#sent15_Change_event_time_24 {
+    grid-column: 24;
+}
+
+
+#sent15_Change_event_time_24 {
+    grid-column: 24;
+}
+
+
+#sent15_Coincidence_30 {
+    grid-column: 30;
+}
+
+
+#sent15_Coincidence_31 {
+    grid-column: 31;
+}
+
+
+#sent15_Finish_competition_31 {
+    grid-column: 31;
+}
+
+
+#sent15_Finish_competition_32-36 {
+    grid-column: 32 / 36;
+}
+
+
+#sent15_Roadways_33 {
+    grid-column: 33;
+}
+
+
+#sent15_Roadways_33 {
+    grid-column: 33;
+}
+
+
+#sent15_Range_33-35 {
+    grid-column: 33 / 35;
+}
+
+
+#sent15_Range_35 {
+    grid-column: 35;
+}
+
+
+#sent16_Causation_3 {
+    grid-column: 3;
+}
+
+
+#sent16_Reasoning_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent16_Reasoning_4 {
+    grid-column: 4;
+}
+
+
+#sent16_Reasoning_5-25 {
+    grid-column: 5 / 25;
+}
+
+
+#sent16_Quantified_mass_6 {
+    grid-column: 6;
+}
+
+
+#sent16_Quantified_mass_6 {
+    grid-column: 6;
+}
+
+
+#sent16_Quantified_mass_7-10 {
+    grid-column: 7 / 10;
+}
+
+
+#sent16_Roadways_8 {
+    grid-column: 8;
+}
+
+
+#sent16_Roadways_8 {
+    grid-column: 8;
+}
+
+
+#sent16_Gizmo_8 {
+    grid-column: 8;
+}
+
+
+#sent16_Gizmo_9 {
+    grid-column: 9;
+}
+
+
+#sent16_Operating_a_system_6-16 {
+    grid-column: 6 / 16;
+}
+
+
+#sent16_Operating_a_system_10 {
+    grid-column: 10;
+}
+
+
+#sent16_Operating_a_system_11 {
+    grid-column: 11;
+}
+
+
+#sent16_Political_locales_26 {
+    grid-column: 26;
+}
+
+
+#sent16_Political_locales_26 {
+    grid-column: 26;
+}
+
+
+#sent16_Increment_23-30 {
+    grid-column: 23 / 30;
+}
+
+
+#sent16_Increment_28 {
+    grid-column: 28;
+}
+
+
+#sent17_Desirable_event_2-30 {
+    grid-column: 2 / 30;
+}
+
+
+#sent17_Desirable_event_12 {
+    grid-column: 12;
+}
+
+
+#sent17_Categorization_6 {
+    grid-column: 6;
+}
+
+
+#sent17_Categorization_8-30 {
+    grid-column: 8 / 30;
+}
+
+
+#sent17_Categorization_14 {
+    grid-column: 14;
+}
+
+
+#sent17_Project_18 {
+    grid-column: 18;
+}
+
+
+#sent17_Project_18 {
+    grid-column: 18;
+}
+
+
+#sent17_Justifying_21 {
+    grid-column: 21;
+}
+
+
+#sent17_Justifying_22-27 {
+    grid-column: 22 / 27;
+}
+
+
+#sent17_Opportunity_22-27 {
+    grid-column: 22 / 27;
+}
+
+
+#sent17_Opportunity_23 {
+    grid-column: 23;
+}
+
+
+#sent17_Opportunity_23 {
+    grid-column: 23;
+}
+
+
+#sent17_Statement_22-24 {
+    grid-column: 22 / 24;
+}
+
+
+#sent17_Statement_24 {
+    grid-column: 24;
+}
+
+
+#sent17_Statement_25-27 {
+    grid-column: 25 / 27;
+}
+
+
+#sent17_Catastrophe_26 {
+    grid-column: 26;
+}
+
+
+#sent17_Catastrophe_26 {
+    grid-column: 26;
+}
+
+
+#sent17_Increment_28 {
+    grid-column: 28;
+}
+
+
+#sent17_Increment_29 {
+    grid-column: 29;
+}
+
+
+#sent19_Coming_up_with_3 {
+    grid-column: 3;
+}
+
+
+#sent19_Coming_up_with_4 {
+    grid-column: 4;
+}
+
+
+#sent19_Emphasizing_2-6 {
+    grid-column: 2 / 6;
+}
+
+
+#sent19_Emphasizing_6 {
+    grid-column: 6;
+}
+
+
+#sent19_Emphasizing_7-16 {
+    grid-column: 7 / 16;
+}
+
+
+#sent19_Vehicle_11 {
+    grid-column: 11;
+}
+
+
+#sent19_Vehicle_11 {
+    grid-column: 11;
+}
+
+
+#sent19_Network_14 {
+    grid-column: 14;
+}
+
+
+#sent19_Network_15 {
+    grid-column: 15;
+}
+
+
+#sent19_Network_15 {
+    grid-column: 15;
+}
+
+
+#sent20_Inclusion_2-6 {
+    grid-column: 2 / 6;
+}
+
+
+#sent20_Inclusion_7 {
+    grid-column: 7;
+}
+
+
+#sent20_Inclusion_8-22 {
+    grid-column: 8 / 22;
+}
+
+
+#sent20_Documents_8 {
+    grid-column: 8;
+}
+
+
+#sent20_Documents_9-15 {
+    grid-column: 9 / 15;
+}
+
+
+#sent20_Roadways_18 {
+    grid-column: 18;
+}
+
+
+#sent20_Roadways_18 {
+    grid-column: 18;
+}
+
+
+#sent21_First_rank_5 {
+    grid-column: 5;
+}
+
+
+#sent21_First_rank_6 {
+    grid-column: 6;
+}
+
+
+#sent21_Roadways_9 {
+    grid-column: 9;
+}
+
+
+#sent21_Roadways_9 {
+    grid-column: 9;
+}
+
+
+#sent21_Network_9 {
+    grid-column: 9;
+}
+
+
+#sent21_Network_10 {
+    grid-column: 10;
+}
+
+
+#sent21_Network_10 {
+    grid-column: 10;
+}
+
+
+#sent21_Coming_up_with_14 {
+    grid-column: 14;
+}
+
+
+#sent21_Alternatives_14 {
+    grid-column: 14;
+}
+
+
+#sent21_Alternatives_15 {
+    grid-column: 15;
+}
+
+
+#sent21_Categorization_14-16 {
+    grid-column: 14 / 16;
+}
+
+
+#sent21_Categorization_17 {
+    grid-column: 17;
+}
+
+
+#sent22_Statement_11 {
+    grid-column: 11;
+}
+
+
+#sent22_Statement_12 {
+    grid-column: 12;
+}
+
+
+#sent22_Change_event_time_19 {
+    grid-column: 19;
+}
+
+
+#sent22_Change_event_time_20 {
+    grid-column: 20;
+}
+
+
+#sent22_Change_event_time_22-24 {
+    grid-column: 22 / 24;
+}
+
+
+#sent22_Locale_15 {
+    grid-column: 15;
+}
+
+
+#sent22_Locale_16 {
+    grid-column: 16;
+}
+
+
+#sent22_Locale_16 {
+    grid-column: 16;
+}
+
+
+#sent22_Frequency_19 {
+    grid-column: 19;
+}
+
+
+#sent22_Frequency_19 {
+    grid-column: 19;
+}
+
+
+#sent22_Frequency_20-24 {
+    grid-column: 20 / 24;
+}
+
+
+#sent23_Increment_2 {
+    grid-column: 2;
+}
+
+
+#sent23_Increment_3 {
+    grid-column: 3;
+}
+
+
+#sent23_Scrutiny_3 {
+    grid-column: 3;
+}
+
+
+#sent23_Communicate_categorization_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent23_Communicate_categorization_4 {
+    grid-column: 4;
+}
+
+
+#sent23_Change_event_time_7 {
+    grid-column: 7;
+}
+
+
+#sent23_Change_event_time_8-20 {
+    grid-column: 8 / 20;
+}
+
+
+#sent23_People_10 {
+    grid-column: 10;
+}
+
+
+#sent23_People_11 {
+    grid-column: 11;
+}
+
+
+#sent23_Motion_9-12 {
+    grid-column: 9 / 12;
+}
+
+
+#sent23_Motion_17 {
+    grid-column: 17;
+}
+
+
+#sent23_Preventing_or_letting_9-12 {
+    grid-column: 9 / 12;
+}
+
+
+#sent23_Preventing_or_letting_19 {
+    grid-column: 19;
+}
+
+
+#sent23_Causation_2-16 {
+    grid-column: 2 / 16;
+}
+
+
+#sent23_Causation_22 {
+    grid-column: 22;
+}
+
+
+#sent23_Causation_23-32 {
+    grid-column: 23 / 32;
+}
+
+
+#sent23_Travel_23 {
+    grid-column: 23;
+}
+
+
+#sent23_Travel_24 {
+    grid-column: 24;
+}
+
+
+#sent23_Travel_25-32 {
+    grid-column: 25 / 32;
+}
+
+
+#sent23_Network_31 {
+    grid-column: 31;
+}
+
+
+#sent23_Network_31 {
+    grid-column: 31;
+}
+
+
+#sent24_Perception_experience_6 {
+    grid-column: 6;
+}
+
+
+#sent24_Perception_experience_7-14 {
+    grid-column: 7 / 14;
+}
+
+
+#sent24_Size_11 {
+    grid-column: 11;
+}
+
+
+#sent24_Size_12-14 {
+    grid-column: 12 / 14;
+}
+
+
+#sent24_People_by_origin_12 {
+    grid-column: 12;
+}
+
+
+#sent24_People_by_origin_12 {
+    grid-column: 12;
+}
+
+
+#sent24_Political_locales_12 {
+    grid-column: 12;
+}
+
+
+#sent24_Political_locales_13 {
+    grid-column: 13;
+}
+
+
+#sent24_Political_locales_13 {
+    grid-column: 13;
+}
+
+
+#sent24_Possibility_22-67 {
+    grid-column: 22 / 67;
+}
+
+
+#sent24_Possibility_48 {
+    grid-column: 48;
+}
+
+
+#sent24_State_of_entity_17 {
+    grid-column: 17;
+}
+
+
+#sent24_State_of_entity_17-25 {
+    grid-column: 17 / 25;
+}
+
+
+#sent24_Scope_20 {
+    grid-column: 20;
+}
+
+
+#sent24_Scope_21-25 {
+    grid-column: 21 / 25;
+}
+
+
+#sent24_Coming_up_with_23 {
+    grid-column: 23;
+}
+
+
+#sent24_Coming_up_with_24 {
+    grid-column: 24;
+}
+
+
+#sent24_Inclusion_22-25 {
+    grid-column: 22 / 25;
+}
+
+
+#sent24_Inclusion_26 {
+    grid-column: 26;
+}
+
+
+#sent24_Inclusion_27-47 {
+    grid-column: 27 / 47;
+}
+
+
+#sent24_Catastrophe_29 {
+    grid-column: 29;
+}
+
+
+#sent24_Catastrophe_29 {
+    grid-column: 29;
+}
+
+
+#sent24_Desirability_31 {
+    grid-column: 31;
+}
+
+
+#sent24_Desirability_32 {
+    grid-column: 32;
+}
+
+
+#sent24_Weather_32 {
+    grid-column: 32;
+}
+
+
+#sent24_Building_34 {
+    grid-column: 34;
+}
+
+
+#sent24_Event_38 {
+    grid-column: 38;
+}
+
+
+#sent24_Event_38 {
+    grid-column: 38;
+}
+
+
+#sent24_Causation_22-46 {
+    grid-column: 22 / 46;
+}
+
+
+#sent24_Causation_49 {
+    grid-column: 49;
+}
+
+
+#sent24_Causation_50-52 {
+    grid-column: 50 / 52;
+}
+
+
+#sent24_Change_event_time_51 {
+    grid-column: 51;
+}
+
+
+#sent24_Change_event_time_51 {
+    grid-column: 51;
+}
+
+
+#sent24_Frugality_58 {
+    grid-column: 58;
+}
+
+
+#sent24_Frugality_59 {
+    grid-column: 59;
+}
+
+
+#sent24_Infrastructure_61 {
+    grid-column: 61;
+}
+
+
+#sent24_Change_position_on_a_scale_65 {
+    grid-column: 65;
+}
+
+
+#sent24_Change_position_on_a_scale_66 {
+    grid-column: 66;
+}
+
+
+#sent25_Roadways_3 {
+    grid-column: 3;
+}
+
+
+#sent25_Roadways_3 {
+    grid-column: 3;
+}
+
+
+#sent25_Network_3 {
+    grid-column: 3;
+}
+
+
+#sent25_Network_4 {
+    grid-column: 4;
+}
+
+
+#sent25_Network_4 {
+    grid-column: 4;
+}
+
+
+#sent25_Operating_a_system_10 {
+    grid-column: 10;
+}
+
+
+#sent25_Operating_a_system_11 {
+    grid-column: 11;
+}
+
+
+#sent25_Operating_a_system_12-14 {
+    grid-column: 12 / 14;
+}
+
+
+#sent25_Information_18 {
+    grid-column: 18;
+}
+
+
+#sent25_Information_18 {
+    grid-column: 18;
+}
+
+
+#sent25_Gizmo_22 {
+    grid-column: 22;
+}
+
+
+#sent25_Gizmo_22 {
+    grid-column: 22;
+}
+
+
+#sent25_Intentionally_act_21-23 {
+    grid-column: 21 / 23;
+}
+
+
+#sent25_Intentionally_act_23 {
+    grid-column: 23;
+}
+
+
+#sent25_Intentionally_act_24-29 {
+    grid-column: 24 / 29;
+}
+
+
+#sent26_Gizmo_2 {
+    grid-column: 2;
+}
+
+
+#sent26_Gizmo_3 {
+    grid-column: 3;
+}
+
+
+#sent26_Cause_to_perceive_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent26_Cause_to_perceive_5 {
+    grid-column: 5;
+}
+
+
+#sent26_Cause_to_perceive_6-15 {
+    grid-column: 6 / 15;
+}
+
+
+#sent26_Response_7 {
+    grid-column: 7;
+}
+
+
+#sent26_Response_7 {
+    grid-column: 7;
+}
+
+
+#sent26_Response_8-10 {
+    grid-column: 8 / 10;
+}
+
+
+#sent26_Distinctiveness_9 {
+    grid-column: 9;
+}
+
+
+#sent26_Distinctiveness_12 {
+    grid-column: 12;
+}
+
+
+#sent26_Distinctiveness_13-15 {
+    grid-column: 13 / 15;
+}
+
+
+#sent27_Being_necessary_14 {
+    grid-column: 14;
+}
+
+
+#sent27_Being_necessary_15 {
+    grid-column: 15;
+}
+
+
+#sent27_Response_9-31 {
+    grid-column: 9 / 31;
+}
+
+
+#sent27_Response_10 {
+    grid-column: 10;
+}
+
+
+#sent27_Rite_15 {
+    grid-column: 15;
+}
+
+
+#sent27_Rite_15 {
+    grid-column: 15;
+}
+
+
+#sent27_Economy_18 {
+    grid-column: 18;
+}
+
+
+#sent27_Economy_18 {
+    grid-column: 18;
+}
+
+
+#sent27_Network_24 {
+    grid-column: 24;
+}
+
+
+#sent27_Network_25 {
+    grid-column: 25;
+}
+
+
+#sent27_Network_25 {
+    grid-column: 25;
+}
+
+
+#sent27_Receiving_21-31 {
+    grid-column: 21 / 31;
+}
+
+
+#sent27_Receiving_27 {
+    grid-column: 27;
+}
+
+
+#sent27_Change_position_on_a_scale_28 {
+    grid-column: 28;
+}
+
+
+#sent27_Change_position_on_a_scale_29-31 {
+    grid-column: 29 / 31;
+}
+
+
+#sent27_Attention_29 {
+    grid-column: 29;
+}
+
+
+#sent27_Attention_30 {
+    grid-column: 30;
+}
+
+
+#sent28_Communication_11 {
+    grid-column: 11;
+}
+
+
+#sent28_Communication_12-27 {
+    grid-column: 12 / 27;
+}
+
+
+#sent28_Awareness_12 {
+    grid-column: 12;
+}
+
+
+#sent28_Awareness_13-27 {
+    grid-column: 13 / 27;
+}
+
+
+#sent28_Suitability_14 {
+    grid-column: 14;
+}
+
+
+#sent28_Suitability_15 {
+    grid-column: 15;
+}
+
+
+#sent28_Suitability_16-27 {
+    grid-column: 16 / 27;
+}
+
+
+#sent28_Cotheme_17 {
+    grid-column: 17;
+}
+
+
+#sent28_Coming_up_with_17 {
+    grid-column: 17;
+}
+
+
+#sent28_Coming_up_with_18 {
+    grid-column: 18;
+}
+
+
+#sent28_Businesses_20 {
+    grid-column: 20;
+}
+
+
+#sent28_Businesses_20 {
+    grid-column: 20;
+}
+
+
+#sent28_Network_25 {
+    grid-column: 25;
+}
+
+
+#sent28_Network_26 {
+    grid-column: 26;
+}
+
+
+#sent28_Network_26 {
+    grid-column: 26;
+}
+
+
+#sent29_Infrastructure_18 {
+    grid-column: 18;
+}
+
+
+#sent29_Infrastructure_19 {
+    grid-column: 19;
+}
+
+
+#sent29_Gizmo_30 {
+    grid-column: 30;
+}
+
+
+#sent29_Distinctiveness_3-7 {
+    grid-column: 3 / 7;
+}
+
+
+#sent29_Distinctiveness_8 {
+    grid-column: 8;
+}
+
+
+#sent29_Distinctiveness_9-21 {
+    grid-column: 9 / 21;
+}
+
+
+#sent29_Execute_plan_18-20 {
+    grid-column: 18 / 20;
+}
+
+
+#sent29_Execute_plan_20 {
+    grid-column: 20;
+}
+
+
+#sent29_Communicate_categorization_22 {
+    grid-column: 22;
+}
+
+
+#sent29_Communicate_categorization_24 {
+    grid-column: 24;
+}
+
+
+#sent29_Communicate_categorization_25-44 {
+    grid-column: 25 / 44;
+}
+
+
+#sent29_Capability_27 {
+    grid-column: 27;
+}
+
+
+#sent29_Capability_28-44 {
+    grid-column: 28 / 44;
+}
+
+
+#sent29_Activity_prepare_32 {
+    grid-column: 32;
+}
+
+
+#sent29_Activity_prepare_33 {
+    grid-column: 33;
+}
+
+
+#sent29_Soaking_up_26-31 {
+    grid-column: 26 / 31;
+}
+
+
+#sent29_Soaking_up_35 {
+    grid-column: 35;
+}
+
+
+#sent29_Soaking_up_38-44 {
+    grid-column: 38 / 44;
+}
+
+
+#sent30_Communicate_categorization_2-7 {
+    grid-column: 2 / 7;
+}
+
+
+#sent30_Communicate_categorization_9 {
+    grid-column: 9;
+}
+
+
+#sent30_Communicate_categorization_10-30 {
+    grid-column: 10 / 30;
+}
+
+
+#sent30_Capability_13 {
+    grid-column: 13;
+}
+
+
+#sent30_Capability_14-17 {
+    grid-column: 14 / 17;
+}
+
+
+#sent30_Gizmo_16 {
+    grid-column: 16;
+}
+
+
+#sent30_Activity_ongoing_18 {
+    grid-column: 18;
+}
+
+
+#sent30_Activity_ongoing_19-24 {
+    grid-column: 19 / 24;
+}
+
+
+#sent30_Rank_30 {
+    grid-column: 30;
+}
+
+
+#sent30_Rank_30-33 {
+    grid-column: 30 / 33;
+}
+
+
+#sent30_Rite_32 {
+    grid-column: 32;
+}
+
+
+#sent30_Rejuvenation_26 {
+    grid-column: 26;
+}
+
+
+#sent30_Rejuvenation_27 {
+    grid-column: 27;
+}
+
+
+#sent30_Rejuvenation_28-38 {
+    grid-column: 28 / 38;
+}
+
+
+#sent31_Communicate_categorization_2 {
+    grid-column: 2;
+}
+
+
+#sent31_Communicate_categorization_3 {
+    grid-column: 3;
+}
+
+
+#sent31_Capability_9 {
+    grid-column: 9;
+}
+
+
+#sent31_Capability_10-17 {
+    grid-column: 10 / 17;
+}
+
+
+#sent31_Gizmo_12 {
+    grid-column: 12;
+}
+
+
+#sent31_Gizmo_12 {
+    grid-column: 12;
+}
+
+
+#sent31_Using_11-13 {
+    grid-column: 11 / 13;
+}
+
+
+#sent31_Using_18 {
+    grid-column: 18;
+}
+
+
+#sent31_Using_19-31 {
+    grid-column: 19 / 31;
+}
+
+
+#sent31_Trust_27 {
+    grid-column: 27;
+}
+
+
+#sent32_Attempt_2 {
+    grid-column: 2;
+}
+
+
+#sent32_Attempt_3 {
+    grid-column: 3;
+}
+
+
+#sent32_Attempt_4-8 {
+    grid-column: 4 / 8;
+}
+
+
+#sent32_Research_5-7 {
+    grid-column: 5 / 7;
+}
+
+
+#sent32_Research_7 {
+    grid-column: 7;
+}
+
+
+#sent32_Emphasizing_2-8 {
+    grid-column: 2 / 8;
+}
+
+
+#sent32_Emphasizing_9 {
+    grid-column: 9;
+}
+
+
+#sent32_Emphasizing_10-16 {
+    grid-column: 10 / 16;
+}
+
+
+#sent32_Means_14 {
+    grid-column: 14;
+}
+
+
+#sent32_Means_15 {
+    grid-column: 15;
+}
+
+
+#sent32_Means_15 {
+    grid-column: 15;
+}
+
+
+#sent33_Attempt_3 {
+    grid-column: 3;
+}
+
+
+#sent33_Inclusion_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent33_Inclusion_4 {
+    grid-column: 4;
+}
+
+
+#sent33_Inclusion_5-28 {
+    grid-column: 5 / 28;
+}
+
+
+#sent33_Amounting_to_13 {
+    grid-column: 13;
+}
+
+
+#sent33_Amounting_to_14 {
+    grid-column: 14;
+}
+
+
+#sent33_Change_event_time_11-15 {
+    grid-column: 11 / 15;
+}
+
+
+#sent33_Change_event_time_15 {
+    grid-column: 15;
+}
+
+
+#sent33_Economy_17 {
+    grid-column: 17;
+}
+
+
+#sent33_Economy_17 {
+    grid-column: 17;
+}
+
+
+#sent33_Gizmo_25 {
+    grid-column: 25;
+}
+
+
+#sent33_Gizmo_26 {
+    grid-column: 26;
+}
+
+
+#sent33_Ingredients_25-27 {
+    grid-column: 25 / 27;
+}
+
+
+#sent33_Ingredients_27 {
+    grid-column: 27;
+}
+
+
+#sent33_Ingredients_27 {
+    grid-column: 27;
+}
+
+
+#sent34_Emotion_directed_3 {
+    grid-column: 3;
+}
+
+
+#sent34_Emotion_directed_4-10 {
+    grid-column: 4 / 10;
+}
+
+
+#sent34_Type_6 {
+    grid-column: 6;
+}
+
+
+#sent34_Type_6 {
+    grid-column: 6;
+}
+
+
+#sent34_Type_7-10 {
+    grid-column: 7 / 10;
+}
+
+
+#sent34_Assessing_8 {
+    grid-column: 8;
+}
+
+
+#sent34_Assessing_9 {
+    grid-column: 9;
+}
+
+
+#sent34_Reliance_12 {
+    grid-column: 12;
+}
+
+
+#sent34_Reliance_13 {
+    grid-column: 13;
+}
+
+
+#sent34_Reliance_14-18 {
+    grid-column: 14 / 18;
+}
+
+
+#sent34_Certainty_15 {
+    grid-column: 15;
+}
+
+
+#sent34_Certainty_16-18 {
+    grid-column: 16 / 18;
+}
+
+
+#sent34_Information_17 {
+    grid-column: 17;
+}
+
+
+#sent34_Information_17 {
+    grid-column: 17;
+}
+
+
+#sent34_Frequency_19 {
+    grid-column: 19;
+}
+
+
+#sent34_Frequency_20-25 {
+    grid-column: 20 / 25;
+}
+
+
+#sent35_Increment_2 {
+    grid-column: 2;
+}
+
+
+#sent35_Increment_3-5 {
+    grid-column: 3 / 5;
+}
+
+
+#sent35_Using_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent35_Using_5 {
+    grid-column: 5;
+}
+
+
+#sent35_Network_6 {
+    grid-column: 6;
+}
+
+
+#sent35_Network_7 {
+    grid-column: 7;
+}
+
+
+#sent35_Network_7 {
+    grid-column: 7;
+}
+
+
+#sent35_Exemplar_6-8 {
+    grid-column: 6 / 8;
+}
+
+
+#sent35_Exemplar_8 {
+    grid-column: 8;
+}
+
+
+#sent35_Exemplar_8 {
+    grid-column: 8;
+}
+
+
+#sent35_Verification_10 {
+    grid-column: 10;
+}
+
+
+#sent35_Verification_11-31 {
+    grid-column: 11 / 31;
+}
+
+
+#sent35_Locale_11 {
+    grid-column: 11;
+}
+
+
+#sent35_Locale_11 {
+    grid-column: 11;
+}
+
+
+#sent35_Importance_13 {
+    grid-column: 13;
+}
+
+
+#sent35_Importance_14 {
+    grid-column: 14;
+}
+
+
+#sent35_Buildings_19 {
+    grid-column: 19;
+}
+
+
+#sent35_Buildings_19 {
+    grid-column: 19;
+}
+
+
+#sent35_Instance_17 {
+    grid-column: 17;
+}
+
+
+#sent35_Instance_17 {
+    grid-column: 17;
+}
+
+
+#sent35_Fire_burning_21 {
+    grid-column: 21;
+}
+
+
+#sent35_Fire_burning_21 {
+    grid-column: 21;
+}
+
+
+#sent35_Locale_by_use_21 {
+    grid-column: 21;
+}
+
+
+#sent35_Locale_by_use_22 {
+    grid-column: 22;
+}
+
+
+#sent35_Locale_by_use_22 {
+    grid-column: 22;
+}
+
+
+#sent35_Travel_33 {
+    grid-column: 33;
+}
+
+
+#sent35_Travel_34 {
+    grid-column: 34;
+}
+
+
+#sent35_Travel_35 {
+    grid-column: 35;
+}
+
+
+#sent35_Travel_36-39 {
+    grid-column: 36 / 39;
+}
+
+
+#sent35_Range_27 {
+    grid-column: 27;
+}
+
+
+#sent35_Range_28-31 {
+    grid-column: 28 / 31;
+}
+
+
+#sent35_People_29 {
+    grid-column: 29;
+}
+
+
+#sent35_People_30 {
+    grid-column: 30;
+}
+
+
+#sent35_Gizmo_38 {
+    grid-column: 38;
+}
+
+
+#sent35_Gizmo_38 {
+    grid-column: 38;
+}
+
+
+#sent36_Existence_5 {
+    grid-column: 5;
+}
+
+
+#sent36_Existence_6-9 {
+    grid-column: 6 / 9;
+}
+
+
+#sent36_Network_27 {
+    grid-column: 27;
+}
+
+
+#sent36_Network_27 {
+    grid-column: 27;
+}
+
+
+#sent36_Means_6-8 {
+    grid-column: 6 / 8;
+}
+
+
+#sent36_Means_8 {
+    grid-column: 8;
+}
+
+
+#sent36_Means_8 {
+    grid-column: 8;
+}
+
+
+#sent36_Frequency_15 {
+    grid-column: 15;
+}
+
+
+#sent36_Frequency_16-33 {
+    grid-column: 16 / 33;
+}
+
+
+#sent36_Imposing_obligation_11-21 {
+    grid-column: 11 / 21;
+}
+
+
+#sent36_Imposing_obligation_16 {
+    grid-column: 16;
+}
+
+
+#sent36_Imposing_obligation_21-33 {
+    grid-column: 21 / 33;
+}
+
+
+#sent36_Information_18 {
+    grid-column: 18;
+}
+
+
+#sent36_Information_18 {
+    grid-column: 18;
+}
+
+
+#sent36_Information_19-21 {
+    grid-column: 19 / 21;
+}
+
+
+#sent36_Typicality_22 {
+    grid-column: 22;
+}
+
+
+#sent36_Typicality_23-33 {
+    grid-column: 23 / 33;
+}
+
+
+#sent36_Roadways_23 {
+    grid-column: 23;
+}
+
+
+#sent36_Roadways_23 {
+    grid-column: 23;
+}
+
+
+#sent36_Gizmo_23 {
+    grid-column: 23;
+}
+
+
+#sent36_Gizmo_24 {
+    grid-column: 24;
+}
+
+
+#sent36_Self_motion_23 {
+    grid-column: 23;
+}
+
+
+#sent36_Self_motion_24 {
+    grid-column: 24;
+}
+
+
+#sent36_Self_motion_25 {
+    grid-column: 25;
+}
+
+
+#sent36_Conduct_23-28 {
+    grid-column: 23 / 28;
+}
+
+
+#sent36_Conduct_28 {
+    grid-column: 28;
+}
+
+
+#sent37_Existence_4 {
+    grid-column: 4;
+}
+
+
+#sent37_Existence_5-7 {
+    grid-column: 5 / 7;
+}
+
+
+#sent37_Possession_4-7 {
+    grid-column: 4 / 7;
+}
+
+
+#sent37_Possession_8 {
+    grid-column: 8;
+}
+
+
+#sent37_Possession_9-18 {
+    grid-column: 9 / 18;
+}
+
+
+#sent37_Operational_testing_11 {
+    grid-column: 11;
+}
+
+
+#sent37_Operational_testing_12-18 {
+    grid-column: 12 / 18;
+}
+
+
+#sent37_Range_14 {
+    grid-column: 14;
+}
+
+
+#sent37_Range_15-18 {
+    grid-column: 15 / 18;
+}
+
+
+#sent37_Gizmo_16 {
+    grid-column: 16;
+}
+
+
+#sent37_Gizmo_17 {
+    grid-column: 17;
+}
+
+
+#sent38_Causation_2 {
+    grid-column: 2;
+}
+
+
+#sent38_Causation_3-23 {
+    grid-column: 3 / 23;
+}
+
+
+#sent38_Causation_23-37 {
+    grid-column: 23 / 37;
+}
+
+
+#sent38_Quantified_mass_3 {
+    grid-column: 3;
+}
+
+
+#sent38_Quantified_mass_3 {
+    grid-column: 3;
+}
+
+
+#sent38_Quantified_mass_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent38_Event_4 {
+    grid-column: 4;
+}
+
+
+#sent38_Event_5 {
+    grid-column: 5;
+}
+
+
+#sent38_Event_5 {
+    grid-column: 5;
+}
+
+
+#sent38_Difficulty_3-34 {
+    grid-column: 3 / 34;
+}
+
+
+#sent38_Difficulty_13 {
+    grid-column: 13;
+}
+
+
+#sent38_Predicting_15 {
+    grid-column: 15;
+}
+
+
+#sent38_Predicting_17-37 {
+    grid-column: 17 / 37;
+}
+
+
+#sent38_Roadways_18 {
+    grid-column: 18;
+}
+
+
+#sent38_Roadways_18 {
+    grid-column: 18;
+}
+
+
+#sent38_Gizmo_18 {
+    grid-column: 18;
+}
+
+
+#sent38_Gizmo_19 {
+    grid-column: 19;
+}
+
+
+#sent38_Distinctiveness_17-20 {
+    grid-column: 17 / 20;
+}
+
+
+#sent38_Distinctiveness_22 {
+    grid-column: 22;
+}
+
+
+#sent38_Capability_17-20 {
+    grid-column: 17 / 20;
+}
+
+
+#sent38_Capability_27 {
+    grid-column: 27;
+}
+
+
+#sent38_Capability_28-37 {
+    grid-column: 28 / 37;
+}
+
+
+#sent38_Aggregate_32 {
+    grid-column: 32;
+}
+
+
+#sent38_Aggregate_32 {
+    grid-column: 32;
+}
+
+
+#sent38_Aggregate_33-37 {
+    grid-column: 33 / 37;
+}
+
+
+#sent38_Similarity_34 {
+    grid-column: 34;
+}
+
+
+#sent38_Similarity_35-37 {
+    grid-column: 35 / 37;
+}
+
+
+#sent39_Causation_3 {
+    grid-column: 3;
+}
+
+
+#sent39_Causation_4-22 {
+    grid-column: 4 / 22;
+}
+
+
+#sent39_Prison_8 {
+    grid-column: 8;
+}
+
+
+#sent39_Prison_9-14 {
+    grid-column: 9 / 14;
+}
+
+
+#sent39_Cogitation_9 {
+    grid-column: 9;
+}
+
+
+#sent39_Cogitation_10-12 {
+    grid-column: 10 / 12;
+}
+
+
+#sent39_Execute_plan_5-14 {
+    grid-column: 5 / 14;
+}
+
+
+#sent39_Execute_plan_18 {
+    grid-column: 18;
+}
+
+
+#sent39_Execute_plan_19-22 {
+    grid-column: 19 / 22;
+}
+
+
+#sent39_Network_20 {
+    grid-column: 20;
+}
+
+
+#sent39_Network_21 {
+    grid-column: 21;
+}
+
+
+#sent39_Network_21 {
+    grid-column: 21;
+}
+
+
+#sent40_Locative_relation_2 {
+    grid-column: 2;
+}
+
+
+#sent40_Locative_relation_2-21 {
+    grid-column: 2 / 21;
+}
+
+
+#sent40_Scrutiny_4 {
+    grid-column: 4;
+}
+
+
+#sent40_Scrutiny_5 {
+    grid-column: 5;
+}
+
+
+#sent40_Scrutiny_6-21 {
+    grid-column: 6 / 21;
+}
+
+
+#sent40_Roadways_13 {
+    grid-column: 13;
+}
+
+
+#sent40_Roadways_13 {
+    grid-column: 13;
+}
+
+
+#sent40_Network_13-15 {
+    grid-column: 13 / 15;
+}
+
+
+#sent40_Network_15 {
+    grid-column: 15;
+}
+
+
+#sent40_Network_15 {
+    grid-column: 15;
+}
+
+
+#sent40_Importance_18 {
+    grid-column: 18;
+}
+
+
+#sent40_Importance_19-21 {
+    grid-column: 19 / 21;
+}
+
+
+#sent40_Political_locales_19 {
+    grid-column: 19;
+}
+
+
+#sent40_Political_locales_20 {
+    grid-column: 20;
+}
+
+
+#sent40_Political_locales_20 {
+    grid-column: 20;
+}
+
+
+#sent41_Cause_to_make_progress_2 {
+    grid-column: 2;
+}
+
+
+#sent41_Cause_to_make_progress_3 {
+    grid-column: 3;
+}
+
+
+#sent41_Cause_to_make_progress_4-9 {
+    grid-column: 4 / 9;
+}
+
+
+#sent41_Information_18 {
+    grid-column: 18;
+}
+
+
+#sent41_Information_18 {
+    grid-column: 18;
+}
+
+
+#sent41_Frequency_20 {
+    grid-column: 20;
+}
+
+
+#sent41_Frequency_20 {
+    grid-column: 20;
+}
+
+
+#sent41_Frequency_21-26 {
+    grid-column: 21 / 26;
+}
+
+
+#sent41_Change_event_time_20 {
+    grid-column: 20;
+}
+
+
+#sent41_Change_event_time_21 {
+    grid-column: 21;
+}
+
+
+#sent41_Using_28 {
+    grid-column: 28;
+}
+
+
+#sent41_Using_29-31 {
+    grid-column: 29 / 31;
+}
+
+
+#sent41_Using_31-37 {
+    grid-column: 31 / 37;
+}
+
+
+#sent41_Political_locales_36 {
+    grid-column: 36;
+}
+
+
+#sent41_Political_locales_36 {
+    grid-column: 36;
+}
+
+
+#sent42_Response_4 {
+    grid-column: 4;
+}
+
+
+#sent42_Response_6 {
+    grid-column: 6;
+}
+
+
+#sent42_Response_7 {
+    grid-column: 7;
+}
+
+
+#sent42_Response_8-28 {
+    grid-column: 8 / 28;
+}
+
+
+#sent42_Coincidence_9 {
+    grid-column: 9;
+}
+
+
+#sent42_Coincidence_10-12 {
+    grid-column: 10 / 12;
+}
+
+
+#sent42_Expectation_14 {
+    grid-column: 14;
+}
+
+
+#sent42_Expectation_15-28 {
+    grid-column: 15 / 28;
+}
+
+
+#sent42_Change_event_time_15 {
+    grid-column: 15;
+}
+
+
+#sent42_Change_event_time_15 {
+    grid-column: 15;
+}
+
+
+#sent42_Change_event_time_16-28 {
+    grid-column: 16 / 28;
+}
+
+
+#sent42_Contingency_17 {
+    grid-column: 17;
+}
+
+
+#sent42_Contingency_18-28 {
+    grid-column: 18 / 28;
+}
+
+
+#sent42_Political_locales_22 {
+    grid-column: 22;
+}
+
+
+#sent42_Political_locales_22 {
+    grid-column: 22;
+}
+
+
+#sent43_Reveal_secret_2-22 {
+    grid-column: 2 / 22;
+}
+
+
+#sent43_Reveal_secret_5 {
+    grid-column: 5;
+}
+
+
+#sent43_Importance_6 {
+    grid-column: 6;
+}
+
+
+#sent43_Importance_7 {
+    grid-column: 7;
+}
+
+
+#sent43_Assessing_9 {
+    grid-column: 9;
+}
+
+
+#sent43_Assessing_10 {
+    grid-column: 10;
+}
+
+
+#sent43_Improvement_or_decline_12 {
+    grid-column: 12;
+}
+
+
+#sent43_Improvement_or_decline_13-16 {
+    grid-column: 13 / 16;
+}
+
+
+#sent43_Infrastructure_14 {
+    grid-column: 14;
+}
+
+
+#sent43_Infrastructure_15 {
+    grid-column: 15;
+}
+
+
+#sent43_Activity_ongoing_14-17 {
+    grid-column: 14 / 17;
+}
+
+
+#sent43_Activity_ongoing_17 {
+    grid-column: 17;
+}
+
+
+#sent43_Activity_ongoing_18-22 {
+    grid-column: 18 / 22;
+}
+
+
+#sent45_Part_whole_12 {
+    grid-column: 12;
+}
+
+
+#sent45_Part_whole_12 {
+    grid-column: 12;
+}
+
+
+#sent45_Give_impression_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent45_Give_impression_5 {
+    grid-column: 5;
+}
+
+
+#sent45_Give_impression_6-13 {
+    grid-column: 6 / 13;
+}
+
+
+#sent45_Locative_relation_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent45_Locative_relation_6 {
+    grid-column: 6;
+}
+
+
+#sent45_Locative_relation_6 {
+    grid-column: 6;
+}
+
+
+#sent45_Assistance_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent45_Assistance_8 {
+    grid-column: 8;
+}
+
+
+#sent45_Assistance_9-13 {
+    grid-column: 9 / 13;
+}
+
+
+#sent45_Relative_time_11 {
+    grid-column: 11;
+}
+
+
+#sent45_Relative_time_12 {
+    grid-column: 12;
+}
+
+
+#sent46_Cause_to_make_progress_3 {
+    grid-column: 3;
+}
+
+
+#sent46_Cause_to_make_progress_4-9 {
+    grid-column: 4 / 9;
+}
+
+
+#sent46_Communicate_categorization_10 {
+    grid-column: 10;
+}
+
+
+#sent46_Communicate_categorization_11 {
+    grid-column: 11;
+}
+
+
+#sent46_Communicate_categorization_12-22 {
+    grid-column: 12 / 22;
+}
+
+
+#sent46_Locale_13 {
+    grid-column: 13;
+}
+
+
+#sent46_Locale_14 {
+    grid-column: 14;
+}
+
+
+#sent46_Locale_14 {
+    grid-column: 14;
+}
+
+
+#sent46_Boundary_15 {
+    grid-column: 15;
+}
+
+
+#sent46_Boundary_15 {
+    grid-column: 15;
+}
+
+
+#sent46_Building_10 {
+    grid-column: 10;
+}
+
+
+#sent46_Building_17 {
+    grid-column: 17;
+}
+
+
+#sent46_Building_18-21 {
+    grid-column: 18 / 21;
+}
+
+
+#sent46_Roadways_19 {
+    grid-column: 19;
+}
+
+
+#sent46_Roadways_19 {
+    grid-column: 19;
+}
+
+
+#sent46_Network_19 {
+    grid-column: 19;
+}
+
+
+#sent46_Network_20 {
+    grid-column: 20;
+}
+
+
+#sent46_Network_20 {
+    grid-column: 20;
+}
+
+
+#sent46_Aggregate_25 {
+    grid-column: 25;
+}
+
+
+#sent46_Aggregate_25 {
+    grid-column: 25;
+}
+
+
+#sent46_Political_locales_28 {
+    grid-column: 28;
+}
+
+
+#sent46_Political_locales_28 {
+    grid-column: 28;
+}
+
+
+#sent46_Using_29 {
+    grid-column: 29;
+}
+
+
+#sent46_Using_30-42 {
+    grid-column: 30 / 42;
+}
+
+
+#sent46_Information_40 {
+    grid-column: 40;
+}
+
+
+#sent46_Information_40 {
+    grid-column: 40;
+}
+
+
+#sent47_Reliance_2 {
+    grid-column: 2;
+}
+
+
+#sent47_Reliance_3 {
+    grid-column: 3;
+}
+
+
+#sent47_Reliance_4-23 {
+    grid-column: 4 / 23;
+}
+
+
+#sent47_Information_6 {
+    grid-column: 6;
+}
+
+
+#sent47_Information_6 {
+    grid-column: 6;
+}
+
+
+#sent47_Assessing_2 {
+    grid-column: 2;
+}
+
+
+#sent47_Assessing_8 {
+    grid-column: 8;
+}
+
+
+#sent47_Assessing_9-11 {
+    grid-column: 9 / 11;
+}
+
+
+#sent47_Using_13 {
+    grid-column: 13;
+}
+
+
+#sent47_Using_14 {
+    grid-column: 14;
+}
+
+
+#sent47_Using_15-23 {
+    grid-column: 15 / 23;
+}
+
+
+#sent47_Dimension_16 {
+    grid-column: 16;
+}
+
+
+#sent47_Dimension_16 {
+    grid-column: 16;
+}
+
+
+#sent47_Dimension_17 {
+    grid-column: 17;
+}
+
+
+#sent47_Roadways_21 {
+    grid-column: 21;
+}
+
+
+#sent47_Roadways_21 {
+    grid-column: 21;
+}
+
+
+#sent47_Network_21 {
+    grid-column: 21;
+}
+
+
+#sent47_Network_22 {
+    grid-column: 22;
+}
+
+
+#sent47_Network_22 {
+    grid-column: 22;
+}
+
+
+#sent48_Inclusion_10 {
+    grid-column: 10;
+}
+
+
+#sent48_Inclusion_11-36 {
+    grid-column: 11 / 36;
+}
+
+
+#sent48_Scrutiny_22 {
+    grid-column: 22;
+}
+
+
+#sent48_Scrutiny_23 {
+    grid-column: 23;
+}
+
+
+#sent48_Using_29 {
+    grid-column: 29;
+}
+
+
+#sent48_Using_30-33 {
+    grid-column: 30 / 33;
+}
+
+
+#sent48_Information_32 {
+    grid-column: 32;
+}
+
+
+#sent48_Information_32 {
+    grid-column: 32;
+}
+
+
+#sent48_Predicting_34 {
+    grid-column: 34;
+}
+
+
+#sent48_Predicting_35 {
+    grid-column: 35;
+}
+
+
+#sent49_Importance_14 {
+    grid-column: 14;
+}
+
+
+#sent49_Importance_15-19 {
+    grid-column: 15 / 19;
+}
+
+
+#sent49_Reliance_21 {
+    grid-column: 21;
+}
+
+
+#sent49_Reliance_22 {
+    grid-column: 22;
+}
+
+
+#sent49_Reliance_23 {
+    grid-column: 23;
+}
+
+
+#sent49_Reliance_24-29 {
+    grid-column: 24 / 29;
+}
+
+
+#sent49_Information_34 {
+    grid-column: 34;
+}
+
+
+#sent49_Information_34 {
+    grid-column: 34;
+}
+
+
+#sent49_Idiosyncrasy_47 {
+    grid-column: 47;
+}
+
+
+#sent49_Idiosyncrasy_48 {
+    grid-column: 48;
+}
+
+
+#sent49_Getting_44 {
+    grid-column: 44;
+}
+
+
+#sent49_Getting_45-49 {
+    grid-column: 45 / 49;
+}
+
+
+#sent49_Locale_48 {
+    grid-column: 48;
+}
+
+
+#sent49_Locale_48 {
+    grid-column: 48;
+}
+
+
+#sent50_Preventing_or_letting_2-26 {
+    grid-column: 2 / 26;
+}
+
+
+#sent50_Preventing_or_letting_7 {
+    grid-column: 7;
+}
+
+
+#sent50_Categorization_8 {
+    grid-column: 8;
+}
+
+
+#sent50_Categorization_10 {
+    grid-column: 10;
+}
+
+
+#sent50_Categorization_11-26 {
+    grid-column: 11 / 26;
+}
+
+
+#sent50_Political_locales_14 {
+    grid-column: 14;
+}
+
+
+#sent50_Political_locales_14 {
+    grid-column: 14;
+}
+
+
+#sent50_Position_on_a_scale_16 {
+    grid-column: 16;
+}
+
+
+#sent50_Position_on_a_scale_16 {
+    grid-column: 16;
+}
+
+
+#sent50_Position_on_a_scale_17 {
+    grid-column: 17;
+}
+
+
+#sent50_Inclusion_17-26 {
+    grid-column: 17 / 26;
+}
+
+
+#sent50_Inclusion_18 {
+    grid-column: 18;
+}
+
+
+#sent50_Cardinal_numbers_21 {
+    grid-column: 21;
+}
+
+
+#sent50_Cardinal_numbers_21 {
+    grid-column: 21;
+}
+
+
+#sent50_Cardinal_numbers_22-26 {
+    grid-column: 22 / 26;
+}
+
+
+#sent50_Social_connection_25 {
+    grid-column: 25;
+}
+
+
+#sent50_Social_connection_25 {
+    grid-column: 25;
+}
+
+
+#sent51_Intentionally_create_2 {
+    grid-column: 2;
+}
+
+
+#sent51_Intentionally_create_5 {
+    grid-column: 5;
+}
+
+
+#sent51_Intentionally_create_6-15 {
+    grid-column: 6 / 15;
+}
+
+
+#sent51_Correctness_7 {
+    grid-column: 7;
+}
+
+
+#sent51_Correctness_8 {
+    grid-column: 8;
+}
+
+
+#sent51_Correctness_9-11 {
+    grid-column: 9 / 11;
+}
+
+
+#sent51_Existence_13 {
+    grid-column: 13;
+}
+
+
+#sent51_Existence_14 {
+    grid-column: 14;
+}
+
+
+#sent51_Capability_17 {
+    grid-column: 17;
+}
+
+
+#sent51_Capability_19 {
+    grid-column: 19;
+}
+
+
+#sent51_Capability_20-34 {
+    grid-column: 20 / 34;
+}
+
+
+#sent51_Getting_17 {
+    grid-column: 17;
+}
+
+
+#sent51_Getting_21 {
+    grid-column: 21;
+}
+
+
+#sent51_Getting_22-27 {
+    grid-column: 22 / 27;
+}
+
+
+#sent51_Gizmo_25 {
+    grid-column: 25;
+}
+
+
+#sent51_Gizmo_26 {
+    grid-column: 26;
+}
+
+
+#sent51_Change_event_time_28 {
+    grid-column: 28;
+}
+
+
+#sent51_Change_event_time_29 {
+    grid-column: 29;
+}
+
+
+#sent51_Change_event_time_31-34 {
+    grid-column: 31 / 34;
+}
+
+
+#sent51_Using_31 {
+    grid-column: 31;
+}
+
+
+#sent51_Using_32-34 {
+    grid-column: 32 / 34;
+}
+
+
+#sent52_Boundary_3 {
+    grid-column: 3;
+}
+
+
+#sent52_Aggregate_5 {
+    grid-column: 5;
+}
+
+
+#sent52_Aggregate_5 {
+    grid-column: 5;
+}
+
+
+#sent53_Communicate_categorization_3 {
+    grid-column: 3;
+}
+
+
+#sent53_Communicate_categorization_4-11 {
+    grid-column: 4 / 11;
+}
+
+
+#sent53_Boundary_5 {
+    grid-column: 5;
+}
+
+
+#sent53_Boundary_6-11 {
+    grid-column: 6 / 11;
+}
+
+
+#sent53_Infrastructure_8 {
+    grid-column: 8;
+}
+
+
+#sent53_Infrastructure_9 {
+    grid-column: 9;
+}
+
+
+#sent53_Network_8-10 {
+    grid-column: 8 / 10;
+}
+
+
+#sent53_Network_10 {
+    grid-column: 10;
+}
+
+
+#sent53_Network_10 {
+    grid-column: 10;
+}
+
+
+#sent53_Using_12 {
+    grid-column: 12;
+}
+
+
+#sent53_Using_13 {
+    grid-column: 13;
+}
+
+
+#sent53_Using_14-20 {
+    grid-column: 14 / 20;
+}
+
+
+#sent53_Information_19 {
+    grid-column: 19;
+}
+
+
+#sent53_Information_19 {
+    grid-column: 19;
+}
+
+
+#sent53_Stage_of_progress_22-24 {
+    grid-column: 22 / 24;
+}
+
+
+#sent53_Stage_of_progress_24 {
+    grid-column: 24;
+}
+
+
+#sent53_Stage_of_progress_25 {
+    grid-column: 25;
+}
+
+
+#sent53_Increment_30 {
+    grid-column: 30;
+}
+
+
+#sent53_Increment_31-33 {
+    grid-column: 31 / 33;
+}
+
+
+#sent53_Locale_31 {
+    grid-column: 31;
+}
+
+
+#sent53_Locale_32 {
+    grid-column: 32;
+}
+
+
+#sent53_Locale_32 {
+    grid-column: 32;
+}
+
+
+#sent54_Locale_7 {
+    grid-column: 7;
+}
+
+
+#sent54_Locale_7 {
+    grid-column: 7;
+}
+
+
+#sent54_Cause_motion_4-12 {
+    grid-column: 4 / 12;
+}
+
+
+#sent54_Cause_motion_12 {
+    grid-column: 12;
+}
+
+
+#sent54_Cause_motion_13 {
+    grid-column: 13;
+}
+
+
+#sent54_Cause_motion_14-17 {
+    grid-column: 14 / 17;
+}
+
+
+#sent55_Inclusion_5 {
+    grid-column: 5;
+}
+
+
+#sent55_Inclusion_6-20 {
+    grid-column: 6 / 20;
+}
+
+
+#sent55_Measure_linear_extent_12 {
+    grid-column: 12;
+}
+
+
+#sent55_Measure_linear_extent_13 {
+    grid-column: 13;
+}
+
+
+#sent55_Measure_linear_extent_13 {
+    grid-column: 13;
+}
+
+
+#sent55_Network_19 {
+    grid-column: 19;
+}
+
+
+#sent55_Network_19 {
+    grid-column: 19;
+}
+
+
+#sent56_Social_connection_20 {
+    grid-column: 20;
+}
+
+
+#sent56_Social_connection_20 {
+    grid-column: 20;
+}
+
+
+#sent56_Communicate_categorization_16-37 {
+    grid-column: 16 / 37;
+}
+
+
+#sent56_Communicate_categorization_18 {
+    grid-column: 18;
+}
+
+
+#sent56_Quantified_mass_24 {
+    grid-column: 24;
+}
+
+
+#sent56_Quantified_mass_24 {
+    grid-column: 24;
+}
+
+
+#sent56_Quantified_mass_25-37 {
+    grid-column: 25 / 37;
+}
+
+
+#sent56_Roadways_26 {
+    grid-column: 26;
+}
+
+
+#sent56_Roadways_26 {
+    grid-column: 26;
+}
+
+
+#sent56_Perception_experience_32 {
+    grid-column: 32;
+}
+
+
+#sent56_Perception_experience_33-36 {
+    grid-column: 33 / 36;
+}
+
+
+#sent57_Relative_time_3 {
+    grid-column: 3;
+}
+
+
+#sent57_Relative_time_4-17 {
+    grid-column: 4 / 17;
+}
+
+
+#sent57_Estimating_2 {
+    grid-column: 2;
+}
+
+
+#sent57_Estimating_4 {
+    grid-column: 4;
+}
+
+
+#sent57_Estimating_5-17 {
+    grid-column: 5 / 17;
+}
+
+
+#sent57_Aggregate_5 {
+    grid-column: 5;
+}
+
+
+#sent57_Aggregate_5 {
+    grid-column: 5;
+}
+
+
+#sent57_Using_11 {
+    grid-column: 11;
+}
+
+
+#sent57_Using_12 {
+    grid-column: 12;
+}
+
+
+#sent57_Using_13-17 {
+    grid-column: 13 / 17;
+}
+
+
+#sent57_Information_16 {
+    grid-column: 16;
+}
+
+
+#sent57_Information_16 {
+    grid-column: 16;
+}
+
+
+#sent58_Temporal_subregion_4 {
+    grid-column: 4;
+}
+
+
+#sent58_Temporal_subregion_4 {
+    grid-column: 4;
+}
+
+
+#sent58_Separating_6 {
+    grid-column: 6;
+}
+
+
+#sent58_Separating_7 {
+    grid-column: 7;
+}
+
+
+#sent58_Separating_8-13 {
+    grid-column: 8 / 13;
+}
+
+
+#sent58_Locale_by_use_11-13 {
+    grid-column: 11 / 13;
+}
+
+
+#sent58_Locale_by_use_13 {
+    grid-column: 13;
+}
+
+
+#sent58_Locale_by_use_13 {
+    grid-column: 13;
+}
+
+
+#sent58_Locale_by_use_14-16 {
+    grid-column: 14 / 16;
+}
+
+
+#sent58_Aggregate_20 {
+    grid-column: 20;
+}
+
+
+#sent58_Aggregate_20 {
+    grid-column: 20;
+}
+
+
+#sent58_Aggregate_21-25 {
+    grid-column: 21 / 25;
+}
+
+
+#sent59_Aggregate_7 {
+    grid-column: 7;
+}
+
+
+#sent59_Aggregate_7 {
+    grid-column: 7;
+}
+
+
+#sent59_Aggregate_8-12 {
+    grid-column: 8 / 12;
+}
+
+
+#sent62_Building_2 {
+    grid-column: 2;
+}
+
+
+#sent62_Building_3 {
+    grid-column: 3;
+}
+
+
+#sent62_Building_4-8 {
+    grid-column: 4 / 8;
+}
+
+
+#sent62_Building_8-12 {
+    grid-column: 8 / 12;
+}
+
+
+#sent63_Travel_22 {
+    grid-column: 22;
+}
+
+
+#sent63_Travel_23 {
+    grid-column: 23;
+}
+
+
+#sent63_Dispersal_11 {
+    grid-column: 11;
+}
+
+
+#sent63_Adopt_selection_15 {
+    grid-column: 15;
+}
+
+
+#sent63_Adopt_selection_16 {
+    grid-column: 16;
+}
+
+
+#sent63_Adopt_selection_17-30 {
+    grid-column: 17 / 30;
+}
+
+
+#sent63_Request_22-24 {
+    grid-column: 22 / 24;
+}
+
+
+#sent63_Request_24 {
+    grid-column: 24;
+}
+
+
+#sent64_Increment_2 {
+    grid-column: 2;
+}
+
+
+#sent64_Increment_3-6 {
+    grid-column: 3 / 6;
+}
+
+
+#sent64_Travel_3 {
+    grid-column: 3;
+}
+
+
+#sent64_Travel_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent64_Dispersal_4 {
+    grid-column: 4;
+}
+
+
+#sent64_Inclusion_2-14 {
+    grid-column: 2 / 14;
+}
+
+
+#sent64_Inclusion_6 {
+    grid-column: 6;
+}
+
+
+#sent64_Instance_9 {
+    grid-column: 9;
+}
+
+
+#sent64_Instance_9 {
+    grid-column: 9;
+}
+
+
+#sent64_Choosing_11 {
+    grid-column: 11;
+}
+
+
+#sent64_Choosing_12 {
+    grid-column: 12;
+}
+
+
+#sent65_Using_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent65_Using_10 {
+    grid-column: 10;
+}
+
+
+#sent65_Using_11-14 {
+    grid-column: 11 / 14;
+}
+
+
+#sent65_Size_12 {
+    grid-column: 12;
+}
+
+
+#sent65_Size_13 {
+    grid-column: 13;
+}
+
+
+#sent65_Causation_4-14 {
+    grid-column: 4 / 14;
+}
+
+
+#sent65_Causation_15 {
+    grid-column: 15;
+}
+
+
+#sent65_Causation_16-26 {
+    grid-column: 16 / 26;
+}
+
+
+#sent65_Information_18 {
+    grid-column: 18;
+}
+
+
+#sent65_Information_18 {
+    grid-column: 18;
+}
+
+
+#sent65_Imposing_obligation_18 {
+    grid-column: 18;
+}
+
+
+#sent65_Imposing_obligation_19 {
+    grid-column: 19;
+}
+
+
+#sent65_Imposing_obligation_20-23 {
+    grid-column: 20 / 23;
+}
+
+
+#sent65_Frequency_16-24 {
+    grid-column: 16 / 24;
+}
+
+
+#sent65_Frequency_24 {
+    grid-column: 24;
+}
+
+
+#sent68_Locale_5 {
+    grid-column: 5;
+}
+
+
+#sent68_Locale_5 {
+    grid-column: 5;
+}
+
+
+#sent68_Being_obligated_7 {
+    grid-column: 7;
+}
+
+
+#sent68_Being_obligated_7-12 {
+    grid-column: 7 / 12;
+}
+
+
+#sent68_Aggregate_11 {
+    grid-column: 11;
+}
+
+
+#sent68_Aggregate_11 {
+    grid-column: 11;
+}
+
+
+#sent69_Locale_9 {
+    grid-column: 9;
+}
+
+
+#sent69_Locale_9 {
+    grid-column: 9;
+}
+
+
+#sent69_Communicate_categorization_3-10 {
+    grid-column: 3 / 10;
+}
+
+
+#sent69_Communicate_categorization_11 {
+    grid-column: 11;
+}
+
+
+#sent69_Communicate_categorization_12-22 {
+    grid-column: 12 / 22;
+}
+
+
+#sent69_Color_19 {
+    grid-column: 19;
+}
+
+
+#sent69_Color_19 {
+    grid-column: 19;
+}
+
+
+#sent69_Color_20 {
+    grid-column: 20;
+}
+
+
+#sent70_Range_11 {
+    grid-column: 11;
+}
+
+
+#sent70_Range_11 {
+    grid-column: 11;
+}
+
+
+#sent70_Range_12-15 {
+    grid-column: 12 / 15;
+}
+
+
+#sent70_Network_13 {
+    grid-column: 13;
+}
+
+
+#sent70_Network_13 {
+    grid-column: 13;
+}
+
+
+#sent70_Political_locales_17 {
+    grid-column: 17;
+}
+
+
+#sent70_Political_locales_17 {
+    grid-column: 17;
+}
+
+
+#sent70_Boundary_18 {
+    grid-column: 18;
+}
+
+
+#sent70_Locale_26 {
+    grid-column: 26;
+}
+
+
+#sent70_Locale_26 {
+    grid-column: 26;
+}
+
+
+#sent70_Cause_motion_22-31 {
+    grid-column: 22 / 31;
+}
+
+
+#sent70_Cause_motion_31 {
+    grid-column: 31;
+}
+
+
+#sent70_Cause_motion_32 {
+    grid-column: 32;
+}
+
+
+#sent70_Cause_motion_33-38 {
+    grid-column: 33 / 38;
+}
+
+
+#sent71_Quantified_mass_8 {
+    grid-column: 8;
+}
+
+
+#sent71_Quantified_mass_8 {
+    grid-column: 8;
+}
+
+
+#sent71_Quantified_mass_9-11 {
+    grid-column: 9 / 11;
+}
+
+
+#sent71_People_10 {
+    grid-column: 10;
+}
+
+
+#sent71_People_10 {
+    grid-column: 10;
+}
+
+
+#sent71_Departing_5-11 {
+    grid-column: 5 / 11;
+}
+
+
+#sent71_Departing_11 {
+    grid-column: 11;
+}
+
+
+#sent71_Departing_12-18 {
+    grid-column: 12 / 18;
+}
+
+
+#sent71_Network_16 {
+    grid-column: 16;
+}
+
+
+#sent71_Network_16 {
+    grid-column: 16;
+}
+
+
+#sent71_Network_17 {
+    grid-column: 17;
+}
+
+
+#sent72_Dispersal_2 {
+    grid-column: 2;
+}
+
+
+#sent72_Dispersal_3 {
+    grid-column: 3;
+}
+
+
+#sent72_Color_19 {
+    grid-column: 19;
+}
+
+
+#sent72_Color_19 {
+    grid-column: 19;
+}
+
+
+#sent72_Color_20 {
+    grid-column: 20;
+}
+
+
+#sent72_Aggregate_12 {
+    grid-column: 12;
+}
+
+
+#sent72_Aggregate_12 {
+    grid-column: 12;
+}
+
+
+#sent72_Network_24 {
+    grid-column: 24;
+}
+
+
+#sent72_Network_24 {
+    grid-column: 24;
+}
+
+
+#sent73_Adopt_selection_2 {
+    grid-column: 2;
+}
+
+
+#sent73_Adopt_selection_3 {
+    grid-column: 3;
+}
+
+
+#sent73_Adopt_selection_4-19 {
+    grid-column: 4 / 19;
+}
+
+
+#sent73_Origin_45 {
+    grid-column: 45;
+}
+
+
+#sent73_Origin_45 {
+    grid-column: 45;
+}
+
+
+#sent73_Locale_18 {
+    grid-column: 18;
+}
+
+
+#sent73_Locale_18 {
+    grid-column: 18;
+}
+
+
+#sent73_Aggregate_24 {
+    grid-column: 24;
+}
+
+
+#sent73_Aggregate_24 {
+    grid-column: 24;
+}
+
+
+#sent73_Range_53 {
+    grid-column: 53;
+}
+
+
+#sent73_Range_54 {
+    grid-column: 54;
+}
+
+
+#sent73_Giving_50 {
+    grid-column: 50;
+}
+
+
+#sent73_Giving_51-60 {
+    grid-column: 51 / 60;
+}
+
+
+#sent74_Assessing_6 {
+    grid-column: 6;
+}
+
+
+#sent74_Assessing_7 {
+    grid-column: 7;
+}
+
+
+#sent74_Assessing_8-19 {
+    grid-column: 8 / 19;
+}
+
+
+#sent74_People_11 {
+    grid-column: 11;
+}
+
+
+#sent74_People_11 {
+    grid-column: 11;
+}
+
+
+#sent74_Locale_18 {
+    grid-column: 18;
+}
+
+
+#sent74_Locale_18 {
+    grid-column: 18;
+}
+
+
+#sent75_Origin_4-7 {
+    grid-column: 4 / 7;
+}
+
+
+#sent75_Origin_8 {
+    grid-column: 8;
+}
+
+
+#sent75_Locale_13 {
+    grid-column: 13;
+}
+
+
+#sent75_Locale_13 {
+    grid-column: 13;
+}
+
+
+#sent76_People_3 {
+    grid-column: 3;
+}
+
+
+#sent76_People_3 {
+    grid-column: 3;
+}
+
+
+#sent76_People_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent76_Operate_vehicle_4 {
+    grid-column: 4;
+}
+
+
+#sent76_Operate_vehicle_5 {
+    grid-column: 5;
+}
+
+
+#sent76_Custom_5 {
+    grid-column: 5;
+}
+
+
+#sent76_Custom_5 {
+    grid-column: 5;
+}
+
+
+#sent76_Cause_change_3-6 {
+    grid-column: 3 / 6;
+}
+
+
+#sent76_Cause_change_7 {
+    grid-column: 7;
+}
+
+
+#sent76_Adopt_selection_9 {
+    grid-column: 9;
+}
+
+
+#sent76_Adopt_selection_10 {
+    grid-column: 10;
+}
+
+
+#sent76_Likelihood_12-27 {
+    grid-column: 12 / 27;
+}
+
+
+#sent76_Likelihood_14 {
+    grid-column: 14;
+}
+
+
+#sent76_Roadways_19 {
+    grid-column: 19;
+}
+
+
+#sent76_Roadways_19 {
+    grid-column: 19;
+}
+
+
+#sent76_Travel_22 {
+    grid-column: 22;
+}
+
+
+#sent76_Travel_23 {
+    grid-column: 23;
+}
+
+
+#sent77_Preventing_or_letting_2-17 {
+    grid-column: 2 / 17;
+}
+
+
+#sent77_Preventing_or_letting_4 {
+    grid-column: 4;
+}
+
+
+#sent77_Roadways_8 {
+    grid-column: 8;
+}
+
+
+#sent77_Roadways_9 {
+    grid-column: 9;
+}
+
+
+#sent77_Roadways_9 {
+    grid-column: 9;
+}
+
+
+#sent77_Using_11-14 {
+    grid-column: 11 / 14;
+}
+
+
+#sent77_Using_14 {
+    grid-column: 14;
+}
+
+
+#sent77_Using_15-17 {
+    grid-column: 15 / 17;
+}
+
+
+#sent78_Fluidic_motion_4 {
+    grid-column: 4;
+}
+
+
+#sent78_Fluidic_motion_5 {
+    grid-column: 5;
+}
+
+
+#sent78_Fluidic_motion_6-11 {
+    grid-column: 6 / 11;
+}
+
+
+#sent78_Estimating_12 {
+    grid-column: 12;
+}
+
+
+#sent78_Estimating_13 {
+    grid-column: 13;
+}
+
+
+#sent78_Estimating_14-34 {
+    grid-column: 14 / 34;
+}
+
+
+#sent78_Range_34 {
+    grid-column: 34;
+}
+
+
+#sent78_Range_35-37 {
+    grid-column: 35 / 37;
+}
+
+
+#sent78_Roadways_22 {
+    grid-column: 22;
+}
+
+
+#sent78_Roadways_23 {
+    grid-column: 23;
+}
+
+
+#sent78_Roadways_23 {
+    grid-column: 23;
+}
+
+
+#sent78_Locale_31 {
+    grid-column: 31;
+}
+
+
+#sent78_Locale_31-40 {
+    grid-column: 31 / 40;
+}
+
+
+#sent78_Using_41 {
+    grid-column: 41;
+}
+
+
+#sent78_Using_42 {
+    grid-column: 42;
+}
+
+
+#sent78_Using_43-58 {
+    grid-column: 43 / 58;
+}
+
+
+#sent78_Dispersal_44 {
+    grid-column: 44;
+}
+
+
+#sent78_Travel_41 {
+    grid-column: 41;
+}
+
+
+#sent78_Travel_46 {
+    grid-column: 46;
+}
+
+
+#sent78_Political_locales_54 {
+    grid-column: 54;
+}
+
+
+#sent78_Political_locales_54 {
+    grid-column: 54;
+}
+
+
+#sent80_Relative_time_2 {
+    grid-column: 2;
+}
+
+
+#sent80_Relative_time_4-13 {
+    grid-column: 4 / 13;
+}
+
+
+#sent80_Communicate_categorization_4 {
+    grid-column: 4;
+}
+
+
+#sent80_Communicate_categorization_5 {
+    grid-column: 5;
+}
+
+
+#sent80_Communicate_categorization_6-13 {
+    grid-column: 6 / 13;
+}
+
+
+#sent80_Quantified_mass_7 {
+    grid-column: 7;
+}
+
+
+#sent80_Quantified_mass_8 {
+    grid-column: 8;
+}
+
+
+#sent80_Quantified_mass_8 {
+    grid-column: 8;
+}
+
+
+#sent80_Quantified_mass_9-13 {
+    grid-column: 9 / 13;
+}
+
+
+#sent80_Roadways_11 {
+    grid-column: 11;
+}
+
+
+#sent80_Roadways_11 {
+    grid-column: 11;
+}
+
+
+#sent81_Social_connection_16 {
+    grid-column: 16;
+}
+
+
+#sent81_Social_connection_16-18 {
+    grid-column: 16 / 18;
+}
+
+
+#sent81_Roadways_23 {
+    grid-column: 23;
+}
+
+
+#sent81_Roadways_23 {
+    grid-column: 23;
+}
+
+
+#sent81_Roadways_24-26 {
+    grid-column: 24 / 26;
+}
+
+
+#sent81_Attaching_23 {
+    grid-column: 23;
+}
+
+
+#sent81_Attaching_24 {
+    grid-column: 24;
+}
+
+
+#sent81_Attaching_25 {
+    grid-column: 25;
+}
+
+
+#sent83_Sole_instance_5 {
+    grid-column: 5;
+}
+
+
+#sent83_Sole_instance_6-21 {
+    grid-column: 6 / 21;
+}
+
+
+#sent83_Categorization_4 {
+    grid-column: 4;
+}
+
+
+#sent83_Categorization_6 {
+    grid-column: 6;
+}
+
+
+#sent83_Categorization_7-21 {
+    grid-column: 7 / 21;
+}
+
+
+#sent83_Origin_7 {
+    grid-column: 7;
+}
+
+
+#sent83_Origin_7 {
+    grid-column: 7;
+}
+
+
+#sent83_Locale_18 {
+    grid-column: 18;
+}
+
+
+#sent83_Locale_18 {
+    grid-column: 18;
+}
+
+
+#sent84_Using_2-11 {
+    grid-column: 2 / 11;
+}
+
+
+#sent84_Using_13 {
+    grid-column: 13;
+}
+
+
+#sent84_Using_14-28 {
+    grid-column: 14 / 28;
+}
+
+
+#sent84_Motion_18-22 {
+    grid-column: 18 / 22;
+}
+
+
+#sent84_Motion_23 {
+    grid-column: 23;
+}
+
+
+#sent84_Motion_24-28 {
+    grid-column: 24 / 28;
+}
+
+
+#sent84_Locale_26 {
+    grid-column: 26;
+}
+
+
+#sent84_Locale_27 {
+    grid-column: 27;
+}
+
+
+#sent84_Locale_27 {
+    grid-column: 27;
+}
+
+
+#sent86_Causation_2 {
+    grid-column: 2;
+}
+
+
+#sent86_Causation_3-9 {
+    grid-column: 3 / 9;
+}
+
+
+#sent86_Causation_10-29 {
+    grid-column: 10 / 29;
+}
+
+
+#sent86_Travel_3-5 {
+    grid-column: 3 / 5;
+}
+
+
+#sent86_Travel_5 {
+    grid-column: 5;
+}
+
+
+#sent86_Travel_6-9 {
+    grid-column: 6 / 9;
+}
+
+
+#sent86_Frequency_8 {
+    grid-column: 8;
+}
+
+
+#sent86_Frequency_8 {
+    grid-column: 8;
+}
+
+
+#sent86_Quantified_mass_22 {
+    grid-column: 22;
+}
+
+
+#sent86_Quantified_mass_22 {
+    grid-column: 22;
+}
+
+
+#sent86_Quantified_mass_23-25 {
+    grid-column: 23 / 25;
+}
+
+
+#sent86_Possibility_10-29 {
+    grid-column: 10 / 29;
+}
+
+
+#sent86_Possibility_13 {
+    grid-column: 13;
+}
+
+
+#sent86_Categorization_10-13 {
+    grid-column: 10 / 13;
+}
+
+
+#sent86_Categorization_15 {
+    grid-column: 15;
+}
+
+
+#sent86_Categorization_16-29 {
+    grid-column: 16 / 29;
+}
+
+
+#sent86_Estimating_15-29 {
+    grid-column: 15 / 29;
+}
+
+
+#sent86_Estimating_20 {
+    grid-column: 20;
+}
+
+
+#sent86_People_24 {
+    grid-column: 24;
+}
+
+
+#sent86_People_24 {
+    grid-column: 24;
+}
+
+
+#sent86_Using_25 {
+    grid-column: 25;
+}
+
+
+#sent86_Using_26-29 {
+    grid-column: 26 / 29;
+}
+
+
+#sent86_Roadways_27 {
+    grid-column: 27;
+}
+
+
+#sent86_Roadways_27 {
+    grid-column: 27;
+}
+
+
+#sent87_Earnings_and_losses_7 {
+    grid-column: 7;
+}
+
+
+#sent87_Earnings_and_losses_8-11 {
+    grid-column: 8 / 11;
+}
+
+
+#sent88_Locative_relation_2 {
+    grid-column: 2;
+}
+
+
+#sent88_Locative_relation_3-6 {
+    grid-column: 3 / 6;
+}
+
+
+#sent88_Actually_occurring_entity_14 {
+    grid-column: 14;
+}
+
+
+#sent88_Actually_occurring_entity_15-17 {
+    grid-column: 15 / 17;
+}
+
+
+#sent88_Roadways_20 {
+    grid-column: 20;
+}
+
+
+#sent88_Roadways_20 {
+    grid-column: 20;
+}
+
+
+#sent88_Part_whole_20 {
+    grid-column: 20;
+}
+
+
+#sent88_Part_whole_21 {
+    grid-column: 21;
+}
+
+
+#sent88_Part_whole_21 {
+    grid-column: 21;
+}
+
+
+#sent88_Shapes_31 {
+    grid-column: 31;
+}
+
+
+#sent88_Shapes_31 {
+    grid-column: 31;
+}
+
+
+#sent88_Shapes_32 {
+    grid-column: 32;
+}
+
+
+#sent88_Gesture_35 {
+    grid-column: 35;
+}
+
+
+#sent88_Gesture_36 {
+    grid-column: 36;
+}
+
+
+#sent88_Identicality_41-44 {
+    grid-column: 41 / 44;
+}
+
+
+#sent88_Identicality_44 {
+    grid-column: 44;
+}
+
+
+#sent88_Identicality_45-49 {
+    grid-column: 45 / 49;
+}
+
+
+#sent88_Locale_47 {
+    grid-column: 47;
+}
+
+
+#sent88_Locale_48 {
+    grid-column: 48;
+}
+
+
+#sent88_Locale_48 {
+    grid-column: 48;
+}
+
+
+#sent90_Inclusion_2 {
+    grid-column: 2;
+}
+
+
+#sent90_Inclusion_3 {
+    grid-column: 3;
+}
+
+
+#sent90_Inclusion_4-16 {
+    grid-column: 4 / 16;
+}
+
+
+#sent90_Sole_instance_4 {
+    grid-column: 4;
+}
+
+
+#sent90_Sole_instance_5 {
+    grid-column: 5;
+}
+
+
+#sent90_Social_connection_5 {
+    grid-column: 5;
+}
+
+
+#sent90_Social_connection_5 {
+    grid-column: 5;
+}
+
+
+#sent90_Origin_8 {
+    grid-column: 8;
+}
+
+
+#sent90_Origin_8 {
+    grid-column: 8;
+}
+
+
+#sent91_Similarity_3 {
+    grid-column: 3;
+}
+
+
+#sent91_Similarity_4 {
+    grid-column: 4;
+}
+
+
+#sent91_Getting_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent91_Getting_6 {
+    grid-column: 6;
+}
+
+
+#sent91_Change_event_time_25 {
+    grid-column: 25;
+}
+
+
+#sent91_Change_event_time_26-30 {
+    grid-column: 26 / 30;
+}
+
+
+#sent91_Scrutiny_13 {
+    grid-column: 13;
+}
+
+
+#sent91_Scrutiny_14-18 {
+    grid-column: 14 / 18;
+}
+
+
+#sent91_Perception_active_19-30 {
+    grid-column: 19 / 30;
+}
+
+
+#sent91_Perception_active_20-22 {
+    grid-column: 20 / 22;
+}
+
+
+#sent91_Perception_active_22 {
+    grid-column: 22;
+}
+
+
+#sent91_Roadways_28 {
+    grid-column: 28;
+}
+
+
+#sent91_Roadways_28 {
+    grid-column: 28;
+}
+
+
+#sent91_Self_motion_28 {
+    grid-column: 28;
+}
+
+
+#sent91_Self_motion_29 {
+    grid-column: 29;
+}
+
+
+#sent92_Actually_occurring_entity_3 {
+    grid-column: 3;
+}
+
+
+#sent92_Actually_occurring_entity_4-7 {
+    grid-column: 4 / 7;
+}
+
+
+#sent92_Contingency_2-7 {
+    grid-column: 2 / 7;
+}
+
+
+#sent92_Contingency_7 {
+    grid-column: 7;
+}
+
+
+#sent92_Contingency_8-27 {
+    grid-column: 8 / 27;
+}
+
+
+#sent92_Inclusion_9-11 {
+    grid-column: 9 / 11;
+}
+
+
+#sent92_Inclusion_11 {
+    grid-column: 11;
+}
+
+
+#sent92_Inclusion_12-15 {
+    grid-column: 12 / 15;
+}
+
+
+#sent92_Quantified_mass_17 {
+    grid-column: 17;
+}
+
+
+#sent92_Quantified_mass_17 {
+    grid-column: 17;
+}
+
+
+#sent92_Quantified_mass_18-20 {
+    grid-column: 18 / 20;
+}
+
+
+#sent92_Roadways_25 {
+    grid-column: 25;
+}
+
+
+#sent92_Roadways_25 {
+    grid-column: 25;
+}
+
+
+#sent92_State_of_entity_22-26 {
+    grid-column: 22 / 26;
+}
+
+
+#sent92_State_of_entity_26 {
+    grid-column: 26;
+}
+
+
+#sent92_State_of_entity_26 {
+    grid-column: 26;
+}
+
+
+#sent93_Locative_relation_3 {
+    grid-column: 3;
+}
+
+
+#sent93_Locative_relation_3-14 {
+    grid-column: 3 / 14;
+}
+
+
+#sent93_Existence_4 {
+    grid-column: 4;
+}
+
+
+#sent93_Existence_5-9 {
+    grid-column: 5 / 9;
+}
+
+
+#sent93_Quantified_mass_6 {
+    grid-column: 6;
+}
+
+
+#sent93_Quantified_mass_6 {
+    grid-column: 6;
+}
+
+
+#sent93_Quantified_mass_7-9 {
+    grid-column: 7 / 9;
+}
+
+
+#sent93_Estimating_10 {
+    grid-column: 10;
+}
+
+
+#sent93_Estimating_11-14 {
+    grid-column: 11 / 14;
+}
+
+
+#sent93_Choosing_15 {
+    grid-column: 15;
+}
+
+
+#sent93_Choosing_16 {
+    grid-column: 16;
+}
+
+
+#sent93_Choosing_17-22 {
+    grid-column: 17 / 22;
+}
+
+
+#sent93_Choosing_22-27 {
+    grid-column: 22 / 27;
+}
+
+
+#sent93_Using_15 {
+    grid-column: 15;
+}
+
+
+#sent93_Using_18 {
+    grid-column: 18;
+}
+
+
+#sent93_Using_19-22 {
+    grid-column: 19 / 22;
+}
+
+
+#sent93_Using_22-27 {
+    grid-column: 22 / 27;
+}
+
+
+#sent93_Evidence_15-27 {
+    grid-column: 15 / 27;
+}
+
+
+#sent93_Evidence_29 {
+    grid-column: 29;
+}
+
+
+#sent93_Evidence_30-34 {
+    grid-column: 30 / 34;
+}
+
+
+#sent94_Locative_relation_2 {
+    grid-column: 2;
+}
+
+
+#sent94_Locative_relation_3-23 {
+    grid-column: 3 / 23;
+}
+
+
+#sent94_Vehicle_22 {
+    grid-column: 22;
+}
+
+
+#sent94_Vehicle_22 {
+    grid-column: 22;
+}
+
+
+#sent97_Dimension_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent97_Dimension_3 {
+    grid-column: 3;
+}
+
+
+#sent97_Dimension_3 {
+    grid-column: 3;
+}
+
+
+#sent97_Dimension_5-14 {
+    grid-column: 5 / 14;
+}
+
+
+#sent97_Frequency_7 {
+    grid-column: 7;
+}
+
+
+#sent97_Frequency_8 {
+    grid-column: 8;
+}
+
+
+#sent97_Frequency_8 {
+    grid-column: 8;
+}
+
+
+#sent97_Frequency_9-14 {
+    grid-column: 9 / 14;
+}
+
+
+#sent97_Change_event_time_6-9 {
+    grid-column: 6 / 9;
+}
+
+
+#sent97_Change_event_time_9 {
+    grid-column: 9;
+}
+
+
+#sent97_Change_event_time_10-14 {
+    grid-column: 10 / 14;
+}
+
+
+#sent98_Change_position_on_a_scale_5 {
+    grid-column: 5;
+}
+
+
+#sent98_Change_position_on_a_scale_6-10 {
+    grid-column: 6 / 10;
+}
+
+
+#sent98_Change_event_time_6 {
+    grid-column: 6;
+}
+
+
+#sent98_Change_event_time_7-10 {
+    grid-column: 7 / 10;
+}
+
+
+#sent98_Causation_7 {
+    grid-column: 7;
+}
+
+
+#sent98_Causation_8-10 {
+    grid-column: 8 / 10;
+}
+
+
+#sent99_Locative_relation_2 {
+    grid-column: 2;
+}
+
+
+#sent99_Locative_relation_2-12 {
+    grid-column: 2 / 12;
+}
+
+
+#sent99_Quantified_mass_4 {
+    grid-column: 4;
+}
+
+
+#sent99_Quantified_mass_4 {
+    grid-column: 4;
+}
+
+
+#sent99_Quantified_mass_5 {
+    grid-column: 5;
+}
+
+
+#sent99_Means_5 {
+    grid-column: 5;
+}
+
+
+#sent99_Means_5 {
+    grid-column: 5;
+}
+
+
+#sent99_Means_6-12 {
+    grid-column: 6 / 12;
+}
+
+
+#sent99_Change_event_time_26 {
+    grid-column: 26;
+}
+
+
+#sent99_Change_event_time_26 {
+    grid-column: 26;
+}
+
+
+#sent99_Taking_time_16-21 {
+    grid-column: 16 / 21;
+}
+
+
+#sent99_Taking_time_22 {
+    grid-column: 22;
+}
+
+
+#sent99_Taking_time_23-27 {
+    grid-column: 23 / 27;
+}
+
+
+#sent99_Attitude_description_23 {
+    grid-column: 23;
+}
+
+
+#sent99_Attitude_description_23 {
+    grid-column: 23;
+}
+
+
+#sent99_Attitude_description_24-27 {
+    grid-column: 24 / 27;
+}
+
+
+#sent100_Avoiding_3 {
+    grid-column: 3;
+}
+
+
+#sent100_Avoiding_4 {
+    grid-column: 4;
+}
+
+
+#sent100_Using_12 {
+    grid-column: 12;
+}
+
+
+#sent100_Using_13 {
+    grid-column: 13;
+}
+
+
+#sent100_Using_14-25 {
+    grid-column: 14 / 25;
+}
+
+
+#sent100_Change_event_time_15 {
+    grid-column: 15;
+}
+
+
+#sent100_Change_event_time_16-25 {
+    grid-column: 16 / 25;
+}
+
+
+#sent100_Locale_24 {
+    grid-column: 24;
+}
+
+
+#sent100_Locale_24 {
+    grid-column: 24;
+}
+
+
+#sent105_Travel_5 {
+    grid-column: 5;
+}
+
+
+#sent105_Giving_6 {
+    grid-column: 6;
+}
+
+
+#sent105_Giving_7-22 {
+    grid-column: 7 / 22;
+}
+
+
+#sent105_Range_8 {
+    grid-column: 8;
+}
+
+
+#sent105_Range_8 {
+    grid-column: 8;
+}
+
+
+#sent105_Range_9-22 {
+    grid-column: 9 / 22;
+}
+
+
+#sent105_Information_18 {
+    grid-column: 18;
+}
+
+
+#sent105_Information_18 {
+    grid-column: 18;
+}
+
+
+#sent105_Buildings_20 {
+    grid-column: 20;
+}
+
+
+#sent105_Buildings_20 {
+    grid-column: 20;
+}
+
+
+#sent108_Undergo_change_7 {
+    grid-column: 7;
+}
+
+
+#sent108_Undergo_change_8-11 {
+    grid-column: 8 / 11;
+}
+
+
+#sent108_Change_event_time_9 {
+    grid-column: 9;
+}
+
+
+#sent108_Change_event_time_10 {
+    grid-column: 10;
+}
+
+
+#sent108_Change_event_time_10 {
+    grid-column: 10;
+}
+
+
+#sent108_Kinship_11 {
+    grid-column: 11;
+}
+
+
+#sent108_Kinship_11 {
+    grid-column: 11;
+}
+
+
+#sent108_Kinship_12-14 {
+    grid-column: 12 / 14;
+}
+
+
+#sent109_Network_7 {
+    grid-column: 7;
+}
+
+
+#sent109_Network_7 {
+    grid-column: 7;
+}
+
+
+#sent109_Network_8-10 {
+    grid-column: 8 / 10;
+}
+
+
+#sent109_Emphasizing_11 {
+    grid-column: 11;
+}
+
+
+#sent109_Emphasizing_12 {
+    grid-column: 12;
+}
+
+
+#sent109_Emphasizing_13-18 {
+    grid-column: 13 / 18;
+}
+
+
+#sent109_Political_locales_17 {
+    grid-column: 17;
+}
+
+
+#sent109_Political_locales_17 {
+    grid-column: 17;
+}
+
+
+#sent109_Recovery_22 {
+    grid-column: 22;
+}
+
+
+#sent109_Recovery_23 {
+    grid-column: 23;
+}
+
+
+#sent111_Network_4 {
+    grid-column: 4;
+}
+
+
+#sent111_Network_4 {
+    grid-column: 4;
+}
+
+
+#sent111_Range_9 {
+    grid-column: 9;
+}
+
+
+#sent111_Range_10-13 {
+    grid-column: 10 / 13;
+}
+
+
+#sent111_Residence_14-16 {
+    grid-column: 14 / 16;
+}
+
+
+#sent111_Residence_16 {
+    grid-column: 16;
+}
+
+
+#sent111_Residence_17-22 {
+    grid-column: 17 / 22;
+}
+
+
+#sent111_Locale_21 {
+    grid-column: 21;
+}
+
+
+#sent111_Locale_21 {
+    grid-column: 21;
+}
+
+
+#sent111_Means_25 {
+    grid-column: 25;
+}
+
+
+#sent111_Means_26 {
+    grid-column: 26;
+}
+
+
+#sent111_Means_26 {
+    grid-column: 26;
+}
+
+
+#sent111_Operate_vehicle_25-27 {
+    grid-column: 25 / 27;
+}
+
+
+#sent111_Operate_vehicle_27 {
+    grid-column: 27;
+}
+
+
+#sent111_Operate_vehicle_28-31 {
+    grid-column: 28 / 31;
+}
+
+
+#sent111_Operate_vehicle_31-33 {
+    grid-column: 31 / 33;
+}
+
+
+#sent111_Leadership_29 {
+    grid-column: 29;
+}
+
+
+#sent111_Leadership_30 {
+    grid-column: 30;
+}
+
+
+#sent111_Leadership_30 {
+    grid-column: 30;
+}
+
+
+#sent111_Improvement_or_decline_32 {
+    grid-column: 32;
+}
+
+
+#sent112_Scrutiny_2 {
+    grid-column: 2;
+}
+
+
+#sent112_Scrutiny_4 {
+    grid-column: 4;
+}
+
+
+#sent112_Scrutiny_5-10 {
+    grid-column: 5 / 10;
+}
+
+
+#sent112_Roadways_9 {
+    grid-column: 9;
+}
+
+
+#sent112_Roadways_9 {
+    grid-column: 9;
+}
+
+
+#sent112_Assistance_6-10 {
+    grid-column: 6 / 10;
+}
+
+
+#sent112_Assistance_10 {
+    grid-column: 10;
+}
+
+
+#sent112_Assistance_11-21 {
+    grid-column: 11 / 21;
+}
+
+
+#sent112_Version_sequence_16 {
+    grid-column: 16;
+}
+
+
+#sent112_Version_sequence_17 {
+    grid-column: 17;
+}
+
+
+#sent112_Network_20 {
+    grid-column: 20;
+}
+
+
+#sent112_Network_20 {
+    grid-column: 20;
+}
+
+
+#sent113_Objective_influence_2-6 {
+    grid-column: 2 / 6;
+}
+
+
+#sent113_Objective_influence_9 {
+    grid-column: 9;
+}
+
+
+#sent113_Objective_influence_10-15 {
+    grid-column: 10 / 15;
+}
+
+
+#sent113_Giving_12 {
+    grid-column: 12;
+}
+
+
+#sent113_Giving_13-15 {
+    grid-column: 13 / 15;
+}
+
+
+#sent113_Simple_name_25 {
+    grid-column: 25;
+}
+
+
+#sent113_Simple_name_25 {
+    grid-column: 25;
+}
+
+
+#sent113_Simple_name_26-29 {
+    grid-column: 26 / 29;
+}
+
+
+#sent113_Roadways_35 {
+    grid-column: 35;
+}
+
+
+#sent113_Roadways_35 {
+    grid-column: 35;
+}
+
+
+#sent113_Cause_change_of_position_on_a_scale_30 {
+    grid-column: 30;
+}
+
+
+#sent113_Cause_change_of_position_on_a_scale_32 {
+    grid-column: 32;
+}
+
+
+#sent113_Cause_change_34-36 {
+    grid-column: 34 / 36;
+}
+
+
+#sent113_Cause_change_38 {
+    grid-column: 38;
+}
+
+
+#sent113_Cause_change_39-44 {
+    grid-column: 39 / 44;
+}
+
+
+#sent113_Network_43 {
+    grid-column: 43;
+}
+
+
+#sent113_Network_43 {
+    grid-column: 43;
+}
+
+
+#sent113_Quantified_mass_47 {
+    grid-column: 47;
+}
+
+
+#sent113_Quantified_mass_47 {
+    grid-column: 47;
+}
+
+
+#sent113_Type_49 {
+    grid-column: 49;
+}
+
+
+#sent113_Type_49 {
+    grid-column: 49;
+}
+
+
+#sent113_Type_50-53 {
+    grid-column: 50 / 53;
+}
+
+
+#sent114_Rejuvenation_7 {
+    grid-column: 7;
+}
+
+
+#sent114_Rejuvenation_8-10 {
+    grid-column: 8 / 10;
+}
+
+
+#sent114_Completeness_8 {
+    grid-column: 8;
+}
+
+
+#sent114_Completeness_9 {
+    grid-column: 9;
+}
+
+
+#sent114_Intentionally_act_12 {
+    grid-column: 12;
+}
+
+
+#sent114_Intentionally_act_13-17 {
+    grid-column: 13 / 17;
+}
+
+
+#sent114_Contingency_20-22 {
+    grid-column: 20 / 22;
+}
+
+
+#sent114_Contingency_22 {
+    grid-column: 22;
+}
+
+
+#sent114_Contingency_23-53 {
+    grid-column: 23 / 53;
+}
+
+
+#sent114_Roadways_25 {
+    grid-column: 25;
+}
+
+
+#sent114_Roadways_25 {
+    grid-column: 25;
+}
+
+
+#sent114_Network_25 {
+    grid-column: 25;
+}
+
+
+#sent114_Network_26 {
+    grid-column: 26;
+}
+
+
+#sent114_Network_26 {
+    grid-column: 26;
+}
+
+
+#sent114_Moving_in_place_39 {
+    grid-column: 39;
+}
+
+
+#sent114_Moving_in_place_40-42 {
+    grid-column: 40 / 42;
+}
+
+
+#sent114_Political_locales_48 {
+    grid-column: 48;
+}
+
+
+#sent114_Political_locales_48 {
+    grid-column: 48;
+}
+
+
+#sent114_Self_motion_52 {
+    grid-column: 52;
+}
+
+
+#sent115_Rank_3 {
+    grid-column: 3;
+}
+
+
+#sent115_Rank_3 {
+    grid-column: 3;
+}
+
+
+#sent115_Self_motion_8 {
+    grid-column: 8;
+}
+
+
+#sent115_Accomplishment_7-9 {
+    grid-column: 7 / 9;
+}
+
+
+#sent115_Accomplishment_9 {
+    grid-column: 9;
+}
+
+
+#sent115_Accomplishment_10-30 {
+    grid-column: 10 / 30;
+}
+
+
+#sent115_Completeness_14 {
+    grid-column: 14;
+}
+
+
+#sent115_Completeness_15-17 {
+    grid-column: 15 / 17;
+}
+
+
+#sent115_Time_vector_13-30 {
+    grid-column: 13 / 30;
+}
+
+
+#sent115_Time_vector_21 {
+    grid-column: 21;
+}
+
+
+#sent115_Roadways_23 {
+    grid-column: 23;
+}
+
+
+#sent115_Roadways_23 {
+    grid-column: 23;
+}
+
+
+#sent115_Possibility_22-30 {
+    grid-column: 22 / 30;
+}
+
+
+#sent115_Possibility_24 {
+    grid-column: 24;
+}
+
+
+#sent115_Removing_22-24 {
+    grid-column: 22 / 24;
+}
+
+
+#sent115_Removing_26 {
+    grid-column: 26;
+}
+
+
+#sent115_Removing_27 {
+    grid-column: 27;
+}
+
+
+#sent115_Rejuvenation_22-24 {
+    grid-column: 22 / 24;
+}
+
+
+#sent115_Rejuvenation_29 {
+    grid-column: 29;
+}
+
+
+#sent116_Giving_11 {
+    grid-column: 11;
+}
+
+
+#sent116_Giving_12-14 {
+    grid-column: 12 / 14;
+}
+
+
+#sent116_Possibility_4-35 {
+    grid-column: 4 / 35;
+}
+
+
+#sent116_Possibility_14 {
+    grid-column: 14;
+}
+
+
+#sent116_Speed_description_4-14 {
+    grid-column: 4 / 14;
+}
+
+
+#sent116_Speed_description_15 {
+    grid-column: 15;
+}
+
+
+#sent116_Speed_description_16 {
+    grid-column: 16;
+}
+
+
+#sent116_Time_vector_4-20 {
+    grid-column: 4 / 20;
+}
+
+
+#sent116_Time_vector_20 {
+    grid-column: 20;
+}
+
+
+#sent116_Time_vector_20 {
+    grid-column: 20;
+}
+
+
+#sent116_Time_vector_21-35 {
+    grid-column: 21 / 35;
+}
+
+
+#sent116_Intentionally_act_24 {
+    grid-column: 24;
+}
+
+
+#sent116_Intentionally_act_25-29 {
+    grid-column: 25 / 29;
+}
+
+
+#sent116_Information_27 {
+    grid-column: 27;
+}
+
+
+#sent116_Information_27 {
+    grid-column: 27;
+}
+
+
+#sent117_Age_4 {
+    grid-column: 4;
+}
+
+
+#sent117_Age_4 {
+    grid-column: 4;
+}
+
+
+#sent117_Age_5-7 {
+    grid-column: 5 / 7;
+}
+
+
+#sent117_Precariousness_5 {
+    grid-column: 5;
+}
+
+
+#sent117_Precariousness_6 {
+    grid-column: 6;
+}
+
+
+#sent117_Leadership_5 {
+    grid-column: 5;
+}
+
+
+#sent117_Leadership_6 {
+    grid-column: 6;
+}
+
+
+#sent117_Leadership_6 {
+    grid-column: 6;
+}
+
+
+#sent117_Rank_9 {
+    grid-column: 9;
+}
+
+
+#sent117_Rank_9 {
+    grid-column: 9;
+}
+
+
+#sent117_Completeness_13 {
+    grid-column: 13;
+}
+
+
+#sent117_Completeness_14 {
+    grid-column: 14;
+}
+
+
+#sent117_Taking_time_13-18 {
+    grid-column: 13 / 18;
+}
+
+
+#sent117_Taking_time_16 {
+    grid-column: 16;
+}
+
+
+#sent117_Rejuvenation_13-15 {
+    grid-column: 13 / 15;
+}
+
+
+#sent117_Rejuvenation_17 {
+    grid-column: 17;
+}
+
+
+#sent118_Information_14 {
+    grid-column: 14;
+}
+
+
+#sent118_Information_14 {
+    grid-column: 14;
+}
+
+
+#sent119_Identicality_4 {
+    grid-column: 4;
+}
+
+
+#sent119_Identicality_5 {
+    grid-column: 5;
+}
+
+
+#sent119_Conquering_7 {
+    grid-column: 7;
+}
+
+
+#sent119_Conquering_11 {
+    grid-column: 11;
+}
+
+
+#sent119_Conquering_12 {
+    grid-column: 12;
+}
+
+
+#sent119_Conquering_13-19 {
+    grid-column: 13 / 19;
+}
+
+
+#sent119_Gizmo_17 {
+    grid-column: 17;
+}
+
+
+#sent119_Gizmo_18 {
+    grid-column: 18;
+}
+
+
+#sent119_Imposing_obligation_20 {
+    grid-column: 20;
+}
+
+
+#sent119_Imposing_obligation_22 {
+    grid-column: 22;
+}
+
+
+#sent119_Imposing_obligation_23-37 {
+    grid-column: 23 / 37;
+}
+
+
+#sent119_Recovery_25 {
+    grid-column: 25;
+}
+
+
+#sent119_Recovery_26 {
+    grid-column: 26;
+}
+
+
+#sent119_Being_relevant_35 {
+    grid-column: 35;
+}
+
+
+#sent119_Being_relevant_36 {
+    grid-column: 36;
+}
+
+
+#sent119_Leadership_36 {
+    grid-column: 36;
+}
+
+
+#sent119_Leadership_36 {
+    grid-column: 36;
+}
+
+
+#sent120_Increment_25 {
+    grid-column: 25;
+}
+
+
+#sent120_Increment_26 {
+    grid-column: 26;
+}
+
+
+#sent120_Change_event_time_26 {
+    grid-column: 26;
+}
+
+
+#sent120_Change_event_time_26 {
+    grid-column: 26;
+}
+
+
+#sent120_Using_11 {
+    grid-column: 11;
+}
+
+
+#sent120_Using_12-27 {
+    grid-column: 12 / 27;
+}
+
+
+#sent120_Identicality_13 {
+    grid-column: 13;
+}
+
+
+#sent120_Identicality_14 {
+    grid-column: 14;
+}
+
+
+#sent123_Terms_of_agreement_9 {
+    grid-column: 9;
+}
+
+
+#sent123_Terms_of_agreement_9 {
+    grid-column: 9;
+}
+
+
+#sent123_Vehicle_21 {
+    grid-column: 21;
+}
+
+
+#sent123_Vehicle_21 {
+    grid-column: 21;
+}
+
+
+#sent123_Summarizing_28 {
+    grid-column: 28;
+}
+
+
+#sent123_Summarizing_29-31 {
+    grid-column: 29 / 31;
+}
+
+
+#sent125_Terms_of_agreement_3 {
+    grid-column: 3;
+}
+
+
+#sent125_Terms_of_agreement_3 {
+    grid-column: 3;
+}
+
+
+#sent125_Possibility_9-24 {
+    grid-column: 9 / 24;
+}
+
+
+#sent125_Possibility_10 {
+    grid-column: 10;
+}
+
+
+#sent125_Estimating_9 {
+    grid-column: 9;
+}
+
+
+#sent125_Estimating_11 {
+    grid-column: 11;
+}
+
+
+#sent125_Estimating_12-33 {
+    grid-column: 12 / 33;
+}
+
+
+#sent125_Amounting_to_13 {
+    grid-column: 13;
+}
+
+
+#sent125_Amounting_to_13 {
+    grid-column: 13;
+}
+
+
+#sent125_Change_event_time_29 {
+    grid-column: 29;
+}
+
+
+#sent125_Change_event_time_30 {
+    grid-column: 30;
+}
+
+
+#sent125_Change_event_time_31-33 {
+    grid-column: 31 / 33;
+}
+
+
+#sent125_Giving_21 {
+    grid-column: 21;
+}
+
+
+#sent125_Giving_22-24 {
+    grid-column: 22 / 24;
+}
+
+
+#sent125_Locale_22 {
+    grid-column: 22;
+}
+
+
+#sent125_Locale_23 {
+    grid-column: 23;
+}
+
+
+#sent125_Locale_23 {
+    grid-column: 23;
+}
+
+
+#sent126_Taking_time_2 {
+    grid-column: 2;
+}
+
+
+#sent126_Taking_time_3 {
+    grid-column: 3;
+}
+
+
+#sent126_Taking_time_4-43 {
+    grid-column: 4 / 43;
+}
+
+
+#sent126_Contingency_18 {
+    grid-column: 18;
+}
+
+
+#sent126_Contingency_19-43 {
+    grid-column: 19 / 43;
+}
+
+
+#sent126_Evaluative_comparison_24 {
+    grid-column: 24;
+}
+
+
+#sent126_Evaluative_comparison_25-43 {
+    grid-column: 25 / 43;
+}
+
+
+#sent126_Information_27 {
+    grid-column: 27;
+}
+
+
+#sent126_Information_27 {
+    grid-column: 27;
+}
+
+
+#sent126_Frequency_30 {
+    grid-column: 30;
+}
+
+
+#sent126_Frequency_30 {
+    grid-column: 30;
+}
+
+
+#sent126_Frequency_31-43 {
+    grid-column: 31 / 43;
+}
+
+
+#sent126_Change_event_time_22-43 {
+    grid-column: 22 / 43;
+}
+
+
+#sent126_Change_event_time_32 {
+    grid-column: 32;
+}
+
+
+#sent126_Supply_34-37 {
+    grid-column: 34 / 37;
+}
+
+
+#sent126_Supply_37 {
+    grid-column: 37;
+}
+
+
+#sent126_Supply_38-43 {
+    grid-column: 38 / 43;
+}
+
+
+#sent127_Separating_2 {
+    grid-column: 2;
+}
+
+
+#sent127_Separating_3 {
+    grid-column: 3;
+}
+
+
+#sent127_Separating_4-20 {
+    grid-column: 4 / 20;
+}
+
+
+#sent127_Locale_7 {
+    grid-column: 7;
+}
+
+
+#sent127_Locale_7 {
+    grid-column: 7;
+}
+
+
+#sent127_Aggregate_11 {
+    grid-column: 11;
+}
+
+
+#sent127_Aggregate_12 {
+    grid-column: 12;
+}
+
+
+#sent127_Aggregate_12 {
+    grid-column: 12;
+}
+
+
+#sent128_Locating_2 {
+    grid-column: 2;
+}
+
+
+#sent128_Locating_4 {
+    grid-column: 4;
+}
+
+
+#sent128_Locating_5-25 {
+    grid-column: 5 / 25;
+}
+
+
+#sent128_Locale_10 {
+    grid-column: 10;
+}
+
+
+#sent128_Locale_10 {
+    grid-column: 10;
+}
+
+
+#sent128_Using_7-11 {
+    grid-column: 7 / 11;
+}
+
+
+#sent128_Using_11 {
+    grid-column: 11;
+}
+
+
+#sent128_Using_12-14 {
+    grid-column: 12 / 14;
+}
+
+
+#sent128_Range_22 {
+    grid-column: 22;
+}
+
+
+#sent130_Preventing_or_letting_2 {
+    grid-column: 2;
+}
+
+
+#sent130_Preventing_or_letting_3 {
+    grid-column: 3;
+}
+
+
+#sent130_Preventing_or_letting_4-28 {
+    grid-column: 4 / 28;
+}
+
+
+#sent130_Perception_experience_13 {
+    grid-column: 13;
+}
+
+
+#sent130_Perception_experience_14 {
+    grid-column: 14;
+}
+
+
+#sent134_Becoming_aware_4 {
+    grid-column: 4;
+}
+
+
+#sent134_Becoming_aware_5-10 {
+    grid-column: 5 / 10;
+}
+
+
+#sent134_Change_event_time_5 {
+    grid-column: 5;
+}
+
+
+#sent134_Change_event_time_6-10 {
+    grid-column: 6 / 10;
+}
+
+
+#sent134_Locale_9 {
+    grid-column: 9;
+}
+
+
+#sent134_Locale_9 {
+    grid-column: 9;
+}
+
+
+#sent135_Becoming_aware_2-13 {
+    grid-column: 2 / 13;
+}
+
+
+#sent135_Becoming_aware_9 {
+    grid-column: 9;
+}
+
+
+#sent135_Change_event_time_12 {
+    grid-column: 12;
+}
+
+
+#sent135_Change_event_time_12 {
+    grid-column: 12;
+}
+
+
+#sent135_Political_locales_38 {
+    grid-column: 38;
+}
+
+
+#sent135_Political_locales_39 {
+    grid-column: 39;
+}
+
+
+#sent135_Political_locales_39 {
+    grid-column: 39;
+}
+
+
+#sent135_Using_37-40 {
+    grid-column: 37 / 40;
+}
+
+
+#sent135_Using_40 {
+    grid-column: 40;
+}
+
+
+#sent135_Using_41-45 {
+    grid-column: 41 / 45;
+}
+
+
+#sent136_Change_event_time_3 {
+    grid-column: 3;
+}
+
+
+#sent136_Change_event_time_3 {
+    grid-column: 3;
+}
+
+
+#sent136_Change_event_time_4-17 {
+    grid-column: 4 / 17;
+}
+
+
+#sent136_Taking_time_2-17 {
+    grid-column: 2 / 17;
+}
+
+
+#sent136_Taking_time_5 {
+    grid-column: 5;
+}
+
+
+#sent137_Estimating_7 {
+    grid-column: 7;
+}
+
+
+#sent137_Estimating_8 {
+    grid-column: 8;
+}
+
+
+#sent137_Estimating_9-16 {
+    grid-column: 9 / 16;
+}
+
+
+#sent137_Travel_7 {
+    grid-column: 7;
+}
+
+
+#sent137_Travel_9 {
+    grid-column: 9;
+}
+
+
+#sent137_Travel_10 {
+    grid-column: 10;
+}
+
+
+#sent137_Travel_11-16 {
+    grid-column: 11 / 16;
+}
+
+
+#sent137_Change_event_time_7 {
+    grid-column: 7;
+}
+
+
+#sent137_Change_event_time_10 {
+    grid-column: 10;
+}
+
+
+#sent137_Change_event_time_11-16 {
+    grid-column: 11 / 16;
+}
+
+
+#sent137_Similarity_12 {
+    grid-column: 12;
+}
+
+
+#sent137_Similarity_13 {
+    grid-column: 13;
+}
+
+
+#sent137_Similarity_14-16 {
+    grid-column: 14 / 16;
+}
+
+
+#sent137_Locale_15 {
+    grid-column: 15;
+}
+
+
+#sent137_Locale_15 {
+    grid-column: 15;
+}
+
+
+#sent138_Perception_experience_3 {
+    grid-column: 3;
+}
+
+
+#sent138_Perception_experience_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent139_Estimating_5 {
+    grid-column: 5;
+}
+
+
+#sent139_Estimating_6-8 {
+    grid-column: 6 / 8;
+}
+
+
+#sent139_Travel_6 {
+    grid-column: 6;
+}
+
+
+#sent139_Change_event_time_22 {
+    grid-column: 22;
+}
+
+
+#sent139_Change_event_time_23 {
+    grid-column: 23;
+}
+
+
+#sent139_Change_event_time_24 {
+    grid-column: 24;
+}
+
+
+#sent139_Actually_occurring_entity_22 {
+    grid-column: 22;
+}
+
+
+#sent139_Actually_occurring_entity_23-25 {
+    grid-column: 23 / 25;
+}
+
+
+#sent140_Opinion_2 {
+    grid-column: 2;
+}
+
+
+#sent140_Opinion_3-20 {
+    grid-column: 3 / 20;
+}
+
+
+#sent140_Existence_10 {
+    grid-column: 10;
+}
+
+
+#sent140_Existence_13-20 {
+    grid-column: 13 / 20;
+}
+
+
+#sent140_Causation_13 {
+    grid-column: 13;
+}
+
+
+#sent140_Causation_14-20 {
+    grid-column: 14 / 20;
+}
+
+
+#sent141_Roadways_2 {
+    grid-column: 2;
+}
+
+
+#sent141_Roadways_2 {
+    grid-column: 2;
+}
+
+
+#sent141_State_of_entity_2 {
+    grid-column: 2;
+}
+
+
+#sent141_State_of_entity_3 {
+    grid-column: 3;
+}
+
+
+#sent141_State_of_entity_3-6 {
+    grid-column: 3 / 6;
+}
+
+
+#sent141_Existence_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent141_Existence_5 {
+    grid-column: 5;
+}
+
+
+#sent141_Typicality_7 {
+    grid-column: 7;
+}
+
+
+#sent141_Typicality_8-10 {
+    grid-column: 8 / 10;
+}
+
+
+#sent141_Pattern_7 {
+    grid-column: 7;
+}
+
+
+#sent141_Pattern_8 {
+    grid-column: 8;
+}
+
+
+#sent141_Pattern_9 {
+    grid-column: 9;
+}
+
+
+#sent141_Supply_7-13 {
+    grid-column: 7 / 13;
+}
+
+
+#sent141_Supply_13 {
+    grid-column: 13;
+}
+
+
+#sent141_Supply_14-17 {
+    grid-column: 14 / 17;
+}
+
+
+#sent143_State_of_entity_3 {
+    grid-column: 3;
+}
+
+
+#sent143_State_of_entity_3 {
+    grid-column: 3;
+}
+
+
+#sent143_Giving_3-10 {
+    grid-column: 3 / 10;
+}
+
+
+#sent143_Giving_5 {
+    grid-column: 5;
+}
+
+
+#sent145_Time_vector_2 {
+    grid-column: 2;
+}
+
+
+#sent145_Time_vector_4 {
+    grid-column: 4;
+}
+
+
+#sent146_Evidence_2-8 {
+    grid-column: 2 / 8;
+}
+
+
+#sent146_Evidence_8 {
+    grid-column: 8;
+}
+
+
+#sent146_Evidence_9-32 {
+    grid-column: 9 / 32;
+}
+
+
+#sent146_Age_10 {
+    grid-column: 10;
+}
+
+
+#sent146_Age_10 {
+    grid-column: 10;
+}
+
+
+#sent146_Pattern_13-32 {
+    grid-column: 13 / 32;
+}
+
+
+#sent146_Pattern_14 {
+    grid-column: 14;
+}
+
+
+#sent146_Resolve_problem_13-16 {
+    grid-column: 13 / 16;
+}
+
+
+#sent146_Resolve_problem_16 {
+    grid-column: 16;
+}
+
+
+#sent146_Resolve_problem_17-32 {
+    grid-column: 17 / 32;
+}
+
+
+#sent146_Travel_20 {
+    grid-column: 20;
+}
+
+
+#sent146_Travel_21-32 {
+    grid-column: 21 / 32;
+}
+
+
+#sent146_Response_22 {
+    grid-column: 22;
+}
+
+
+#sent146_Response_23-32 {
+    grid-column: 23 / 32;
+}
+
+
+#sent146_Social_connection_31 {
+    grid-column: 31;
+}
+
+
+#sent146_Social_connection_31 {
+    grid-column: 31;
+}
+
+
+#sent148_Means_2 {
+    grid-column: 2;
+}
+
+
+#sent148_Means_3 {
+    grid-column: 3;
+}
+
+
+#sent148_Means_4-7 {
+    grid-column: 4 / 7;
+}
+
+
+#sent148_Subjective_influence_2-7 {
+    grid-column: 2 / 7;
+}
+
+
+#sent148_Subjective_influence_8 {
+    grid-column: 8;
+}
+
+
+#sent148_Subjective_influence_9-12 {
+    grid-column: 9 / 12;
+}
+
+
+#sent149_Roadways_16 {
+    grid-column: 16;
+}
+
+
+#sent149_Roadways_16 {
+    grid-column: 16;
+}
+
+
+#sent149_Likelihood_24 {
+    grid-column: 24;
+}
+
+
+#sent149_Likelihood_25-31 {
+    grid-column: 25 / 31;
+}
+
+
+#sent149_Success_or_failure_26 {
+    grid-column: 26;
+}
+
+
+#sent149_Success_or_failure_27-31 {
+    grid-column: 27 / 31;
+}
+
+
+#sent149_Part_whole_29 {
+    grid-column: 29;
+}
+
+
+#sent149_Part_whole_29 {
+    grid-column: 29;
+}
+
+
+#sent149_Shapes_29 {
+    grid-column: 29;
+}
+
+
+#sent149_Shapes_30 {
+    grid-column: 30;
+}
+
+
+#sent149_Shapes_30 {
+    grid-column: 30;
+}
+
+
+#sent150_Gathering_up_2 {
+    grid-column: 2;
+}
+
+
+#sent150_Gathering_up_3 {
+    grid-column: 3;
+}
+
+
+#sent150_Gathering_up_4 {
+    grid-column: 4;
+}
+
+
+#sent150_Gathering_up_5-11 {
+    grid-column: 5 / 11;
+}
+
+
+#sent151_Cause_change_of_position_on_a_scale_2-16 {
+    grid-column: 2 / 16;
+}
+
+
+#sent151_Cause_change_of_position_on_a_scale_6-11 {
+    grid-column: 6 / 11;
+}
+
+
+#sent151_Cause_change_of_position_on_a_scale_12 {
+    grid-column: 12;
+}
+
+
+#sent151_Placing_23 {
+    grid-column: 23;
+}
+
+
+#sent151_Placing_24 {
+    grid-column: 24;
+}
+
+
+#sent151_Change_event_time_26 {
+    grid-column: 26;
+}
+
+
+#sent151_Change_event_time_27 {
+    grid-column: 27;
+}
+
+
+#sent151_Change_event_time_27 {
+    grid-column: 27;
+}
+
+
+#sent151_Using_29 {
+    grid-column: 29;
+}
+
+
+#sent151_Using_31 {
+    grid-column: 31;
+}
+
+
+#sent151_Using_32-35 {
+    grid-column: 32 / 35;
+}
+
+
+#sent152_Likelihood_2-16 {
+    grid-column: 2 / 16;
+}
+
+
+#sent152_Likelihood_9 {
+    grid-column: 9;
+}
+
+
+#sent152_Causation_2-16 {
+    grid-column: 2 / 16;
+}
+
+
+#sent152_Causation_11 {
+    grid-column: 11;
+}
+
+
+#sent152_Catastrophe_13 {
+    grid-column: 13;
+}
+
+
+#sent152_Catastrophe_13 {
+    grid-column: 13;
+}
+
+
+#sent152_Building_15 {
+    grid-column: 15;
+}
+
+
+#sent153_Likelihood_2-22 {
+    grid-column: 2 / 22;
+}
+
+
+#sent153_Likelihood_4 {
+    grid-column: 4;
+}
+
+
+#sent153_Event_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent153_Event_5 {
+    grid-column: 5;
+}
+
+
+#sent153_Electricity_7 {
+    grid-column: 7;
+}
+
+
+#sent153_Electricity_7 {
+    grid-column: 7;
+}
+
+
+#sent153_Gesture_12 {
+    grid-column: 12;
+}
+
+
+#sent153_Judgment_of_intensity_14 {
+    grid-column: 14;
+}
+
+
+#sent153_Judgment_of_intensity_15 {
+    grid-column: 15;
+}
+
+
+#sent153_Causation_14-17 {
+    grid-column: 14 / 17;
+}
+
+
+#sent153_Causation_17 {
+    grid-column: 17;
+}
+
+
+#sent153_Causation_18-22 {
+    grid-column: 18 / 22;
+}
+
+
+#sent153_Quantified_mass_18 {
+    grid-column: 18;
+}
+
+
+#sent153_Quantified_mass_18 {
+    grid-column: 18;
+}
+
+
+#sent153_Quantified_mass_19 {
+    grid-column: 19;
+}
+
+
+#sent154_Time_vector_2 {
+    grid-column: 2;
+}
+
+
+#sent154_Time_vector_4-24 {
+    grid-column: 4 / 24;
+}
+
+
+#sent154_Likelihood_4-24 {
+    grid-column: 4 / 24;
+}
+
+
+#sent154_Likelihood_6 {
+    grid-column: 6;
+}
+
+
+#sent154_Causation_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent154_Causation_8 {
+    grid-column: 8;
+}
+
+
+#sent154_Causation_9-24 {
+    grid-column: 9 / 24;
+}
+
+
+#sent154_Weather_10-24 {
+    grid-column: 10 / 24;
+}
+
+
+#sent154_Weather_16 {
+    grid-column: 16;
+}
+
+
+#sent154_Objective_influence_10-17 {
+    grid-column: 10 / 17;
+}
+
+
+#sent154_Objective_influence_17 {
+    grid-column: 17;
+}
+
+
+#sent154_Objective_influence_18 {
+    grid-column: 18;
+}
+
+
+#sent154_Objective_influence_19-24 {
+    grid-column: 19 / 24;
+}
+
+
+#sent154_Ranked_expectation_21 {
+    grid-column: 21;
+}
+
+
+#sent154_Ranked_expectation_22-24 {
+    grid-column: 22 / 24;
+}
+
+
+#sent154_Gizmo_22 {
+    grid-column: 22;
+}
+
+
+#sent154_Gizmo_23 {
+    grid-column: 23;
+}
+
+
+#sent155_Opinion_2 {
+    grid-column: 2;
+}
+
+
+#sent155_Opinion_3-23 {
+    grid-column: 3 / 23;
+}
+
+
+#sent155_Scrutiny_6 {
+    grid-column: 6;
+}
+
+
+#sent155_Change_event_time_8 {
+    grid-column: 8;
+}
+
+
+#sent155_Change_event_time_9 {
+    grid-column: 9;
+}
+
+
+#sent155_Cardinal_numbers_11 {
+    grid-column: 11;
+}
+
+
+#sent155_Cardinal_numbers_11 {
+    grid-column: 11;
+}
+
+
+#sent155_Cardinal_numbers_12-15 {
+    grid-column: 12 / 15;
+}
+
+
+#sent155_Leadership_12 {
+    grid-column: 12;
+}
+
+
+#sent155_Locale_14 {
+    grid-column: 14;
+}
+
+
+#sent155_Locale_14 {
+    grid-column: 14;
+}
+
+
+#sent155_Completeness_17 {
+    grid-column: 17;
+}
+
+
+#sent155_Completeness_18 {
+    grid-column: 18;
+}
+
+
+#sent155_Event_21 {
+    grid-column: 21;
+}
+
+
+#sent155_Event_22 {
+    grid-column: 22;
+}
+
+
+#sent157_Evidence_2 {
+    grid-column: 2;
+}
+
+
+#sent157_Evidence_3 {
+    grid-column: 3;
+}
+
+
+#sent157_Evidence_4-10 {
+    grid-column: 4 / 10;
+}
+
+
+#sent157_Causation_5 {
+    grid-column: 5;
+}
+
+
+#sent157_Causation_6-10 {
+    grid-column: 6 / 10;
+}
+
+
+#sent157_Locale_8 {
+    grid-column: 8;
+}
+
+
+#sent157_Locale_9 {
+    grid-column: 9;
+}
+
+
+#sent157_Locale_9 {
+    grid-column: 9;
+}
+
+
+#sent158_Roadways_3 {
+    grid-column: 3;
+}
+
+
+#sent158_Roadways_3 {
+    grid-column: 3;
+}
+
+
+#sent158_Sole_instance_6 {
+    grid-column: 6;
+}
+
+
+#sent158_Sole_instance_7-9 {
+    grid-column: 7 / 9;
+}
+
+
+#sent158_Locale_8 {
+    grid-column: 8;
+}
+
+
+#sent158_Locale_8 {
+    grid-column: 8;
+}
+
+
+#sent158_Perception_experience_6-14 {
+    grid-column: 6 / 14;
+}
+
+
+#sent158_Perception_experience_9 {
+    grid-column: 9;
+}
+
+
+#sent158_Change_event_time_11 {
+    grid-column: 11;
+}
+
+
+#sent158_Change_event_time_11 {
+    grid-column: 11;
+}
+
+
+#sent160_Evidence_2 {
+    grid-column: 2;
+}
+
+
+#sent160_Evidence_3 {
+    grid-column: 3;
+}
+
+
+#sent160_Evidence_4-27 {
+    grid-column: 4 / 27;
+}
+
+
+#sent160_Change_event_time_5 {
+    grid-column: 5;
+}
+
+
+#sent160_Change_event_time_6 {
+    grid-column: 6;
+}
+
+
+#sent160_Dispersal_6 {
+    grid-column: 6;
+}
+
+
+#sent160_Margin_of_resolution_14 {
+    grid-column: 14;
+}
+
+
+#sent160_Margin_of_resolution_15 {
+    grid-column: 15;
+}
+
+
+#sent160_Aggregate_14 {
+    grid-column: 14;
+}
+
+
+#sent160_Aggregate_15 {
+    grid-column: 15;
+}
+
+
+#sent160_Aggregate_15 {
+    grid-column: 15;
+}
+
+
+#sent160_Locative_relation_20 {
+    grid-column: 20;
+}
+
+
+#sent160_Locative_relation_21-25 {
+    grid-column: 21 / 25;
+}
+
+
+#sent160_Obviousness_21-25 {
+    grid-column: 21 / 25;
+}
+
+
+#sent160_Obviousness_26 {
+    grid-column: 26;
+}
+
+
+#sent161_Change_event_time_2 {
+    grid-column: 2;
+}
+
+
+#sent161_Change_event_time_3 {
+    grid-column: 3;
+}
+
+
+#sent161_Change_event_time_4 {
+    grid-column: 4;
+}
+
+
+#sent161_Expansion_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent161_Expansion_5 {
+    grid-column: 5;
+}
+
+
+#sent161_Expansion_6 {
+    grid-column: 6;
+}
+
+
+#sent161_Expansion_7-27 {
+    grid-column: 7 / 27;
+}
+
+
+#sent161_Rate_description_6 {
+    grid-column: 6;
+}
+
+
+#sent161_Rate_description_6 {
+    grid-column: 6;
+}
+
+
+#sent161_Change_position_on_a_scale_8 {
+    grid-column: 8;
+}
+
+
+#sent161_Change_position_on_a_scale_9 {
+    grid-column: 9;
+}
+
+
+#sent161_Range_11 {
+    grid-column: 11;
+}
+
+
+#sent161_Range_12 {
+    grid-column: 12;
+}
+
+
+#sent161_Motion_14-16 {
+    grid-column: 14 / 16;
+}
+
+
+#sent161_Motion_16 {
+    grid-column: 16;
+}
+
+
+#sent161_Motion_17-20 {
+    grid-column: 17 / 20;
+}
+
+
+#sent161_Arriving_22 {
+    grid-column: 22;
+}
+
+
+#sent161_Arriving_23 {
+    grid-column: 23;
+}
+
+
+#sent161_Arriving_24-37 {
+    grid-column: 24 / 37;
+}
+
+
+#sent161_Contingency_24 {
+    grid-column: 24;
+}
+
+
+#sent161_Contingency_25 {
+    grid-column: 25;
+}
+
+
+#sent161_Contingency_26-46 {
+    grid-column: 26 / 46;
+}
+
+
+#sent161_Network_27-29 {
+    grid-column: 27 / 29;
+}
+
+
+#sent161_Network_29-31 {
+    grid-column: 29 / 31;
+}
+
+
+#sent161_Network_31 {
+    grid-column: 31;
+}
+
+
+#sent161_Network_31 {
+    grid-column: 31;
+}
+
+
+#sent161_Political_locales_35 {
+    grid-column: 35;
+}
+
+
+#sent161_Political_locales_36 {
+    grid-column: 36;
+}
+
+
+#sent161_Political_locales_36 {
+    grid-column: 36;
+}
+
+
+#sent161_Be_subset_of_41-48 {
+    grid-column: 41 / 48;
+}
+
+
+#sent161_Be_subset_of_44 {
+    grid-column: 44;
+}
+
+
+#sent161_Evidence_41-55 {
+    grid-column: 41 / 55;
+}
+
+
+#sent161_Evidence_49 {
+    grid-column: 49;
+}
+
+
+#sent162_Opinion_2 {
+    grid-column: 2;
+}
+
+
+#sent162_Opinion_3 {
+    grid-column: 3;
+}
+
+
+#sent162_Evidence_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent162_Evidence_4 {
+    grid-column: 4;
+}
+
+
+#sent162_Evidence_5-34 {
+    grid-column: 5 / 34;
+}
+
+
+#sent162_Color_10 {
+    grid-column: 10;
+}
+
+
+#sent162_Color_10 {
+    grid-column: 10;
+}
+
+
+#sent162_Response_13 {
+    grid-column: 13;
+}
+
+
+#sent162_Response_14 {
+    grid-column: 14;
+}
+
+
+#sent162_Increment_16 {
+    grid-column: 16;
+}
+
+
+#sent162_Increment_17 {
+    grid-column: 17;
+}
+
+
+#sent162_Change_event_time_17 {
+    grid-column: 17;
+}
+
+
+#sent162_Change_event_time_17 {
+    grid-column: 17;
+}
+
+
+#sent162_Social_connection_22 {
+    grid-column: 22;
+}
+
+
+#sent162_Social_connection_22 {
+    grid-column: 22;
+}
+
+
+#sent162_Locale_32 {
+    grid-column: 32;
+}
+
+
+#sent162_Locale_32 {
+    grid-column: 32;
+}
+
+
+#sent162_Exemplar_30-33 {
+    grid-column: 30 / 33;
+}
+
+
+#sent162_Exemplar_33 {
+    grid-column: 33;
+}
+
+
+#sent163_Political_locales_3 {
+    grid-column: 3;
+}
+
+
+#sent163_Political_locales_3 {
+    grid-column: 3;
+}
+
+
+#sent163_Position_on_a_scale_20 {
+    grid-column: 20;
+}
+
+
+#sent163_Position_on_a_scale_20 {
+    grid-column: 20;
+}
+
+
+#sent163_Change_event_time_30-35 {
+    grid-column: 30 / 35;
+}
+
+
+#sent163_Change_event_time_31 {
+    grid-column: 31;
+}
+
+
+#sent163_Sharpness_27 {
+    grid-column: 27;
+}
+
+
+#sent163_Sharpness_28 {
+    grid-column: 28;
+}
+
+
+#sent163_Change_position_on_a_scale_23 {
+    grid-column: 23;
+}
+
+
+#sent163_Change_position_on_a_scale_28 {
+    grid-column: 28;
+}
+
+
+#sent163_Change_position_on_a_scale_29-35 {
+    grid-column: 29 / 35;
+}
+
+
+#sent164_Natural_features_2 {
+    grid-column: 2;
+}
+
+
+#sent164_Natural_features_3 {
+    grid-column: 3;
+}
+
+
+#sent164_Natural_features_3 {
+    grid-column: 3;
+}
+
+
+#sent164_Change_position_on_a_scale_16 {
+    grid-column: 16;
+}
+
+
+#sent164_Categorization_19 {
+    grid-column: 19;
+}
+
+
+#sent164_Categorization_20-23 {
+    grid-column: 20 / 23;
+}
+
+
+#sent164_Locale_22 {
+    grid-column: 22;
+}
+
+
+#sent164_Locale_22 {
+    grid-column: 22;
+}
+
+
+#sent164_Operating_a_system_22-31 {
+    grid-column: 22 / 31;
+}
+
+
+#sent164_Operating_a_system_26 {
+    grid-column: 26;
+}
+
+
+#sent164_Typicality_29 {
+    grid-column: 29;
+}
+
+
+#sent164_Typicality_30 {
+    grid-column: 30;
+}
+
+
+#sent164_Becoming_32 {
+    grid-column: 32;
+}
+
+
+#sent164_Becoming_33 {
+    grid-column: 33;
+}
+
+
+#sent164_Becoming_34-38 {
+    grid-column: 34 / 38;
+}
+
+
+#sent165_Increment_4 {
+    grid-column: 4;
+}
+
+
+#sent165_Increment_5 {
+    grid-column: 5;
+}
+
+
+#sent165_Body_parts_5 {
+    grid-column: 5;
+}
+
+
+#sent165_Body_parts_5 {
+    grid-column: 5;
+}
+
+
+#sent165_Change_event_time_12-26 {
+    grid-column: 12 / 26;
+}
+
+
+#sent165_Change_event_time_13 {
+    grid-column: 13;
+}
+
+
+#sent165_Rank_18 {
+    grid-column: 18;
+}
+
+
+#sent165_Rank_19 {
+    grid-column: 19;
+}
+
+
+#sent166_Change_event_time_29 {
+    grid-column: 29;
+}
+
+
+#sent166_Change_event_time_29 {
+    grid-column: 29;
+}
+
+
+#sent166_Evaluative_comparison_9-11 {
+    grid-column: 9 / 11;
+}
+
+
+#sent166_Evaluative_comparison_12 {
+    grid-column: 12;
+}
+
+
+#sent166_Evaluative_comparison_13-16 {
+    grid-column: 13 / 16;
+}
+
+
+#sent166_Causation_21-23 {
+    grid-column: 21 / 23;
+}
+
+
+#sent166_Causation_23 {
+    grid-column: 23;
+}
+
+
+#sent166_Size_25 {
+    grid-column: 25;
+}
+
+
+#sent166_Size_26 {
+    grid-column: 26;
+}
+
+
+#sent166_Change_position_on_a_scale_25 {
+    grid-column: 25;
+}
+
+
+#sent166_Change_position_on_a_scale_26 {
+    grid-column: 26;
+}
+
+
+#sent166_Change_position_on_a_scale_27-30 {
+    grid-column: 27 / 30;
+}
+
+
+#sent166_Increment_28 {
+    grid-column: 28;
+}
+
+
+#sent166_Increment_29 {
+    grid-column: 29;
+}
+
+
+#sent167_Instance_3 {
+    grid-column: 3;
+}
+
+
+#sent167_Instance_3 {
+    grid-column: 3;
+}
+
+
+#sent167_Communication_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent167_Communication_4 {
+    grid-column: 4;
+}
+
+
+#sent167_Communication_5-22 {
+    grid-column: 5 / 22;
+}
+
+
+#sent167_Increment_11 {
+    grid-column: 11;
+}
+
+
+#sent167_Increment_12-16 {
+    grid-column: 12 / 16;
+}
+
+
+#sent167_Change_event_time_8 {
+    grid-column: 8;
+}
+
+
+#sent167_Change_event_time_12 {
+    grid-column: 12;
+}
+
+
+#sent167_Change_event_time_13-16 {
+    grid-column: 13 / 16;
+}
+
+
+#sent167_Response_6-9 {
+    grid-column: 6 / 9;
+}
+
+
+#sent167_Response_13 {
+    grid-column: 13;
+}
+
+
+#sent167_Response_14-16 {
+    grid-column: 14 / 16;
+}
+
+
+#sent170_Objective_influence_13 {
+    grid-column: 13;
+}
+
+
+#sent170_Objective_influence_14 {
+    grid-column: 14;
+}
+
+
+#sent170_Objective_influence_15-23 {
+    grid-column: 15 / 23;
+}
+
+
+#sent170_Roadways_6 {
+    grid-column: 6;
+}
+
+
+#sent170_Roadways_6 {
+    grid-column: 6;
+}
+
+
+#sent170_Infrastructure_6 {
+    grid-column: 6;
+}
+
+
+#sent170_Infrastructure_7 {
+    grid-column: 7;
+}
+
+
+#sent170_Frequency_2-11 {
+    grid-column: 2 / 11;
+}
+
+
+#sent170_Frequency_9 {
+    grid-column: 9;
+}
+
+
+#sent170_System_complexity_2-8 {
+    grid-column: 2 / 8;
+}
+
+
+#sent170_System_complexity_10 {
+    grid-column: 10;
+}
+
+
+#sent170_Gizmo_21 {
+    grid-column: 21;
+}
+
+
+#sent170_Gizmo_22 {
+    grid-column: 22;
+}
+
+
+#sent170_Awareness_19-23 {
+    grid-column: 19 / 23;
+}
+
+
+#sent170_Awareness_25 {
+    grid-column: 25;
+}
+
+
+#sent171_Likelihood_2-9 {
+    grid-column: 2 / 9;
+}
+
+
+#sent171_Likelihood_4 {
+    grid-column: 4;
+}
+
+
+#sent171_Roadways_13 {
+    grid-column: 13;
+}
+
+
+#sent171_Roadways_13 {
+    grid-column: 13;
+}
+
+
+#sent171_Causation_16-24 {
+    grid-column: 16 / 24;
+}
+
+
+#sent171_Causation_24 {
+    grid-column: 24;
+}
+
+
+#sent171_Causation_25-28 {
+    grid-column: 25 / 28;
+}
+
+
+#sent171_Moving_in_place_18 {
+    grid-column: 18;
+}
+
+
+#sent171_Moving_in_place_21 {
+    grid-column: 21;
+}
+
+
+#sent171_Vehicle_20 {
+    grid-column: 20;
+}
+
+
+#sent171_Vehicle_21 {
+    grid-column: 21;
+}
+
+
+#sent171_Vehicle_21 {
+    grid-column: 21;
+}
+
+
+#sent171_Hindering_17-22 {
+    grid-column: 17 / 22;
+}
+
+
+#sent171_Hindering_22 {
+    grid-column: 22;
+}
+
+
+#sent171_Hindering_23 {
+    grid-column: 23;
+}
+
+
+#sent171_Hindering_24-28 {
+    grid-column: 24 / 28;
+}
+
+
+#sent172_Likelihood_2-10 {
+    grid-column: 2 / 10;
+}
+
+
+#sent172_Likelihood_4 {
+    grid-column: 4;
+}
+
+
+#sent172_Roadways_14 {
+    grid-column: 14;
+}
+
+
+#sent172_Roadways_14 {
+    grid-column: 14;
+}
+
+
+#sent172_Type_15-18 {
+    grid-column: 15 / 18;
+}
+
+
+#sent172_Type_18 {
+    grid-column: 18;
+}
+
+
+#sent172_Type_18 {
+    grid-column: 18;
+}
+
+
+#sent173_Scrutiny_10 {
+    grid-column: 10;
+}
+
+
+#sent173_Preventing_or_letting_6-27 {
+    grid-column: 6 / 27;
+}
+
+
+#sent173_Preventing_or_letting_11 {
+    grid-column: 11;
+}
+
+
+#sent173_Coming_to_believe_14 {
+    grid-column: 14;
+}
+
+
+#sent173_Coming_to_believe_14-27 {
+    grid-column: 14 / 27;
+}
+
+
+#sent173_Importance_21 {
+    grid-column: 21;
+}
+
+
+#sent173_Importance_22 {
+    grid-column: 22;
+}
+
+
+#sent173_Importance_23-27 {
+    grid-column: 23 / 27;
+}
+
+
+#sent173_Roadways_24 {
+    grid-column: 24;
+}
+
+
+#sent173_Roadways_24 {
+    grid-column: 24;
+}
+
+
+#sent174_Ordinal_numbers_3 {
+    grid-column: 3;
+}
+
+
+#sent174_Ordinal_numbers_5-19 {
+    grid-column: 5 / 19;
+}
+
+
+#sent174_Similarity_10 {
+    grid-column: 10;
+}
+
+
+#sent174_Similarity_11 {
+    grid-column: 11;
+}
+
+
+#sent174_Statement_10-19 {
+    grid-column: 10 / 19;
+}
+
+
+#sent174_Statement_12 {
+    grid-column: 12;
+}
+
+
+#sent174_Gizmo_17 {
+    grid-column: 17;
+}
+
+
+#sent174_Gizmo_18 {
+    grid-column: 18;
+}
+
+
+#sent174_Desirable_event_20-35 {
+    grid-column: 20 / 35;
+}
+
+
+#sent174_Desirable_event_25 {
+    grid-column: 25;
+}
+
+
+#sent174_Categorization_20 {
+    grid-column: 20;
+}
+
+
+#sent174_Categorization_27 {
+    grid-column: 27;
+}
+
+
+#sent174_Categorization_28 {
+    grid-column: 28;
+}
+
+
+#sent174_Categorization_29-35 {
+    grid-column: 29 / 35;
+}
+
+
+#sent174_Network_33 {
+    grid-column: 33;
+}
+
+
+#sent174_Network_34 {
+    grid-column: 34;
+}
+
+
+#sent174_Network_34 {
+    grid-column: 34;
+}
+
+
+#sent178_Locative_relation_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent178_Locative_relation_4 {
+    grid-column: 4;
+}
+
+
+#sent178_Locative_relation_5-7 {
+    grid-column: 5 / 7;
+}
+
+
+#sent178_Occupy_rank_8-12 {
+    grid-column: 8 / 12;
+}
+
+
+#sent178_Occupy_rank_11 {
+    grid-column: 11;
+}
+
+
+#sent178_Part_orientational_17 {
+    grid-column: 17;
+}
+
+
+#sent178_Part_orientational_17 {
+    grid-column: 17;
+}
+
+
+#sent178_Giving_8-19 {
+    grid-column: 8 / 19;
+}
+
+
+#sent178_Giving_20 {
+    grid-column: 20;
+}
+
+
+#sent178_Giving_21-24 {
+    grid-column: 21 / 24;
+}
+
+
+#sent178_Social_connection_46 {
+    grid-column: 46;
+}
+
+
+#sent178_Social_connection_46 {
+    grid-column: 46;
+}
+
+
+#sent179_Causation_24 {
+    grid-column: 24;
+}
+
+
+#sent179_Causation_25-32 {
+    grid-column: 25 / 32;
+}
+
+
+#sent179_Roadways_31 {
+    grid-column: 31;
+}
+
+
+#sent179_Roadways_31 {
+    grid-column: 31;
+}
+
+
+#sent179_Locative_relation_23-28 {
+    grid-column: 23 / 28;
+}
+
+
+#sent179_Locative_relation_28 {
+    grid-column: 28;
+}
+
+
+#sent179_Locative_relation_29-32 {
+    grid-column: 29 / 32;
+}
+
+
+#sent179_Importance_30 {
+    grid-column: 30;
+}
+
+
+#sent179_Importance_31 {
+    grid-column: 31;
+}
+
+
+#sent183_Objective_influence_2 {
+    grid-column: 2;
+}
+
+
+#sent183_Objective_influence_3 {
+    grid-column: 3;
+}
+
+
+#sent183_Objective_influence_4-8 {
+    grid-column: 4 / 8;
+}
+
+
+#sent183_Increment_9 {
+    grid-column: 9;
+}
+
+
+#sent183_Increment_10 {
+    grid-column: 10;
+}
+
+
+#sent183_Change_event_time_21-24 {
+    grid-column: 21 / 24;
+}
+
+
+#sent183_Change_event_time_25 {
+    grid-column: 25;
+}
+
+
+#sent183_Position_on_a_scale_14 {
+    grid-column: 14;
+}
+
+
+#sent183_Position_on_a_scale_14 {
+    grid-column: 14;
+}
+
+
+#sent183_Position_on_a_scale_15 {
+    grid-column: 15;
+}
+
+
+#sent187_Increment_5 {
+    grid-column: 5;
+}
+
+
+#sent187_Change_event_time_6 {
+    grid-column: 6;
+}
+
+
+#sent187_Change_event_time_7-19 {
+    grid-column: 7 / 19;
+}
+
+
+#sent187_Social_connection_12 {
+    grid-column: 12;
+}
+
+
+#sent187_Social_connection_12 {
+    grid-column: 12;
+}
+
+
+#sent187_Social_connection_13 {
+    grid-column: 13;
+}
+
+
+#sent187_Locale_18 {
+    grid-column: 18;
+}
+
+
+#sent187_Locale_18 {
+    grid-column: 18;
+}
+
+
+#sent188_Buildings_3 {
+    grid-column: 3;
+}
+
+
+#sent188_Buildings_3 {
+    grid-column: 3;
+}
+
+
+#sent188_Evidence_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent188_Evidence_4 {
+    grid-column: 4;
+}
+
+
+#sent188_Evidence_5-8 {
+    grid-column: 5 / 8;
+}
+
+
+#sent188_Causation_5 {
+    grid-column: 5;
+}
+
+
+#sent188_Causation_6-8 {
+    grid-column: 6 / 8;
+}
+
+
+#sent189_Evidence_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent189_Evidence_4 {
+    grid-column: 4;
+}
+
+
+#sent189_Evidence_5-19 {
+    grid-column: 5 / 19;
+}
+
+
+#sent189_Dispersal_5 {
+    grid-column: 5;
+}
+
+
+#sent189_Locale_9-11 {
+    grid-column: 9 / 11;
+}
+
+
+#sent189_Locale_11 {
+    grid-column: 11;
+}
+
+
+#sent189_Locale_11 {
+    grid-column: 11;
+}
+
+
+#sent190_Idiosyncrasy_7 {
+    grid-column: 7;
+}
+
+
+#sent190_Causation_4-9 {
+    grid-column: 4 / 9;
+}
+
+
+#sent190_Causation_9 {
+    grid-column: 9;
+}
+
+
+#sent190_Causation_10 {
+    grid-column: 10;
+}
+
+
+#sent190_Causation_11-21 {
+    grid-column: 11 / 21;
+}
+
+
+#sent190_Success_or_failure_13 {
+    grid-column: 13;
+}
+
+
+#sent190_Success_or_failure_14-21 {
+    grid-column: 14 / 21;
+}
+
+
+#sent190_Size_16 {
+    grid-column: 16;
+}
+
+
+#sent190_Size_17-21 {
+    grid-column: 17 / 21;
+}
+
+
+#sent190_Quantified_mass_16 {
+    grid-column: 16;
+}
+
+
+#sent190_Quantified_mass_17 {
+    grid-column: 17;
+}
+
+
+#sent190_Quantified_mass_17 {
+    grid-column: 17;
+}
+
+
+#sent190_Quantified_mass_18-21 {
+    grid-column: 18 / 21;
+}
+
+
+#sent190_Manufacturing_24 {
+    grid-column: 24;
+}
+
+
+#sent190_Manufacturing_25-34 {
+    grid-column: 25 / 34;
+}
+
+
+#sent190_Objective_influence_23 {
+    grid-column: 23;
+}
+
+
+#sent190_Objective_influence_26 {
+    grid-column: 26;
+}
+
+
+#sent190_Objective_influence_27 {
+    grid-column: 27;
+}
+
+
+#sent190_Objective_influence_28-34 {
+    grid-column: 28 / 34;
+}
+
+
+#sent191_Ordinal_numbers_2 {
+    grid-column: 2;
+}
+
+
+#sent191_Locative_relation_4 {
+    grid-column: 4;
+}
+
+
+#sent191_Locative_relation_4-15 {
+    grid-column: 4 / 15;
+}
+
+
+#sent191_Distinctiveness_6 {
+    grid-column: 6;
+}
+
+
+#sent191_Distinctiveness_7-15 {
+    grid-column: 7 / 15;
+}
+
+
+#sent191_Non-commutative_statement_6 {
+    grid-column: 6;
+}
+
+
+#sent191_Non-commutative_statement_7 {
+    grid-column: 7;
+}
+
+
+#sent191_Non-commutative_statement_8-15 {
+    grid-column: 8 / 15;
+}
+
+
+#sent191_Similarity_12 {
+    grid-column: 12;
+}
+
+
+#sent191_Similarity_13-15 {
+    grid-column: 13 / 15;
+}
+
+
+#sent191_Locale_13 {
+    grid-column: 13;
+}
+
+
+#sent191_Locale_14 {
+    grid-column: 14;
+}
+
+
+#sent191_Locale_14 {
+    grid-column: 14;
+}
+
+
+#sent191_Duration_description_17-33 {
+    grid-column: 17 / 33;
+}
+
+
+#sent191_Duration_description_20 {
+    grid-column: 20;
+}
+
+
+#sent191_Position_on_a_scale_24 {
+    grid-column: 24;
+}
+
+
+#sent191_Position_on_a_scale_24 {
+    grid-column: 24;
+}
+
+
+#sent191_Rank_28 {
+    grid-column: 28;
+}
+
+
+#sent193_Political_locales_16 {
+    grid-column: 16;
+}
+
+
+#sent193_Political_locales_16 {
+    grid-column: 16;
+}
+
+
+#sent193_Communicate_categorization_11-17 {
+    grid-column: 11 / 17;
+}
+
+
+#sent193_Communicate_categorization_17 {
+    grid-column: 17;
+}
+
+
+#sent193_Communicate_categorization_18-20 {
+    grid-column: 18 / 20;
+}
+
+
+#sent194_Rank_32 {
+    grid-column: 32;
+}
+
+
+#sent194_Rank_33 {
+    grid-column: 33;
+}
+
+
+#sent194_Locale_27 {
+    grid-column: 27;
+}
+
+
+#sent194_Locale_27 {
+    grid-column: 27;
+}
+
+
+#sent195_Political_locales_17 {
+    grid-column: 17;
+}
+
+
+#sent195_Political_locales_17 {
+    grid-column: 17;
+}
+
+
+#sent195_Political_locales_18-33 {
+    grid-column: 18 / 33;
+}
+
+
+#sent195_Cause_to_perceive_15-18 {
+    grid-column: 15 / 18;
+}
+
+
+#sent195_Cause_to_perceive_18 {
+    grid-column: 18;
+}
+
+
+#sent195_Cause_to_perceive_19 {
+    grid-column: 19;
+}
+
+
+#sent195_Cause_to_perceive_20-24 {
+    grid-column: 20 / 24;
+}
+
+
+#sent195_Position_on_a_scale_20 {
+    grid-column: 20;
+}
+
+
+#sent195_Position_on_a_scale_20 {
+    grid-column: 20;
+}
+
+
+#sent195_Position_on_a_scale_21-24 {
+    grid-column: 21 / 24;
+}
+
+
+#sent195_Identicality_16 {
+    grid-column: 16;
+}
+
+
+#sent195_Identicality_17 {
+    grid-column: 17;
+}
+
+
+#sent195_Rank_15-19 {
+    grid-column: 15 / 19;
+}
+
+
+#sent195_Rank_21 {
+    grid-column: 21;
+}
+
+
+#sent195_Kinship_25 {
+    grid-column: 25;
+}
+
+
+#sent195_Kinship_26-28 {
+    grid-column: 26 / 28;
+}
+
+
+#sent195_Perception_active_27 {
+    grid-column: 27;
+}
+
+
+#sent195_Perception_active_27 {
+    grid-column: 27;
+}
+
+
+#sent196_Evidence_2 {
+    grid-column: 2;
+}
+
+
+#sent196_Evidence_3 {
+    grid-column: 3;
+}
+
+
+#sent196_Evidence_4-42 {
+    grid-column: 4 / 42;
+}
+
+
+#sent196_Distinctiveness_6 {
+    grid-column: 6;
+}
+
+
+#sent196_Roadways_16 {
+    grid-column: 16;
+}
+
+
+#sent196_Roadways_16 {
+    grid-column: 16;
+}
+
+
+#sent196_Social_connection_20 {
+    grid-column: 20;
+}
+
+
+#sent196_Social_connection_20 {
+    grid-column: 20;
+}
+
+
+#sent196_Causation_35-42 {
+    grid-column: 35 / 42;
+}
+
+
+#sent196_Causation_36 {
+    grid-column: 36;
+}
+
+
+#sent196_Frequency_31 {
+    grid-column: 31;
+}
+
+
+#sent196_Frequency_32-34 {
+    grid-column: 32 / 34;
+}
+
+
+#sent196_Vehicle_32 {
+    grid-column: 32;
+}
+
+
+#sent196_Vehicle_32 {
+    grid-column: 32;
+}
+
+
+#sent196_Cause_impact_32 {
+    grid-column: 32;
+}
+
+
+#sent196_Cause_impact_33 {
+    grid-column: 33;
+}
+
+
+#sent196_Cause_impact_33 {
+    grid-column: 33;
+}
+
+
+#sent197_Political_locales_3 {
+    grid-column: 3;
+}
+
+
+#sent197_Political_locales_3 {
+    grid-column: 3;
+}
+
+
+#sent197_Statement_9 {
+    grid-column: 9;
+}
+
+
+#sent197_Leadership_12 {
+    grid-column: 12;
+}
+
+
+#sent197_Leadership_14 {
+    grid-column: 14;
+}
+
+
+#sent197_Leadership_15-20 {
+    grid-column: 15 / 20;
+}
+
+
+#sent197_System_17 {
+    grid-column: 17;
+}
+
+
+#sent197_System_17 {
+    grid-column: 17;
+}
+
+
+#sent197_System_18-20 {
+    grid-column: 18 / 20;
+}
+
+
+#sent197_State_of_entity_19 {
+    grid-column: 19;
+}
+
+
+#sent197_State_of_entity_19 {
+    grid-column: 19;
+}
+
+
+#sent197_Instance_22 {
+    grid-column: 22;
+}
+
+
+#sent197_Instance_22 {
+    grid-column: 22;
+}
+
+
+#sent197_Cause_impact_24 {
+    grid-column: 24;
+}
+
+
+#sent197_Cause_impact_24 {
+    grid-column: 24;
+}
+
+
+#sent197_Rate_description_22-27 {
+    grid-column: 22 / 27;
+}
+
+
+#sent197_Rate_description_27 {
+    grid-column: 27;
+}
+
+
+#sent197_Rate_description_27 {
+    grid-column: 27;
+}
+
+
+#sent197_Improvement_or_decline_22-27 {
+    grid-column: 22 / 27;
+}
+
+
+#sent197_Improvement_or_decline_27 {
+    grid-column: 27;
+}
+
+
+#sent197_Improvement_or_decline_28 {
+    grid-column: 28;
+}
+
+
+#sent197_Improvement_or_decline_29-31 {
+    grid-column: 29 / 31;
+}
+
+
+#sent198_Sole_instance_15 {
+    grid-column: 15;
+}
+
+
+#sent198_Sole_instance_16-18 {
+    grid-column: 16 / 18;
+}
+
+
+#sent198_Precipitation_23 {
+    grid-column: 23;
+}
+
+
+#sent198_Precipitation_23 {
+    grid-column: 23;
+}
+
+
+#sent198_Calendric_unit_57 {
+    grid-column: 57;
+}
+
+
+#sent198_Calendric_unit_57 {
+    grid-column: 57;
+}
+
+
+#sent198_Temporal_subregion_46 {
+    grid-column: 46;
+}
+
+
+#sent198_Temporal_subregion_46 {
+    grid-column: 46;
+}
+
+
+#sent198_Temporal_subregion_47-50 {
+    grid-column: 47 / 50;
+}
+
+
+#sent198_Feeling_34 {
+    grid-column: 34;
+}
+
+
+#sent198_Feeling_35 {
+    grid-column: 35;
+}
+
+
+#sent198_Feeling_36-39 {
+    grid-column: 36 / 39;
+}
+
+
+#sent198_Resolve_problem_43-60 {
+    grid-column: 43 / 60;
+}
+
+
+#sent198_Resolve_problem_50 {
+    grid-column: 50;
+}
+
+
+#sent198_Resolve_problem_51 {
+    grid-column: 51;
+}
+
+
+#sent198_Taking_time_52-58 {
+    grid-column: 52 / 58;
+}
+
+
+#sent198_Taking_time_56 {
+    grid-column: 56;
+}
+
+
+#sent198_Taking_time_58-60 {
+    grid-column: 58 / 60;
+}
+
+
+#sent199_Desirability_3 {
+    grid-column: 3;
+}
+
+
+#sent199_Desirability_4-9 {
+    grid-column: 4 / 9;
+}
+
+
+#sent199_Emphasizing_3-9 {
+    grid-column: 3 / 9;
+}
+
+
+#sent199_Emphasizing_9 {
+    grid-column: 9;
+}
+
+
+#sent199_Emphasizing_10-25 {
+    grid-column: 10 / 25;
+}
+
+
+#sent199_Success_or_failure_12 {
+    grid-column: 12;
+}
+
+
+#sent199_Success_or_failure_13-23 {
+    grid-column: 13 / 23;
+}
+
+
+#sent199_People_by_vocation_14 {
+    grid-column: 14;
+}
+
+
+#sent199_People_by_vocation_15 {
+    grid-column: 15;
+}
+
+
+#sent199_People_by_vocation_15 {
+    grid-column: 15;
+}
+
+
+#sent199_Activity_prepare_17 {
+    grid-column: 17;
+}
+
+
+#sent199_Activity_prepare_18 {
+    grid-column: 18;
+}
+
+
+#sent199_Response_20 {
+    grid-column: 20;
+}
+
+
+#sent199_Response_21 {
+    grid-column: 21;
+}
+
+
+#sent199_Gizmo_20-22 {
+    grid-column: 20 / 22;
+}
+
+
+#sent199_Gizmo_22 {
+    grid-column: 22;
+}
+
+
+#sent199_Gizmo_22 {
+    grid-column: 22;
+}
+
+
+#sent200_Evidence_2 {
+    grid-column: 2;
+}
+
+
+#sent200_Evidence_3 {
+    grid-column: 3;
+}
+
+
+#sent200_Evidence_4-34 {
+    grid-column: 4 / 34;
+}
+
+
+#sent200_Political_locales_5 {
+    grid-column: 5;
+}
+
+
+#sent200_Political_locales_5 {
+    grid-column: 5;
+}
+
+
+#sent200_Similarity_7 {
+    grid-column: 7;
+}
+
+
+#sent200_Similarity_8 {
+    grid-column: 8;
+}
+
+
+#sent200_Weather_7 {
+    grid-column: 7;
+}
+
+
+#sent200_Weather_8 {
+    grid-column: 8;
+}
+
+
+#sent200_Likelihood_5-24 {
+    grid-column: 5 / 24;
+}
+
+
+#sent200_Likelihood_20 {
+    grid-column: 20;
+}
+
+
+#sent200_Objective_influence_5-18 {
+    grid-column: 5 / 18;
+}
+
+
+#sent200_Objective_influence_23 {
+    grid-column: 23;
+}
+
+
+#sent200_Objective_influence_25-34 {
+    grid-column: 25 / 34;
+}
+
+
+#sent200_Vehicle_33 {
+    grid-column: 33;
+}
+
+
+#sent200_Vehicle_33 {
+    grid-column: 33;
+}
+
+
+#sent201_Ordinal_numbers_3 {
+    grid-column: 3;
+}
+
+
+#sent201_Ordinal_numbers_4-8 {
+    grid-column: 4 / 8;
+}
+
+
+#sent201_Coming_to_believe_4 {
+    grid-column: 4;
+}
+
+
+#sent201_Coming_to_believe_6-8 {
+    grid-column: 6 / 8;
+}
+
+
+#sent202_Evidence_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent202_Evidence_5 {
+    grid-column: 5;
+}
+
+
+#sent202_Evidence_6-32 {
+    grid-column: 6 / 32;
+}
+
+
+#sent202_Locale_7 {
+    grid-column: 7;
+}
+
+
+#sent202_Locale_8 {
+    grid-column: 8;
+}
+
+
+#sent202_Locale_8 {
+    grid-column: 8;
+}
+
+
+#sent202_Causation_7-10 {
+    grid-column: 7 / 10;
+}
+
+
+#sent202_Causation_10 {
+    grid-column: 10;
+}
+
+
+#sent202_Causation_11-32 {
+    grid-column: 11 / 32;
+}
+
+
+#sent202_Relational_political_locales_11 {
+    grid-column: 11;
+}
+
+
+#sent202_Relational_political_locales_11 {
+    grid-column: 11;
+}
+
+
+#sent202_Cause_change_of_position_on_a_scale_7-10 {
+    grid-column: 7 / 10;
+}
+
+
+#sent202_Cause_change_of_position_on_a_scale_14 {
+    grid-column: 14;
+}
+
+
+#sent202_Change_event_time_27 {
+    grid-column: 27;
+}
+
+
+#sent202_Change_event_time_28-32 {
+    grid-column: 28 / 32;
+}
+
+
+#sent202_Operating_a_system_18 {
+    grid-column: 18;
+}
+
+
+#sent202_Operating_a_system_19 {
+    grid-column: 19;
+}
+
+
+#sent202_Operating_a_system_20 {
+    grid-column: 20;
+}
+
+
+#sent202_Being_at_risk_17-28 {
+    grid-column: 17 / 28;
+}
+
+
+#sent202_Being_at_risk_24 {
+    grid-column: 24;
+}
+
+
+#sent202_Being_at_risk_28-32 {
+    grid-column: 28 / 32;
+}
+
+
+#sent203_Causation_2 {
+    grid-column: 2;
+}
+
+
+#sent203_Causation_3-28 {
+    grid-column: 3 / 28;
+}
+
+
+#sent203_Causation_28-60 {
+    grid-column: 28 / 60;
+}
+
+
+#sent203_Cause_impact_10 {
+    grid-column: 10;
+}
+
+
+#sent203_Cause_impact_10 {
+    grid-column: 10;
+}
+
+
+#sent203_Building_12 {
+    grid-column: 12;
+}
+
+
+#sent203_Building_15-35 {
+    grid-column: 15 / 35;
+}
+
+
+#sent203_Event_14-16 {
+    grid-column: 14 / 16;
+}
+
+
+#sent203_Event_15 {
+    grid-column: 15;
+}
+
+
+#sent203_Weather_17 {
+    grid-column: 17;
+}
+
+
+#sent203_Weather_18 {
+    grid-column: 18;
+}
+
+
+#sent203_Gizmo_20 {
+    grid-column: 20;
+}
+
+
+#sent203_Gizmo_20 {
+    grid-column: 20;
+}
+
+
+#sent203_Jury_deliberation_25 {
+    grid-column: 25;
+}
+
+
+#sent203_Jury_deliberation_26 {
+    grid-column: 26;
+}
+
+
+#sent203_Attack_26 {
+    grid-column: 26;
+}
+
+
+#sent203_Emphasizing_28-30 {
+    grid-column: 28 / 30;
+}
+
+
+#sent203_Emphasizing_30 {
+    grid-column: 30;
+}
+
+
+#sent203_Emphasizing_31 {
+    grid-column: 31;
+}
+
+
+#sent203_Emphasizing_33-37 {
+    grid-column: 33 / 37;
+}
+
+
+#sent203_Cause_change_of_position_on_a_scale_32 {
+    grid-column: 32;
+}
+
+
+#sent203_Cause_change_of_position_on_a_scale_33-37 {
+    grid-column: 33 / 37;
+}
+
+
+#sent203_Change_event_time_34-36 {
+    grid-column: 34 / 36;
+}
+
+
+#sent203_Change_event_time_36 {
+    grid-column: 36;
+}
+
+
+#sent203_Change_event_time_36 {
+    grid-column: 36;
+}
+
+
+#sent203_Risky_situation_51 {
+    grid-column: 51;
+}
+
+
+#sent203_Risky_situation_52-55 {
+    grid-column: 52 / 55;
+}
+
+
+#sent203_Likelihood_58 {
+    grid-column: 58;
+}
+
+
+#sent203_Likelihood_59 {
+    grid-column: 59;
+}
+
+
+#sent204_Time_vector_2 {
+    grid-column: 2;
+}
+
+
+#sent204_Time_vector_4-13 {
+    grid-column: 4 / 13;
+}
+
+
+#sent204_Being_employed_5 {
+    grid-column: 5;
+}
+
+
+#sent204_Being_employed_6 {
+    grid-column: 6;
+}
+
+
+#sent204_Being_employed_7-11 {
+    grid-column: 7 / 11;
+}
+
+
+#sent204_Being_employed_11-13 {
+    grid-column: 11 / 13;
+}
+
+
+#sent204_Political_locales_10 {
+    grid-column: 10;
+}
+
+
+#sent204_Political_locales_10 {
+    grid-column: 10;
+}
+
+
+#sent205_Referring_by_name_3 {
+    grid-column: 3;
+}
+
+
+#sent205_Referring_by_name_4 {
+    grid-column: 4;
+}
+
+
+#sent205_Attention_4 {
+    grid-column: 4;
+}
+
+
+#sent205_Quantified_mass_16 {
+    grid-column: 16;
+}
+
+
+#sent205_Quantified_mass_16 {
+    grid-column: 16;
+}
+
+
+#sent205_Quantified_mass_17 {
+    grid-column: 17;
+}
+
+
+#sent205_Political_locales_17 {
+    grid-column: 17;
+}
+
+
+#sent205_Political_locales_17 {
+    grid-column: 17;
+}
+
+
+#sent205_Importance_21 {
+    grid-column: 21;
+}
+
+
+#sent205_Importance_22 {
+    grid-column: 22;
+}
+
+
+#sent205_Make_noise_24 {
+    grid-column: 24;
+}
+
+
+#sent205_Make_noise_25-29 {
+    grid-column: 25 / 29;
+}
+
+
+#sent206_Goal_3 {
+    grid-column: 3;
+}
+
+
+#sent206_Goal_4-10 {
+    grid-column: 4 / 10;
+}
+
+
+#sent206_Hindering_11-14 {
+    grid-column: 11 / 14;
+}
+
+
+#sent206_Hindering_14 {
+    grid-column: 14;
+}
+
+
+#sent206_Hindering_15-25 {
+    grid-column: 15 / 25;
+}
+
+
+#sent206_Hindering_25-28 {
+    grid-column: 25 / 28;
+}
+
+
+#sent206_Locale_44 {
+    grid-column: 44;
+}
+
+
+#sent206_Locale_44 {
+    grid-column: 44;
+}
+
+
+#sent206_Calendric_unit_39 {
+    grid-column: 39;
+}
+
+
+#sent206_Calendric_unit_40 {
+    grid-column: 40;
+}
+
+
+#sent206_Calendric_unit_40 {
+    grid-column: 40;
+}
+
+
+#sent206_Interior_profile_relation_37-41 {
+    grid-column: 37 / 41;
+}
+
+
+#sent206_Interior_profile_relation_41 {
+    grid-column: 41;
+}
+
+
+#sent206_Interior_profile_relation_42-45 {
+    grid-column: 42 / 45;
+}
+
+
+#sent206_Increment_42 {
+    grid-column: 42;
+}
+
+
+#sent206_Increment_43-45 {
+    grid-column: 43 / 45;
+}
+
+
+#sent207_Causation_34 {
+    grid-column: 34;
+}
+
+
+#sent207_Causation_35-41 {
+    grid-column: 35 / 41;
+}
+
+
+#sent207_Categorization_3-5 {
+    grid-column: 3 / 5;
+}
+
+
+#sent207_Categorization_5 {
+    grid-column: 5;
+}
+
+
+#sent207_Categorization_6-41 {
+    grid-column: 6 / 41;
+}
+
+
+#sent207_Political_locales_11-13 {
+    grid-column: 11 / 13;
+}
+
+
+#sent207_Political_locales_13 {
+    grid-column: 13;
+}
+
+
+#sent207_Political_locales_13 {
+    grid-column: 13;
+}
+
+
+#sent207_Containing_11-14 {
+    grid-column: 11 / 14;
+}
+
+
+#sent207_Containing_14 {
+    grid-column: 14;
+}
+
+
+#sent207_Containing_15-41 {
+    grid-column: 15 / 41;
+}
+
+
+#sent207_Alternatives_19 {
+    grid-column: 19;
+}
+
+
+#sent207_Avoiding_21 {
+    grid-column: 21;
+}
+
+
+#sent207_Avoiding_22-24 {
+    grid-column: 22 / 24;
+}
+
+
+#sent207_Likelihood_27 {
+    grid-column: 27;
+}
+
+
+#sent207_Likelihood_28-41 {
+    grid-column: 28 / 41;
+}
+
+
+#sent207_Possibility_29-41 {
+    grid-column: 29 / 41;
+}
+
+
+#sent207_Possibility_31 {
+    grid-column: 31;
+}
+
+
+#sent207_Supply_29-31 {
+    grid-column: 29 / 31;
+}
+
+
+#sent207_Supply_32 {
+    grid-column: 32;
+}
+
+
+#sent207_Supply_33-41 {
+    grid-column: 33 / 41;
+}
+
+
+#sent207_Locale_39 {
+    grid-column: 39;
+}
+
+
+#sent207_Locale_40 {
+    grid-column: 40;
+}
+
+
+#sent207_Locale_40 {
+    grid-column: 40;
+}
+
+
+#sent208_Emotion_directed_3 {
+    grid-column: 3;
+}
+
+
+#sent208_Emotion_directed_6-26 {
+    grid-column: 6 / 26;
+}
+
+
+#sent208_Change_position_on_a_scale_3-26 {
+    grid-column: 3 / 26;
+}
+
+
+#sent208_Change_position_on_a_scale_5 {
+    grid-column: 5;
+}
+
+
+#sent208_Cause_change_of_position_on_a_scale_7 {
+    grid-column: 7;
+}
+
+
+#sent208_Cause_change_of_position_on_a_scale_8 {
+    grid-column: 8;
+}
+
+
+#sent208_Cause_change_of_position_on_a_scale_9 {
+    grid-column: 9;
+}
+
+
+#sent208_Cause_change_of_position_on_a_scale_10-12 {
+    grid-column: 10 / 12;
+}
+
+
+#sent208_Quantified_mass_13 {
+    grid-column: 13;
+}
+
+
+#sent208_Quantified_mass_13 {
+    grid-column: 13;
+}
+
+
+#sent208_Quantified_mass_14-16 {
+    grid-column: 14 / 16;
+}
+
+
+#sent208_Gizmo_14 {
+    grid-column: 14;
+}
+
+
+#sent208_Gizmo_15 {
+    grid-column: 15;
+}
+
+
+#sent208_Cotheme_13-22 {
+    grid-column: 13 / 22;
+}
+
+
+#sent208_Cotheme_19 {
+    grid-column: 19;
+}
+
+
+#sent208_Age_20 {
+    grid-column: 20;
+}
+
+
+#sent208_Age_20 {
+    grid-column: 20;
+}
+
+
+#sent208_Age_21 {
+    grid-column: 21;
+}
+
+
+#sent208_Accomplishment_23 {
+    grid-column: 23;
+}
+
+
+#sent208_Accomplishment_24-26 {
+    grid-column: 24 / 26;
+}
+
+
+#sent208_Purpose_25 {
+    grid-column: 25;
+}
+
+
+#sent208_Purpose_25 {
+    grid-column: 25;
+}
+
+
+#sent209_Infrastructure_7 {
+    grid-column: 7;
+}
+
+
+#sent209_Infrastructure_8 {
+    grid-column: 8;
+}
+
+
+#sent209_Expensiveness_7-9 {
+    grid-column: 7 / 9;
+}
+
+
+#sent209_Expensiveness_10 {
+    grid-column: 10;
+}
+
+
+#sent209_Getting_7-9 {
+    grid-column: 7 / 9;
+}
+
+
+#sent209_Getting_14 {
+    grid-column: 14;
+}
+
+
+#sent209_Getting_15-23 {
+    grid-column: 15 / 23;
+}
+
+
+#sent209_Building_20 {
+    grid-column: 20;
+}
+
+
+#sent209_Building_21-23 {
+    grid-column: 21 / 23;
+}
+
+
+#sent209_Improvement_or_decline_22 {
+    grid-column: 22;
+}
+
+
+#sent209_Deciding_27 {
+    grid-column: 27;
+}
+
+
+#sent209_Deciding_28-30 {
+    grid-column: 28 / 30;
+}
+
+
+#sent209_Categorization_28 {
+    grid-column: 28;
+}
+
+
+#sent209_Categorization_29 {
+    grid-column: 29;
+}
+
+
+#sent209_Having_or_lacking_access_34 {
+    grid-column: 34;
+}
+
+
+#sent209_Frequency_38 {
+    grid-column: 38;
+}
+
+
+#sent209_Frequency_38 {
+    grid-column: 38;
+}
+
+
+#sent209_Frequency_39-41 {
+    grid-column: 39 / 41;
+}
+
+
+#sent209_Calendric_unit_49-51 {
+    grid-column: 49 / 51;
+}
+
+
+#sent209_Calendric_unit_51 {
+    grid-column: 51;
+}
+
+
+#sent209_Calendric_unit_51 {
+    grid-column: 51;
+}
+
+
+#sent209_Possession_22-41 {
+    grid-column: 22 / 41;
+}
+
+
+#sent209_Possession_42 {
+    grid-column: 42;
+}
+
+
+#sent209_Possession_43-52 {
+    grid-column: 43 / 52;
+}
+
+
+#sent209_Causation_34-41 {
+    grid-column: 34 / 41;
+}
+
+
+#sent209_Causation_44 {
+    grid-column: 44;
+}
+
+
+#sent209_Causation_45-52 {
+    grid-column: 45 / 52;
+}
+
+
+#sent209_Information_50 {
+    grid-column: 50;
+}
+
+
+#sent209_Information_50 {
+    grid-column: 50;
+}
+
+
+#sent210_Locale_5 {
+    grid-column: 5;
+}
+
+
+#sent210_Locale_5 {
+    grid-column: 5;
+}
+
+
+#sent210_Cause_to_perceive_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent210_Cause_to_perceive_6 {
+    grid-column: 6;
+}
+
+
+#sent210_Cause_to_perceive_7-11 {
+    grid-column: 7 / 11;
+}
+
+
+#sent210_Similarity_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent210_Similarity_7 {
+    grid-column: 7;
+}
+
+
+#sent210_Similarity_8-11 {
+    grid-column: 8 / 11;
+}
+
+
+#sent210_Inclusion_7-11 {
+    grid-column: 7 / 11;
+}
+
+
+#sent210_Inclusion_12 {
+    grid-column: 12;
+}
+
+
+#sent210_Inclusion_13-20 {
+    grid-column: 13 / 20;
+}
+
+
+#sent210_Change_event_time_13 {
+    grid-column: 13;
+}
+
+
+#sent210_Change_event_time_13 {
+    grid-column: 13;
+}
+
+
+#sent210_Change_event_time_14-20 {
+    grid-column: 14 / 20;
+}
+
+
+#sent211_Subjective_influence_2 {
+    grid-column: 2;
+}
+
+
+#sent211_Subjective_influence_3 {
+    grid-column: 3;
+}
+
+
+#sent211_Subjective_influence_3-22 {
+    grid-column: 3 / 22;
+}
+
+
+#sent211_Subjective_influence_4 {
+    grid-column: 4;
+}
+
+
+#sent211_Expectation_6 {
+    grid-column: 6;
+}
+
+
+#sent211_Expectation_7 {
+    grid-column: 7;
+}
+
+
+#sent211_Protecting_14 {
+    grid-column: 14;
+}
+
+
+#sent211_Protecting_14 {
+    grid-column: 14;
+}
+
+
+#sent212_Age_25 {
+    grid-column: 25;
+}
+
+
+#sent212_Age_25 {
+    grid-column: 25;
+}
+
+
+#sent212_Age_26 {
+    grid-column: 26;
+}
+
+
+#sent212_Gizmo_5 {
+    grid-column: 5;
+}
+
+
+#sent212_Gizmo_6 {
+    grid-column: 6;
+}
+
+
+#sent212_Imposing_obligation_4-7 {
+    grid-column: 4 / 7;
+}
+
+
+#sent212_Imposing_obligation_8 {
+    grid-column: 8;
+}
+
+
+#sent212_Imposing_obligation_9-31 {
+    grid-column: 9 / 31;
+}
+
+
+#sent212_Preventing_or_letting_10 {
+    grid-column: 10;
+}
+
+
+#sent212_Preventing_or_letting_11 {
+    grid-column: 11;
+}
+
+
+#sent212_People_by_vocation_11 {
+    grid-column: 11;
+}
+
+
+#sent212_People_by_vocation_11 {
+    grid-column: 11;
+}
+
+
+#sent212_Assessing_21 {
+    grid-column: 21;
+}
+
+
+#sent212_Assessing_22-27 {
+    grid-column: 22 / 27;
+}
+
+
+#sent212_Assessing_27-31 {
+    grid-column: 27 / 31;
+}
+
+
+#sent212_Capability_23 {
+    grid-column: 23;
+}
+
+
+#sent212_Capability_24-27 {
+    grid-column: 24 / 27;
+}
+
+
+#sent212_Infrastructure_18 {
+    grid-column: 18;
+}
+
+
+#sent212_Infrastructure_19 {
+    grid-column: 19;
+}
+
+
+#sent212_Supply_28 {
+    grid-column: 28;
+}
+
+
+#sent212_Supply_29-31 {
+    grid-column: 29 / 31;
+}
+
+
+#sent214_Communicate_categorization_2-5 {
+    grid-column: 2 / 5;
+}
+
+
+#sent214_Communicate_categorization_5 {
+    grid-column: 5;
+}
+
+
+#sent214_Communicate_categorization_6 {
+    grid-column: 6;
+}
+
+
+#sent214_Means_9 {
+    grid-column: 9;
+}
+
+
+#sent214_Means_10 {
+    grid-column: 10;
+}
+
+
+#sent214_Means_10 {
+    grid-column: 10;
+}
+
+
+#sent215_Similarity_4 {
+    grid-column: 4;
+}
+
+
+#sent215_Similarity_6 {
+    grid-column: 6;
+}
+
+
+#sent215_Similarity_7-15 {
+    grid-column: 7 / 15;
+}
+
+
+#sent215_Judgment_direct_address_8 {
+    grid-column: 8;
+}
+
+
+#sent215_Judgment_direct_address_9-15 {
+    grid-column: 9 / 15;
+}
+
+
+#sent216_Locale_by_use_3 {
+    grid-column: 3;
+}
+
+
+#sent216_Locale_by_use_3 {
+    grid-column: 3;
+}
+
+
+#sent216_Locale_by_use_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent216_Statement_8 {
+    grid-column: 8;
+}
+
+
+#sent216_Statement_10 {
+    grid-column: 10;
+}
+
+
+#sent217_Scrutiny_5 {
+    grid-column: 5;
+}
+
+
+#sent217_Taking_sides_4-6 {
+    grid-column: 4 / 6;
+}
+
+
+#sent217_Taking_sides_7 {
+    grid-column: 7;
+}
+
+
+#sent218_Cause_change_of_position_on_a_scale_12-14 {
+    grid-column: 12 / 14;
+}
+
+
+#sent218_Cause_change_of_position_on_a_scale_14 {
+    grid-column: 14;
+}
+
+
+#sent219_Project_11 {
+    grid-column: 11;
+}
+
+
+#sent219_Project_11 {
+    grid-column: 11;
+}
+
+
+#sent219_People_by_vocation_11 {
+    grid-column: 11;
+}
+
+
+#sent219_People_by_vocation_12 {
+    grid-column: 12;
+}
+
+
+#sent221_Taking_sides_4 {
+    grid-column: 4;
+}
+
+
+#sent224_Taking_sides_3 {
+    grid-column: 3;
+}
+
+
+#sent224_Taking_sides_4-7 {
+    grid-column: 4 / 7;
+}
+
+
+#sent224_Taking_sides_7-10 {
+    grid-column: 7 / 10;
+}
+
+
+#sent228_Coming_up_with_6 {
+    grid-column: 6;
+}
+
+
+#sent228_Coming_up_with_7-9 {
+    grid-column: 7 / 9;
+}
+
+
+#sent230_Cause_to_make_progress_2 {
+    grid-column: 2;
+}
+
+
+#sent230_Cause_to_make_progress_3 {
+    grid-column: 3;
+}
+
+
+#sent230_Intentionally_act_5 {
+    grid-column: 5;
+}
+
+
+#sent231_Information_2 {
+    grid-column: 2;
+}
+
+
+#sent231_Information_2 {
+    grid-column: 2;
+}
+
+
+#sent234_Causation_2 {
+    grid-column: 2;
+}
+
+
+#sent234_Causation_3 {
+    grid-column: 3;
+}
+
+
+#sent236_Supply_2 {
+    grid-column: 2;
+}
+
+
+#sent236_Supply_3-5 {
+    grid-column: 3 / 5;
+}
+
+
+#sent236_Subordinates_and_superiors_3 {
+    grid-column: 3;
+}
+
+
+#sent236_Subordinates_and_superiors_4 {
+    grid-column: 4;
+}
+
+
+#sent238_Text_creation_2 {
+    grid-column: 2;
+}
+
+
+#sent238_Text_creation_3-5 {
+    grid-column: 3 / 5;
+}
+
+
+#sent238_Causation_12 {
+    grid-column: 12;
+}
+
+
+#sent239_Emotion_directed_9 {
+    grid-column: 9;
+}
+
+
+#sent239_Emotion_directed_13 {
+    grid-column: 13;
+}
+
+
+#sent239_Statement_5-7 {
+    grid-column: 5 / 7;
+}
+
+
+#sent239_Statement_7 {
+    grid-column: 7;
+}
+
+
+#sent239_Statement_8-14 {
+    grid-column: 8 / 14;
+}
+
+
+#sent241_Ingredients_2 {
+    grid-column: 2;
+}
+
+
+#sent241_Ingredients_2 {
+    grid-column: 2;
+}
+
+
+#sent241_Information_6 {
+    grid-column: 6;
+}
+
+
+#sent241_Information_6 {
+    grid-column: 6;
+}
+
+
+#sent241_Needing_5-7 {
+    grid-column: 5 / 7;
+}
+
+
+#sent241_Needing_7 {
+    grid-column: 7;
+}
+
+
+#sent241_Needing_8-15 {
+    grid-column: 8 / 15;
+}
+
+
+#sent241_Coming_to_believe_11 {
+    grid-column: 11;
+}
+
+
+#sent241_Coming_to_believe_11 {
+    grid-column: 11;
+}
+
+
+#sent241_Coming_to_believe_12-15 {
+    grid-column: 12 / 15;
+}
+
+
+#sent243_Information_3 {
+    grid-column: 3;
+}
+
+
+#sent243_Information_3 {
+    grid-column: 3;
+}
+
+
+#sent243_Statement_2-4 {
+    grid-column: 2 / 4;
+}
+
+
+#sent243_Statement_4 {
+    grid-column: 4;
+}
+
+
+#sent243_Statement_5-8 {
+    grid-column: 5 / 8;
+}
+
+
+#sent243_Request_2-8 {
+    grid-column: 2 / 8;
+}
+
+
+#sent243_Request_10 {
+    grid-column: 10;
+}
+
+
+#sent245_Information_2 {
+    grid-column: 2;
+}
+
+
+#sent245_Information_3 {
+    grid-column: 3;
+}
+
+
+#sent245_Information_3 {
+    grid-column: 3;
+}
+
+
+#sent252_Text_6 {
+    grid-column: 6;
+}
+
+
+#sent252_Text_6 {
+    grid-column: 6;
+}
+
+
+#sent252_Adducing_2-7 {
+    grid-column: 2 / 7;
+}
+
+
+#sent252_Adducing_4 {
+    grid-column: 4;
+}
+
+
+#sent252_Possibility_11 {
+    grid-column: 11;
+}
+
+
+#sent252_Possibility_12 {
+    grid-column: 12;
+}
+
+
+#sent252_Having_or_lacking_access_11 {
+    grid-column: 11;
+}
+
+
+#sent252_Having_or_lacking_access_13 {
+    grid-column: 13;
+}
+
+
+#sent252_Expensiveness_15 {
+    grid-column: 15;
+}
+
+
+#sent254_Text_5 {
+    grid-column: 5;
+}
+
+
+#sent254_Text_5 {
+    grid-column: 5;
+}
+
+
+#sent254_Topic_2-6 {
+    grid-column: 2 / 6;
+}
+
+
+#sent254_Topic_7 {
+    grid-column: 7;
+}
+
+
+#sent255_Becoming_aware_2 {
+    grid-column: 2;
+}
+
+
+#sent255_Becoming_aware_3-6 {
+    grid-column: 3 / 6;
+}
+
+
+#sent257_Statement_3 {
+    grid-column: 3;
+}
+
+
+#sent257_Statement_4-9 {
+    grid-column: 4 / 9;
+}
+
+
+#sent257_Leadership_6 {
+    grid-column: 6;
+}
+
+
+#sent257_Leadership_7 {
+    grid-column: 7;
+}
+
+
+#sent257_Leadership_7 {
+    grid-column: 7;
+}
+
+
+#sent259_Roadways_3 {
+    grid-column: 3;
+}
+
+
+#sent259_Roadways_3 {
+    grid-column: 3;
+}
+
+
+#sent260_People_by_origin_12 {
+    grid-column: 12;
+}
+
+
+#sent260_People_by_origin_12 {
+    grid-column: 12;
+}
+
+
+#sent261_Craft_2 {
+    grid-column: 2;
+}
+
+
+#sent261_Publishing_2-14 {
+    grid-column: 2 / 14;
+}
+
+
+#sent261_Publishing_9 {
+    grid-column: 9;
+}
+
+
+#sent261_Publishing_14-19 {
+    grid-column: 14 / 19;
+}
+
+
+#sent261_People_by_origin_12 {
+    grid-column: 12;
+}
+
+
+#sent261_People_by_origin_12 {
+    grid-column: 12;
+}

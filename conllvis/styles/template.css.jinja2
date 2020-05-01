@@ -1,0 +1,43 @@
+#frame_display {
+    text-align: center;
+}
+.sentence {
+    display: inline-grid;
+    column-gap: 4px;
+}
+.lex-unit {
+    display: flex;
+    justify-content: left;
+    font: 2em "Open Sans", sans-serif;
+}
+.pos {
+    display: flex;
+    justify-content: center;
+}
+.label {
+    grid-column: 1;
+    border-right: 4px solid red;
+}
+.frame_element {
+    background-color: yellow;
+}
+.target {
+    background-color: orange;
+}
+
+{% for sentence in sentences %}
+.sent{{sentence.sentence_id}} {
+    grid-template-columns: repeat({{sentence.words|length+1}}, auto);
+}
+{% endfor %}
+
+{% for sentence in sentences %}{% for frame_name, frame_description in sentence.frame_descriptions.items() %}{% for fe_name, fe in frame_description.frame_elements.items() %}
+{% if fe.indices|length == 1 %}
+#sent{{sentence.sentence_id}}_{{frame_name}}_{{fe.indices[0] + 1}} {
+    grid-column: {{fe.indices[0] + 1}};
+}
+{% else %}
+#sent{{sentence.sentence_id}}_{{frame_name}}_{{fe.indices[0] + 1}}-{{fe.indices[-1] + 2}} {
+    grid-column: {{fe.indices[0] + 1}} / {{fe.indices[-1] + 2}};
+}
+{% endif %}{% endfor %}{% endfor %}{% endfor %}
